@@ -100,5 +100,25 @@
     if (routeName==='translation') return 'LEO Auto selected: translation. The standalone engine does not contain a translation model, so it will not invent a translation. You can save verified vocabulary and reference material in the Knowledge library.';
     return null;
   }
-  window.LEOEnhanced = { answer, calculate, conversion, route };
+
+  const languageData = {
+    English:{code:'en-US',phrases:[['Hello.','Hello.'],['How are you?','How are you?'],['Thank you.','Thank you.'],['Please.','Please.'],['I am learning English.','I am learning English.']]},
+    Filipino:{code:'fil-PH',phrases:[['Kumusta?','Hello / How are you?'],['Mabuti, salamat.','I am well, thank you.'],['Pakiusap.','Please.'],['Maraming salamat.','Thank you very much.'],['Natututo akong mag-Filipino.','I am learning Filipino.']]},
+    Cebuano:{code:'ceb-PH',phrases:[['Kumusta?','Hello / How are you?'],['Maayo ra ko, salamat.','I am fine, thank you.'],['Palihog.','Please.'],['Daghang salamat.','Thank you very much.'],['Nagtuon ko og Cebuano.','I am learning Cebuano.']]},
+    Spanish:{code:'es-ES',phrases:[['Hola, ¿qué tal?','Hello, how are you?'],['Estoy bien, gracias.','I am well, thank you.'],['Por favor.','Please.'],['Muchas gracias.','Thank you very much.'],['Estoy aprendiendo español.','I am learning Spanish.']]},
+    French:{code:'fr-FR',phrases:[['Bonjour, comment ça va ?','Hello, how are you?'],['Je vais bien, merci.','I am well, thank you.'],['S’il vous plaît.','Please.'],['Merci beaucoup.','Thank you very much.'],['J’apprends le français.','I am learning French.']]},
+    German:{code:'de-DE',phrases:[['Hallo, wie geht’s?','Hello, how are you?'],['Mir geht es gut, danke.','I am well, thank you.'],['Bitte.','Please / You are welcome.'],['Vielen Dank.','Thank you very much.'],['Ich lerne Deutsch.','I am learning German.']]},
+    Japanese:{code:'ja-JP',phrases:[['こんにちは。','Hello.'],['お元気ですか。','How are you?'],['ありがとうございます。','Thank you very much.'],['お願いします。','Please.'],['日本語を勉強しています。','I am studying Japanese.']]},
+    Mandarin:{code:'zh-CN',phrases:[['你好。','Hello.'],['你好吗？','How are you?'],['谢谢。','Thank you.'],['请。','Please.'],['我在学习中文。','I am learning Chinese.']]}
+  };
+  function languageLesson(q, selected) {
+    const lower=String(q||'').toLowerCase();
+    const names=Object.keys(languageData);
+    const match=names.find(n=>lower.includes(n.toLowerCase()) || (n==='Mandarin' && lower.includes('chinese')));
+    const key=match||selected||'English', data=languageData[key]||languageData.English;
+    const rows=data.phrases.map((p,i)=>(i+1)+'. '+p[0]+'\n   Meaning: '+p[1]).join('\n');
+    return 'LEO Language Coach · '+key+' ('+data.code+')\n\nUseful everyday phrases:\n'+rows+'\n\nPractice: read each phrase aloud, then try to recall it without looking. For natural pronunciation, LEO will use a matching voice installed on your device when available. Phrase lists are starter material, not a substitute for native-speaker review.\n\nType “teach me Spanish” or select another language in Settings to switch.';
+  }
+
+  window.LEOEnhanced = { answer, calculate, conversion, route, languageLesson, languageData };
 })();
