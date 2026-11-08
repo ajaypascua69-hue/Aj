@@ -87,3 +87,10 @@ To package a generated project as an Android APK:
 5. After a successful run, download the debug APK from the workflow's Artifacts.
 
 The APK workflow uses Capacitor and GitHub-hosted runners. GitHub Actions free usage limits apply. Debug APKs are suitable for testing and direct installation; Play Store publishing requires a properly signed release and compliance with Play policies. Never commit signing keys or passwords to the repository.
+
+
+## Store publishing preparation kit
+
+Each LEO App Builder project ZIP now includes a `store/` folder with a Google Play listing template, Apple App Store checklist, general publishing checklist, and a privacy-policy template. These are editable preparation documents only: the privacy template must be completed to match the app's real data practices, and the store assets (real screenshots and required icon graphics) must be created and checked for each app.
+
+The Android workflow can produce a debug APK and a release Android App Bundle (AAB). A Play Store upload requires a properly signed release bundle and secure upload-key configuration; do not commit signing credentials. The current repository workflow does not build or sign an iOS App Store package. iOS distribution requires Apple's macOS/Xcode toolchain, signing, App Store Connect setup, and Apple Developer Program membership. Neither store approval nor publication is automatic.
