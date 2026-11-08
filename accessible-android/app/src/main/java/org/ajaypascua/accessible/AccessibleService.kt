@@ -1,31 +1,65 @@
 package org.ajaypascua.accessible
 
 import android.accessibilityservice.AccessibilityService
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.Build
+import android.speech.tts.TextToSpeech
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
-import android.speech.tts.TextToSpeech
 import java.util.Locale
 
 class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
     private var tts: TextToSpeech? = null
     private var ready = false
     private var lastSpoken = ""
+    private var describeReceiverRegistered = false
+
+    private val describeReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context?, intent: Intent?) {
+            describeActiveScreen()
+        }
+    }
+
+    private val prefs by lazy { getSharedPreferences("accessible_settings", Context.MODE_PRIVATE) }
 
     override fun onServiceConnected() {
         super.onServiceConnected()
         tts = TextToSpeech(this, this)
+        val filter = IntentFilter("org.ajaypascua.accessible.DESCRIBE_SCREEN")
+        if (Build.VERSION.SDK_INT >= 33) registerReceiver(describeReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
+        else @Suppress("DEPRECATION") registerReceiver(describeReceiver, filter)
+        describeReceiverRegistered = true
     }
 
     override fun onInit(status: Int) {
         ready = status == TextToSpeech.SUCCESS
-        if (ready) tts?.language = Locale.getDefault()
+        if (ready) {
+            val language = prefs.getString("speech_language", "system") ?: "system"
+            tts?.language = when (language) {
+                "en" -> Locale.ENGLISH
+                "fil" -> Locale("fil", "PH")
+                else -> Locale.getDefault()
+            }
+            applySpeechRate()
+        }
+    }
+
+    private fun applySpeechRate() {
+        tts?.setSpeechRate(prefs.getFloat("speech_rate", 1.0f).coerceIn(0.5f, 3.0f))
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
-        if (!ready || event == null) return
+        if (!ready || event == null || !prefs.getBoolean("speak_events", true)) return
         val parts = mutableListOf<String>()
-        event.text.mapNotNullTo(parts) { it?.toString()?.trim()?.takeIf(String::isNotEmpty) }
-        event.contentDescription?.toString()?.trim()?.takeIf(String::isNotEmpty)?.let(parts::add)
+        if (prefs.getBoolean("read_labels", true)) {
+            event.text.mapNotNullTo(parts) { it?.toString()?.trim()?.takeIf(String::isNotEmpty) }
+        }
+        if (prefs.getBoolean("speak_hints", true)) {
+            event.contentDescription?.toString()?.trim()?.takeIf(String::isNotEmpty)?.let(parts::add)
+        }
         event.source?.let { node ->
             collectUsefulLabels(node, parts, 0)
             node.recycle()
@@ -33,13 +67,15 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
         val message = parts.distinct().joinToString(". ").take(500)
         if (message.isNotBlank() && message != lastSpoken) {
             lastSpoken = message
+            applySpeechRate()
             tts?.speak(message, TextToSpeech.QUEUE_ADD, null, "accessible-event")
         }
     }
 
     private fun collectUsefulLabels(node: AccessibilityNodeInfo, out: MutableList<String>, depth: Int) {
         if (depth > 5 || out.size > 30) return
-        val label = (node.text ?: node.contentDescription)?.toString()?.trim()
+        val label = (node.text ?: if (prefs.getBoolean("speak_hints", true)) node.contentDescription else null)
+            ?.toString()?.trim()
         if (!label.isNullOrEmpty()) out.add(label)
         for (i in 0 until node.childCount) {
             node.getChild(i)?.let { child ->
@@ -49,25 +85,104 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
         }
     }
 
+    private fun describeActiveScreen() {
+        if (!prefs.getBoolean("screen_description", true)) {
+            speak("Screen Description is turned off in Accessible settings.")
+            return
+        }
+        val root = rootInActiveWindow
+        if (root == null) {
+            speak("The current screen is not available to describe.")
+            return
+        }
+        val items = mutableListOf<String>()
+        collectScreenDescription(root, items, 0)
+        root.recycle()
+        val description = items.distinct().take(80)
+        val result = if (description.isEmpty()) {
+            "No readable screen text or accessibility descriptions were provided by this app."
+        } else {
+            "Screen description. " + description.joinToString(". ")
+        }
+        speak(result.take(3500))
+    }
+
+    private fun collectScreenDescription(node: AccessibilityNodeInfo, out: MutableList<String>, depth: Int) {
+        if (depth > 12 || out.size >= 80 || !node.isVisibleToUser) return
+        val label = (node.text ?: node.contentDescription)?.toString()?.trim()?.takeIf { it.isNotEmpty() }
+        val className = node.className?.toString()?.substringAfterLast('.') ?: "item"
+        val role = when {
+            className.contains("Button", true) -> "Button"
+            className.contains("Image", true) -> "Image"
+            className.contains("CheckBox", true) -> "Checkbox"
+            className.contains("EditText", true) -> "Text field"
+            className.contains("Switch", true) -> "Switch"
+            node.isScrollable -> "Scrollable area"
+            else -> ""
+        }
+        if (label != null) out.add(if (role.isNotEmpty()) "$role: $label" else label)
+        else if (role.isNotEmpty() && node.isClickable) out.add("Unlabeled $role")
+        for (i in 0 until node.childCount) {
+            node.getChild(i)?.let { child ->
+                collectScreenDescription(child, out, depth + 1)
+                child.recycle()
+            }
+        }
+    }
+
     override fun onGesture(gestureId: Int): Boolean {
+        if (!prefs.getBoolean("directional_gestures", true) && !prefs.getBoolean("diagonal_gestures", true)) return false
         val root = rootInActiveWindow ?: return false
         val handled = when (gestureId) {
-            GESTURE_SWIPE_UP -> scroll(root, forward = false, horizontal = false)
-            GESTURE_SWIPE_DOWN -> scroll(root, forward = true, horizontal = false)
-            GESTURE_SWIPE_LEFT -> scroll(root, forward = true, horizontal = true)
-            GESTURE_SWIPE_RIGHT -> scroll(root, forward = false, horizontal = true)
+            GESTURE_SWIPE_UP -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, false, false) else false
+            GESTURE_SWIPE_DOWN -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, true, false) else false
+            GESTURE_SWIPE_LEFT -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, true, true) else false
+            GESTURE_SWIPE_RIGHT -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, false, true) else false
             GESTURE_SWIPE_UP_AND_LEFT, GESTURE_SWIPE_UP_AND_RIGHT -> {
-                speak("Previous item")
-                true
+                if (prefs.getBoolean("diagonal_gestures", true)) moveAccessibilityFocus(root, false) else false
             }
             GESTURE_SWIPE_DOWN_AND_LEFT, GESTURE_SWIPE_DOWN_AND_RIGHT -> {
-                speak("Next item")
-                true
+                if (prefs.getBoolean("diagonal_gestures", true)) moveAccessibilityFocus(root, true) else false
             }
             else -> false
         }
         root.recycle()
         return handled
+    }
+
+    private fun moveAccessibilityFocus(root: AccessibilityNodeInfo, next: Boolean): Boolean {
+        val nodes = mutableListOf<AccessibilityNodeInfo>()
+        collectFocusable(root, nodes, 0)
+        if (nodes.isEmpty()) {
+            speak("No navigable items")
+            return true
+        }
+        val currentIndex = nodes.indexOfFirst { it.isAccessibilityFocused }
+        val targetIndex = when {
+            currentIndex < 0 && next -> 0
+            currentIndex < 0 -> nodes.lastIndex
+            next -> (currentIndex + 1).coerceAtMost(nodes.lastIndex)
+            else -> (currentIndex - 1).coerceAtLeast(0)
+        }
+        val target = nodes[targetIndex]
+        target.performAction(AccessibilityNodeInfo.ACTION_ACCESSIBILITY_FOCUS)
+        val label = (target.text ?: target.contentDescription)?.toString()
+        if (!label.isNullOrBlank()) speak(label)
+        nodes.forEach { it.recycle() }
+        return true
+    }
+
+    private fun collectFocusable(node: AccessibilityNodeInfo, out: MutableList<AccessibilityNodeInfo>, depth: Int) {
+        if (depth > 12 || out.size >= 100 || !node.isVisibleToUser) return
+        if (node.isImportantForAccessibility && (node.isFocusable || node.isClickable || node.text != null || node.contentDescription != null)) {
+            out.add(AccessibilityNodeInfo.obtain(node))
+        }
+        for (i in 0 until node.childCount) {
+            node.getChild(i)?.let { child ->
+                collectFocusable(child, out, depth + 1)
+                child.recycle()
+            }
+        }
     }
 
     private fun scroll(node: AccessibilityNodeInfo, forward: Boolean, horizontal: Boolean): Boolean {
@@ -90,11 +205,16 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
     }
 
     private fun speak(message: String) {
-        if (ready) tts?.speak(message, TextToSpeech.QUEUE_FLUSH, null, "accessible-gesture")
+        if (ready) {
+            applySpeechRate()
+            tts?.speak(message, TextToSpeech.QUEUE_FLUSH, null, "accessible-feedback")
+        }
     }
 
     override fun onInterrupt() { tts?.stop() }
+
     override fun onDestroy() {
+        if (describeReceiverRegistered) unregisterReceiver(describeReceiver)
         tts?.stop()
         tts?.shutdown()
         tts = null
