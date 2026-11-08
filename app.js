@@ -25,6 +25,7 @@
  function localAnswer(text){
   const q=String(text||'').trim(),lower=q.toLowerCase();
   const lang=prefs.language==='auto'?'English':prefs.language;
+  if(window.LEOEnhanced){const enhanced=window.LEOEnhanced.answer(q,{taskMode:taskMode.value,tasks:personalTasks,saveTasks(next){personalTasks=next;localStorage.setItem('leo-tasks',JSON.stringify(personalTasks));renderTasks();},style:prefs.style});if(enhanced)return enhanced;}
   const taskAdd=q.match(/^(?:add task|remember task|create task)\s*[:\-]?\s*(.+)$/i);
   if(taskAdd){const value=taskAdd[1].trim();personalTasks.unshift({id:Date.now().toString(36),text:value,done:false});personalTasks=personalTasks.slice(0,100);localStorage.setItem('leo-tasks',JSON.stringify(personalTasks));renderTasks();return 'Task added to your device-local task list: '+value;}
   if(/^(?:show|list|view) (?:my )?tasks?$|^what are my tasks\??$/i.test(q)){if(!personalTasks.length)return 'Your task list is empty. Open “My tasks” to add one, or type “add task: …”.';return 'Your tasks:\n'+personalTasks.map((t,i)=>(i+1)+'. '+(t.done?'[Done] ':'[ ] ')+t.text).join('\n')+'\n\nTasks stay on this device.';}
