@@ -45,3 +45,9 @@ Then open http://localhost:8000.
 - `manifest.webmanifest` — installable app metadata
 - `icon.svg` — app icon
 
+
+## Permission-aware knowledge reuse
+
+LEO's knowledge library stores material for local retrieval; it does **not** train or modify model weights. Before saving any provider documentation, model output, dataset, or other third-party material, the user must check the exact provider terms and applicable license for the intended storage and reuse. Access to a model or permission to view its output does not automatically grant permission to use that output as training data or to build a competing model. Do not import material when permission is unclear. Record the source URL and use only material whose terms allow the specific use. This UI confirmation records the user's attestation; it is not an independent legal verification by LEO.
+
+LEO runs without external AI inference providers. This separation means provider resources, when expressly permitted, are used only as locally stored reference material—not as live model calls. No training pipeline or weight-update mechanism is included.
