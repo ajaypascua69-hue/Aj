@@ -67,6 +67,7 @@
         preferences: {
           style: localStorage.getItem('leo-style') || 'balanced',
           language: localStorage.getItem('leo-language') || 'auto',
+          targetLanguage: localStorage.getItem('leo-target-language') || 'English',
           enterToSend: localStorage.getItem('leo-enter') !== 'false'
         }
       },
@@ -106,6 +107,7 @@
       const prefs = backup.data.preferences || {};
       if (typeof prefs.style === 'string') localStorage.setItem('leo-style', prefs.style);
       if (typeof prefs.language === 'string') localStorage.setItem('leo-language', prefs.language);
+      if (typeof prefs.targetLanguage === 'string') localStorage.setItem('leo-target-language', prefs.targetLanguage);
       if (typeof prefs.enterToSend === 'boolean') localStorage.setItem('leo-enter', String(prefs.enterToSend));
       setNote('Backup restored. Reload Leo AI to refresh the task list and knowledge library. Your customizable skills were left untouched.');
     } catch (error) {
