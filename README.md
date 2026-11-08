@@ -10,7 +10,7 @@ AJ hosts **LEO AI**, a standalone browser-based assistant engine. Chat processin
 - Device-local task list with add, complete, delete, and task-list commands
 - User-controlled local knowledge library with source URLs and review labels
 - Retrieval of matching notes and downloaded official-source feed metadata
-- Structured built-in workflows for coding, app planning, study planning, and writing
+- LEO Auto router for local task workflows (math, unit conversion, planning, writing, learning, coding guidance, and research leads)\n- Restricted local calculator and common unit conversions; no eval or remote execution\n- Batch task creation and numbered task completion\n- Structured built-in workflows for coding, app planning, study planning, and writing
 - Browser speech input and speech synthesis where supported
 - Conversation export, response-style settings, and emergency shutdown switch
 - No paid AI API and no external AI model dependency
@@ -37,7 +37,7 @@ Then open http://localhost:8000.
 
 - `index.html` — LEO interface
 - `style.css` — responsive styling
-- `app.js` — standalone local rule engine, task tools, and knowledge retrieval
+- `app.js` — standalone local rule engine, task tools, and knowledge retrieval\n- `enhancements.js` — deterministic Auto routing, safe calculator, unit conversion, and task workflows
 - `knowledge/sources.json` — official-feed allowlist
 - `knowledge/auto-feed.json` — generated public-source feed index
 - `scripts/update_knowledge.py` — dependency-free RSS/Atom metadata collector
