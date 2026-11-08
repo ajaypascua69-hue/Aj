@@ -23,11 +23,11 @@ class MainActivity : Activity() {
             setPadding(28, 28, 28, 28)
         }
         page.addView(TextView(this).apply {
-            text = "Accessible - 2"
+            text = "Accessible"
             textSize = 28f
         })
         page.addView(TextView(this).apply {
-            text = "Screen reader settings"
+            text = "VoiceOver-inspired screen reader settings"
             textSize = 20f
             setPadding(0, 18, 0, 8)
         })
@@ -108,7 +108,7 @@ class MainActivity : Activity() {
             }
         })
         page.addView(Button(this).apply {
-            text = "Enable Accessible - 2"
+            text = "Enable Accessible"
             setOnClickListener { startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)) }
         })
         page.addView(Button(this).apply {
