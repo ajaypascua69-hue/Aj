@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Accessible - 2</string>
-    <string name="service_name">Accessible - 2 Screen Reader</string>
-    <string name="service_description">Reads visible text and accessibility labels for controls and images. Supports basic directional scrolling gestures.</string>
+    <string name="app_name">Accessible</string>
+    <string name="service_name">Accessible Screen Reader</string>
+    <string name="service_description">Reads visible text and accessibility labels, supports touch exploration, directional scrolling, diagonal item navigation, and on-device image labels.</string>
 </resources>
