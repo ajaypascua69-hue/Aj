@@ -20,6 +20,8 @@ jobs:
       - name: Copy web app into Android assets
         run: mkdir -p cloudbox/android/app/src/main/assets/www && cp -r cloudbox/index.html cloudbox/style.css cloudbox/app.js cloudbox/manifest.webmanifest cloudbox/icon.svg cloudbox/sw.js cloudbox/android/app/src/main/assets/www/
       - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
       - name: Build debug APK
         working-directory: cloudbox/android
         run: gradle assembleDebug
