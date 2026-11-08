@@ -1,6 +1,7 @@
 package org.ajaypascua.accessible
 
 import android.accessibilityservice.AccessibilityService
+import android.accessibilityservice.AccessibilityServiceInfo
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -33,6 +34,10 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
 
     override fun onServiceConnected() {
         super.onServiceConnected()
+        // Ask Android to provide touch-exploration focus and standard double-tap activation.
+        serviceInfo = serviceInfo.apply {
+            flags = flags or AccessibilityServiceInfo.FLAG_REQUEST_TOUCH_EXPLORATION_MODE
+        }
         tts = TextToSpeech(this, this)
         val filter = IntentFilter("org.ajaypascua.accessible.DESCRIBE_SCREEN")
         registerDescribeReceiver(filter)
