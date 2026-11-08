@@ -64,9 +64,11 @@ The repository's existing LICENSE governs AJ project files. Third-party services
 2. Open Chrome's menu and choose **Install app** or **Add to Home screen** (the wording can vary).
 3. Confirm the installation. The app shell can open offline, but AI chat still needs an internet connection and an available free provider model.
 
-### Build an Android APK for free
+### Build Android APK and Play Store App Bundle
 
-A GitHub Actions workflow builds a **debug APK** using Capacitor and the Android SDK:
+A GitHub Actions workflow builds an installable **debug APK** and a **release Android App Bundle (`.aab`)** using Capacitor and the Android SDK. It targets Android 16 (API 36), the current Google Play target requirement for new apps and updates as of August 31, 2026. The workflow also runs Android release lint checks. This is a technical build pipeline, not a guarantee of Play approval.
+
+
 
 1. Open the repository's **Actions** tab: https://github.com/ajaypascua69-hue/Aj/actions
 2. Select **Build LEO AI Android APK**.
@@ -74,8 +76,11 @@ A GitHub Actions workflow builds a **debug APK** using Capacitor and the Android
 4. Wait for the build to finish successfully.
 5. Open the completed workflow run, find **Artifacts**, and download `leo-ai-android-debug-apk`.
 6. Extract the ZIP and install `app-debug.apk` on your Android device. Android may ask you to allow installation from that source.
+7. The same run also creates `leo-ai-play-store-aab`, containing `app-release.aab`.
 
-The APK is a debug build for personal testing, not a Play Store release. It packages the current web app files into a native Android WebView container. The AI chat still relies on the internet and the same third-party free-model availability. GitHub Actions provides free usage within the account's applicable quota; this project does not guarantee unlimited build minutes. No paid signing service or paid API is required for this debug build.
+**Signing is required before uploading to Google Play.** Without signing secrets, the AAB artifact is unsigned and is only a build output for inspection. To make a signed upload bundle, create an upload keystore on a trusted computer and add these four repository Actions secrets under **Settings → Secrets and variables → Actions**: `ANDROID_KEYSTORE_BASE64` (the keystore file encoded as Base64), `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, and `ANDROID_KEY_PASSWORD`. Never commit the keystore or passwords to this public repository. Keep a secure offline backup of the keystore; losing it can complicate app updates. After adding the secrets, rerun the workflow to produce a signed AAB.
+
+This pipeline uses free tools and GitHub Actions within the account's free quota. It does not require paid APIs or a paid build service. Google Play developer registration itself is not free: Google currently charges a one-time US$25 registration fee. You must pay that separately if you decide to publish.
 
 ### Let LEO generate an app and build its APK
 
@@ -89,3 +94,18 @@ LEO now has an **APK Builder** task mode. It can design an app, generate the sou
 6. After a successful run, download the `leo-ai-android-debug-apk` artifact, extract it, and install the APK.
 
 The build creates a debug APK for testing, not a signed Play Store release. GitHub Actions is free only within the account's available quota. This workflow does not use a paid build service. Never put secrets or API keys in generated app files or this public repository.
+
+
+## Google Play publishing checklist
+
+- [ ] Build and test the release AAB on real devices; the workflow's debug APK is for testing only.
+- [ ] Configure the four private upload-signing Actions secrets described above and verify the AAB is signed.
+- [ ] Publish and review the privacy policy at https://ajaypascua69-hue.github.io/Aj/privacy-policy.html. The repository includes a starter policy; replace the contact placeholder and verify it matches the actual app and provider practices before submission.
+- [ ] Complete the Play Console Data safety form accurately. LEO sends prompts and conversation context to Puter.js AI services and the selected model/provider to generate replies. Review those providers' current privacy terms; do not guess about their retention or sharing practices.
+- [ ] Provide accurate app description, category, age/content rating, app icon, phone screenshots, support contact, and any other Play Console listing details.
+- [ ] Declare only permissions and data access actually used. Do not add unnecessary permissions.
+- [ ] Test the app's behavior, accessibility, privacy disclosures, crashes, and performance. Review all Play policy declarations and warnings.
+- [ ] Submit the signed AAB through Play Console and wait for Google's review. Play Protect and Play review outcomes cannot be guaranteed by this build workflow.
+
+Google's current target API requirement: https://support.google.com/googleplay/android-developer/answer/11926878
+Google Play developer account registration: https://support.google.com/googleplay/android-developer/answer/6112435
