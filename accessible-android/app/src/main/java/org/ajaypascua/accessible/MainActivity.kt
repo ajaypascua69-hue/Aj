@@ -2,7 +2,6 @@ package org.ajaypascua.accessible
 
 import android.app.Activity
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
 import android.view.Gravity
@@ -24,7 +23,7 @@ class MainActivity : Activity() {
             setPadding(28, 28, 28, 28)
         }
         page.addView(TextView(this).apply {
-            text = "Accessible"
+            text = "Guided Vision 2 – Be My Eyes"
             textSize = 28f
         })
         page.addView(TextView(this).apply {
@@ -103,25 +102,18 @@ class MainActivity : Activity() {
             textSize = 14f
         })
         page.addView(TextView(this).apply {
-            text = "Guided Vision (online)"
+            text = "Guided Vision 2 – Live camera assistant"
             textSize = 18f
             setPadding(0, 20, 0, 4)
         })
         page.addView(TextView(this).apply {
-            text = "Opens Google Gemini so you can start Gemini Live, share your camera, ask questions, and hear live visual guidance. Internet, a supported Gemini account/region, and the Gemini app or website are required. This feature is provided by Google, not built into Accessible."
+            text = "Free on-device visual assistance. Uses your camera, offline image labels, and text recognition. No Gemini, account, paid API, or separate LEO app is required. Results can be incomplete or incorrect; do not rely on this feature for safe navigation."
             textSize = 14f
         })
         page.addView(Button(this).apply {
-            text = "Open Guided Vision in Gemini Live"
-            contentDescription = "Open Google Gemini to start Guided Vision with camera sharing"
-            setOnClickListener {
-                val gemini = packageManager.getLaunchIntentForPackage("com.google.android.apps.bard")
-                if (gemini != null) {
-                    startActivity(gemini)
-                } else {
-                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://gemini.google.com/app")))
-                }
-            }
+            text = "Start Live Guided Vision"
+            contentDescription = "Start the built-in offline camera assistant"
+            setOnClickListener { startActivity(Intent(this@MainActivity, VisionActivity::class.java)) }
         })
         page.addView(Button(this).apply {
             text = "Describe Screen (TalkBack-style)"
