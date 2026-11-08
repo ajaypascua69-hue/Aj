@@ -35,7 +35,10 @@ This is a static website. No build step or package installation is required.
 
 - `index.html` — page structure and content
 - `style.css` — responsive styling
-- `app.js` — search, filters, navigation, and copy interactions
+- `app.js` — search, filters, navigation, copy interactions, install prompt, and service-worker registration
+- `manifest.webmanifest` — installable web-app metadata
+- `service-worker.js` — offline app-shell caching
+- `icon.svg` — AJ app icon
 - `LICENSE` — AJ proprietary license
 
 ## Copyright and permissions
