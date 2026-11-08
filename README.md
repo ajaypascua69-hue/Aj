@@ -12,6 +12,8 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 - No paid model fallback: if no free model is listed or available, LEO disables chat rather than selecting a paid model
 - Browser speech input where supported
 - Optional spoken replies using browser speech synthesis
+- Refresh button to re-check the currently available free model list
+- Export completed chat history as a plain-text file directly on the device
 - Installable progressive web app shell and offline caching for the app interface
 - No private API keys stored in this public repository
 
@@ -21,7 +23,7 @@ The repository source and GitHub Pages static hosting can be used without a host
 
 Free models can have rate limits, quotas, temporary outages, sign-in requirements, or availability changes. A model marked free today may later disappear or change terms. The app will stop offering chat if it cannot find a free model. This project does not promise unlimited AI usage or guarantee that a third-party provider will always keep a free model available.
 
-LEO intentionally does not include paid image generation or paid model choices. Browser speech features use the browser/device and may not be supported everywhere.
+LEO intentionally does not include paid image generation or paid model choices. It also includes a local conversation export feature; exported text is created in the browser and is not uploaded by that feature. Browser speech features use the browser/device and may not be supported everywhere.
 
 Check the provider's current terms and model availability before use:
 - https://docs.puter.com/AI/
