@@ -35,9 +35,17 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
         super.onServiceConnected()
         tts = TextToSpeech(this, this)
         val filter = IntentFilter("org.ajaypascua.accessible.DESCRIBE_SCREEN")
-        if (Build.VERSION.SDK_INT >= 33) registerReceiver(describeReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
-        else @Suppress("DEPRECATION") registerReceiver(describeReceiver, filter)
+        registerDescribeReceiver(filter)
         describeReceiverRegistered = true
+    }
+
+    @Suppress("DEPRECATION")
+    private fun registerDescribeReceiver(filter: IntentFilter) {
+        if (Build.VERSION.SDK_INT >= 33) {
+            registerReceiver(describeReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
+        } else {
+            registerReceiver(describeReceiver, filter)
+        }
     }
 
     override fun onInit(status: Int) {
@@ -64,10 +72,21 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
             val focused = event.source
             if (focused != null) {
                 val label = (focused.text ?: focused.contentDescription)?.toString()?.trim()
-                val isImage = focused.className?.toString()?.contains("Image", true) == true
-                if (!label.isNullOrBlank()) speak(label)
-                else if (isImage) describeSelectedImage(focused)
-                else if (focused.isClickable) speak("Selected control")
+                val className = focused.className?.toString().orEmpty()
+                val isImage = className.contains("Image", true)
+                val role = when {
+                    isImage -> "Image"
+                    className.contains("Button", true) -> "Button"
+                    className.contains("CheckBox", true) -> "Checkbox"
+                    className.contains("Switch", true) -> "Switch"
+                    className.contains("EditText", true) -> "Text field"
+                    focused.isScrollable -> "Scrollable area"
+                    focused.isClickable -> "Control"
+                    else -> ""
+                }
+                if (isImage && label.isNullOrBlank()) describeSelectedImage(focused)
+                else if (!label.isNullOrBlank()) speak(if (role.isNotEmpty()) "$role: $label" else label)
+                else if (role.isNotEmpty()) speak("Selected $role")
                 focused.recycle()
                 return
             }
