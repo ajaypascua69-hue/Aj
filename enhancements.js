@@ -111,14 +111,18 @@
     Japanese:{code:'ja-JP',phrases:[['こんにちは。','Hello.'],['お元気ですか。','How are you?'],['ありがとうございます。','Thank you very much.'],['お願いします。','Please.'],['日本語を勉強しています。','I am studying Japanese.']]},
     Mandarin:{code:'zh-CN',phrases:[['你好。','Hello.'],['你好吗？','How are you?'],['谢谢。','Thank you.'],['请。','Please.'],['我在学习中文。','I am learning Chinese.']]}
   };
-  function languageLesson(q, selected) {
+  function languageChoice(q, selected) {
     const lower=String(q||'').toLowerCase();
     const names=Object.keys(languageData);
     const match=names.find(n=>lower.includes(n.toLowerCase()) || (n==='Mandarin' && lower.includes('chinese')));
-    const key=match||selected||'English', data=languageData[key]||languageData.English;
+    const key=match||selected||'English'; return {key,data:languageData[key]||languageData.English};
+  }
+  function languageSpeech(q, selected) { const choice=languageChoice(q,selected); return {code:choice.data.code,text:choice.data.phrases.map(p=>p[0]).join('. ')}; }
+  function languageLesson(q, selected) {
+    const {key,data}=languageChoice(q,selected);
     const rows=data.phrases.map((p,i)=>(i+1)+'. '+p[0]+'\n   Meaning: '+p[1]).join('\n');
     return 'LEO Language Coach · '+key+' ('+data.code+')\n\nUseful everyday phrases:\n'+rows+'\n\nPractice: read each phrase aloud, then try to recall it without looking. For natural pronunciation, LEO will use a matching voice installed on your device when available. Phrase lists are starter material, not a substitute for native-speaker review.\n\nType “teach me Spanish” or select another language in Settings to switch.';
   }
 
-  window.LEOEnhanced = { answer, calculate, conversion, route, languageLesson, languageData };
+  window.LEOEnhanced = { answer, calculate, conversion, route, languageLesson, languageData, languageSpeech };
 })();
