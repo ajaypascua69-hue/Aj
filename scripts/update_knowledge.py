@@ -33,7 +33,7 @@ def clean_text(value):
         value = " ".join(parser.parts)
     except Exception:
         pass
-    return re.sub(r"\\s+", " ", html.unescape(value)).strip()[:MAX_SUMMARY]
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()[:MAX_SUMMARY]
 
 def local_name(tag):
     return tag.rsplit("}", 1)[-1].lower()
@@ -128,7 +128,7 @@ def main():
         "items": entries[:300]
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(payload['items'])} feed entries; {payload['successful_sources']}/{payload['sources_checked']} feeds succeeded.")
 
 if __name__ == "__main__":
