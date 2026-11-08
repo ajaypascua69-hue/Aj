@@ -101,6 +101,20 @@ jobs:
           s=s.replace('release {', "release { if (System.getenv('ANDROID_KEYSTORE_PATH')) signingConfig signingConfigs.playRelease", 1)
           p.write_text(s)
           PY
+      - name: Increase Gradle distribution download timeout
+        working-directory: android
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('gradle/wrapper/gradle-wrapper.properties')
+          s = p.read_text()
+          if 'networkTimeout=' in s:
+              import re
+              s = re.sub(r'networkTimeout=\\d+', 'networkTimeout=120000', s)
+          else:
+              s += '\\nnetworkTimeout=120000\\n'
+          p.write_text(s)
+          PY
       - name: Build debug APK and release App Bundle
         working-directory: android
         env:
