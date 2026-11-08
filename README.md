@@ -76,3 +76,16 @@ A GitHub Actions workflow builds a **debug APK** using Capacitor and the Android
 6. Extract the ZIP and install `app-debug.apk` on your Android device. Android may ask you to allow installation from that source.
 
 The APK is a debug build for personal testing, not a Play Store release. It packages the current web app files into a native Android WebView container. The AI chat still relies on the internet and the same third-party free-model availability. GitHub Actions provides free usage within the account's applicable quota; this project does not guarantee unlimited build minutes. No paid signing service or paid API is required for this debug build.
+
+### Let LEO generate an app and build its APK
+
+LEO now has an **APK Builder** task mode. It can design an app, generate the source code, and explain how to package it. The model itself does not compile Android binaries inside the chat. The repository's free GitHub Actions workflow performs the actual Android build:
+
+1. Ask LEO in **APK Builder** mode to create a web-based app suitable for Android packaging. Ask it to provide every file and its path.
+2. Add those files to a folder named `generated-app/` in this repository. At minimum, include `generated-app/index.html`; add supporting CSS, JavaScript, images, and other assets as needed.
+3. Commit the files to the `main` branch.
+4. Open **Actions → Build LEO AI Android APK → Run workflow**.
+5. Choose **generated-app** for **Which app should be packaged?**. Enter the app display name and a unique Android package ID, then run the workflow.
+6. After a successful run, download the `leo-ai-android-debug-apk` artifact, extract it, and install the APK.
+
+The build creates a debug APK for testing, not a signed Play Store release. GitHub Actions is free only within the account's available quota. This workflow does not use a paid build service. Never put secrets or API keys in generated app files or this public repository.
