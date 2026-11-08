@@ -16,7 +16,7 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 - Optional spoken replies using browser speech synthesis
 - Refresh button to re-check the currently available free model list
 - Export completed chat history as a plain-text file directly on the device
-- Installable progressive web app shell and offline caching for the app interface
+- Online-only web app; an internet connection is required and app pages are not cached for offline use
 - No private API keys stored in this public repository
 
 ## Free-use commitment and limitations
@@ -45,8 +45,12 @@ Then open http://localhost:8000.
 - `style.css` — responsive styling
 - `app.js` — free-only model discovery, chat, and browser voice tools
 - `manifest.webmanifest` — installable app metadata
-- `service-worker.js` — offline app-shell cache
+- No active service worker or offline app cache; older registrations are removed at launch
 - `icon.svg` — app icon
+
+## Online-only behavior and settings
+
+LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. Settings let users choose response style, reply language, and Enter-to-send behavior.
 
 ## Security
 
@@ -62,7 +66,7 @@ The repository's existing LICENSE governs AJ project files. Third-party services
 
 1. Open https://ajaypascua69-hue.github.io/Aj/ in Chrome on Android.
 2. Open Chrome's menu and choose **Install app** or **Add to Home screen** (the wording can vary).
-3. Confirm the installation. The app shell can open offline, but AI chat still needs an internet connection and an available free provider model.
+3. Confirm the installation. LEO is online-only and requires an internet connection plus an available free provider model.
 
 ### Build Android APK and Play Store App Bundle
 
