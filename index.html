@@ -6,6 +6,9 @@
 <meta name="description" content="AJ — Open Source AI Development Hub. Discover app builders, coding agents, open models and practical developer guides.">
 <meta name="theme-color" content="#080d1b">
 <title>AJ — Open Source AI Development Hub</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,7 +26,8 @@
   <div class="eyebrow">Build freely. Own your code.</div>
   <h1>Your ideas.<br><span class="gradient">Your AI toolkit.</span></h1>
   <p class="lead">A practical launchpad for discovering open-source app builders, coding agents and AI models. Explore tools, compare options, and follow a clear path from idea to tested project.</p>
-  <div class="actions"><a class="btn primary" href="#toolkit">Explore the toolkit ↗</a><a class="btn" href="#guide">Start building</a></div>
+  <div class="actions"><a class="btn primary" href="#toolkit">Explore the toolkit ↗</a><a class="btn" href="#guide">Start building</a><button class="btn install-btn" id="install-button" type="button" hidden>Install AJ</button></div>
+  <p class="install-note" id="install-note" aria-live="polite">AJ can be installed from your browser when the install option is available.</p>
  </section>
  <section class="stats" aria-label="What you can explore">
   <div class="stat"><strong>Build</strong><span>App builders and frameworks</span></div>
