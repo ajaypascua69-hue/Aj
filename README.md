@@ -94,3 +94,14 @@ The APK workflow uses Capacitor and GitHub-hosted runners. GitHub Actions free u
 Each LEO App Builder project ZIP now includes a `store/` folder with a Google Play listing template, Apple App Store checklist, general publishing checklist, and a privacy-policy template. These are editable preparation documents only: the privacy template must be completed to match the app's real data practices, and the store assets (real screenshots and required icon graphics) must be created and checked for each app.
 
 The Android workflow can produce a debug APK and a release Android App Bundle (AAB). A Play Store upload requires a properly signed release bundle and secure upload-key configuration; do not commit signing credentials. The current repository workflow does not build or sign an iOS App Store package. iOS distribution requires Apple's macOS/Xcode toolchain, signing, App Store Connect setup, and Apple Developer Program membership. Neither store approval nor publication is automatic.
+
+
+## Leo AI welcome and account screen
+
+The `leo-ai-welcome-login` branch adds a branded Welcome screen with one email-or-phone field, a password field, Forgot password directly below it, Sign In, Google and Apple sign-in buttons, Create account, and guest access. The current controls are deliberately a **non-functional preview**: no credentials are stored or transmitted, and no account provider is connected. Do not enter a real password. To activate accounts, configure a secure authentication provider and server-side callback/secret handling; never place provider secrets in browser JavaScript.
+
+The Android APK workflow now copies `auth.js` and `auth.css` into the packaged web app. This change only adds the entry screen; it does not turn the local deterministic assistant into a general-purpose AI model, and it does not add a cloud inference service. The current App Builder still exports four starter templates (notes, checklist, calculator, blank) rather than generating arbitrary app logic from a natural-language prompt. Its APK workflow packages selected web app source; an actual APK is available only after the GitHub Actions run completes successfully.
+
+## Current capability boundary
+
+This repository currently contains a local deterministic assistant, task and knowledge tools, starter language phrases with device speech support, reusable local skill profiles, and a template-based app exporter. It does not yet contain a general-purpose LLM, live multi-provider AI routing, natural open-ended multilingual conversation, general-purpose natural-language app generation, or a complete autonomous build-and-repair agent. Do not describe those future capabilities as already working.
