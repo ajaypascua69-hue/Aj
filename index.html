@@ -1,98 +1,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="AJ — Open Source AI Development Hub. Discover app builders, coding agents, open models and practical developer guides.">
-<meta name="theme-color" content="#080d1b">
-<title>AJ — Open Source AI Development Hub</title>
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="icon.svg">
-<link rel="stylesheet" href="style.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090d18"><meta name="description" content="LEO AI — a multilingual AI assistant for learning, writing and coding.">
+<title>LEO AI — Your AI assistant</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+<script src="https://js.puter.com/v2/"></script><script src="app.js" defer></script>
 </head>
 <body>
-<header class="site-header">
- <nav class="wrap nav" aria-label="Main navigation">
-  <a class="brand" href="#top"><span class="brand-mark">AJ</span><span>AJ / DEV HUB</span></a>
-  <div class="nav-links" data-nav>
-   <a href="#builders">Builders</a><a href="#agents">Agents</a><a href="#models">Models</a><a href="#guide">Get started</a>
-  </div>
-  <div class="nav-actions"><button class="menu-btn" data-menu-button aria-label="Toggle navigation" aria-expanded="false">Menu</button></div>
- </nav>
-</header>
-<main id="top" class="wrap">
- <section class="hero">
-  <div class="eyebrow">Build freely. Own your code.</div>
-  <h1>Your ideas.<br><span class="gradient">Your AI toolkit.</span></h1>
-  <p class="lead">A practical launchpad for discovering open-source app builders, coding agents and AI models. Explore tools, compare options, and follow a clear path from idea to tested project.</p>
-  <div class="actions"><a class="btn primary" href="#toolkit">Explore the toolkit ↗</a><a class="btn" href="#guide">Start building</a><button class="btn install-btn" id="install-button" type="button" hidden>Install AJ</button></div>
-  <p class="install-note" id="install-note" aria-live="polite">AJ can be installed from your browser when the install option is available.</p>
- </section>
- <section class="stats" aria-label="What you can explore">
-  <div class="stat"><strong>Build</strong><span>App builders and frameworks</span></div>
-  <div class="stat"><strong>Code</strong><span>AI pair programmers and agents</span></div>
-  <div class="stat"><strong>Learn</strong><span>Models, setup and safe deployment</span></div>
- </section>
- <section id="toolkit" class="section">
-  <div class="section-head"><div><div class="eyebrow">01 / Explore</div><h2>Developer toolkit</h2><p class="muted">Search the directory or filter it by what you want to do.</p></div><input class="searchbar" id="tool-search" type="search" placeholder="Search tools…" aria-label="Search tools"></div>
-  <div class="filters" aria-label="Filter tools">
-   <button class="filter" data-filter="all" aria-pressed="true">All tools</button>
-   <button class="filter" data-filter="builder" aria-pressed="false">App builders</button>
-   <button class="filter" data-filter="agent" aria-pressed="false">Coding agents</button>
-   <button class="filter" data-filter="model" aria-pressed="false">AI models</button>
-   <button class="filter" data-filter="platform" aria-pressed="false">Platforms</button>
-  </div>
-  <div class="grid" id="tool-grid">
-   <article class="card tool-card" data-category="builder" data-keywords="visual app builder desktop web app code prompt"><span class="tag">APP BUILDER</span><h3>Dyad</h3><p>Open-source local app builder for creating web apps with AI assistance while keeping access to your code.</p><div class="card-foot"><a class="text-link" href="https://www.dyad.sh/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
-   <article class="card tool-card" data-category="agent" data-keywords="terminal pair programming git coding assistant"><span class="tag">CODING AGENT</span><h3>Aider</h3><p>AI pair programming in your terminal, designed to work with existing codebases and Git.</p><div class="card-foot"><a class="text-link" href="https://aider.chat/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
-   <article class="card tool-card" data-category="agent" data-keywords="ide editor assistant autocomplete chat"><span class="tag">IDE ASSISTANT</span><h3>Continue</h3><p>Open-source AI code assistant for supported development environments. Review its current editor and model integrations.</p><div class="card-foot"><a class="text-link" href="https://www.continue.dev/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
-   <article class="card tool-card" data-category="agent" data-keywords="autonomous software engineering agent openhands"><span class="tag">AI SOFTWARE AGENT</span><h3>OpenHands</h3><p>Open-source platform for AI software-development agents. Check deployment requirements and permissions before use.</p><div class="card-foot"><a class="text-link" href="https://github.com/All-Hands-AI/OpenHands" target="_blank" rel="noopener noreferrer">GitHub project ↗</a></div></article>
-   <article class="card tool-card" data-category="platform" data-keywords="local llm model runner inference"><span class="tag">LOCAL AI</span><h3>Ollama</h3><p>Run supported language models locally on compatible computers and explore model-specific hardware requirements.</p><div class="card-foot"><a class="text-link" href="https://ollama.com/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
-   <article class="card tool-card" data-category="platform" data-keywords="models datasets demos machine learning"><span class="tag">MODEL LIBRARY</span><h3>Hugging Face</h3><p>Discover model cards, datasets and demos. Always read each model's license and usage conditions.</p><div class="card-foot"><a class="text-link" href="https://huggingface.co/models" target="_blank" rel="noopener noreferrer">Explore models ↗</a></div></article>
-   <article class="card tool-card" data-category="model" data-keywords="qwen code reasoning open weights"><span class="tag">MODEL FAMILY</span><h3>Qwen</h3><p>Explore Qwen model variants for coding, reasoning and general tasks; compare model cards and licenses.</p><div class="card-foot"><a class="text-link" href="https://huggingface.co/Qwen" target="_blank" rel="noopener noreferrer">Model collection ↗</a></div></article>
-   <article class="card tool-card" data-category="model" data-keywords="deepseek code reasoning model"><span class="tag">MODEL FAMILY</span><h3>DeepSeek</h3><p>Explore available DeepSeek models and check their capabilities, terms and compute requirements.</p><div class="card-foot"><a class="text-link" href="https://huggingface.co/deepseek-ai" target="_blank" rel="noopener noreferrer">Model collection ↗</a></div></article>
-   <article class="card tool-card" data-category="model" data-keywords="meta llama open models language"><span class="tag">MODEL FAMILY</span><h3>Llama</h3><p>Browse Llama releases and their applicable license terms before choosing a model for your project.</p><div class="card-foot"><a class="text-link" href="https://www.llama.com/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
-  </div>
-  <p class="empty" id="empty-state" hidden>No tools match your search. Try another word or choose “All tools”.</p>
- </section>
- <section id="builders" class="section">
-  <div class="eyebrow">02 / Choose</div><h2>Which tool should you start with?</h2><p class="muted">A quick way to match the tool to the job.</p>
-  <div class="table-wrap"><table><thead><tr><th>Your goal</th><th>Start exploring</th><th>Remember</th></tr></thead><tbody>
-   <tr><td>Create a web app with visual help</td><td>Dyad</td><td>Keep your source code and test the result.</td></tr>
-   <tr><td>Edit an existing codebase with AI</td><td>Aider or Continue</td><td>Review diffs before accepting changes.</td></tr>
-   <tr><td>Experiment with local AI</td><td>Ollama</td><td>Choose a model that fits your device.</td></tr>
-   <tr><td>Find models and datasets</td><td>Hugging Face</td><td>Check licenses, safety and model cards.</td></tr>
-  </tbody></table></div>
- </section>
- <section id="agents" class="section">
-  <div class="eyebrow">03 / Build safely</div><h2>A reliable AI coding workflow</h2>
-  <div class="steps">
-   <article class="step"><span class="step-num">1</span><h3>Describe the task</h3><p>Write down the feature, expected behavior and how you will know it works.</p></article>
-   <article class="step"><span class="step-num">2</span><h3>Make a small change</h3><p>Ask your coding assistant to explain its plan and change only the files needed.</p></article>
-   <article class="step"><span class="step-num">3</span><h3>Test and review</h3><p>Run the app, inspect the changes, test on mobile and keep a working Git commit.</p></article>
-  </div>
- </section>
- <section id="models" class="section">
-  <div class="eyebrow">04 / Connect</div><h2>Models and API connections</h2>
-  <div class="grid">
-   <article class="card"><h3>Hosted AI APIs</h3><p>Providers may offer hosted models through API endpoints. Read the provider's current documentation, pricing and rate limits.</p></article>
-   <article class="card"><h3>Local models</h3><p>Local inference can reduce dependence on hosted APIs, but needs compatible hardware, storage and memory.</p></article>
-   <article class="card"><h3>Choose by task</h3><p>Compare coding quality, context size, speed, cost, privacy and license—not just benchmark scores.</p></article>
-  </div>
- </section>
- <section id="guide" class="section">
-  <div class="eyebrow">05 / Get started</div><h2>Starter commands</h2><p class="muted">These commands are examples for a computer with the required software installed. They do not run on this website.</p>
-  <article class="card"><h3>Download a coding model with Ollama</h3><p>Choose a model tag that is currently available and suitable for your hardware.</p><div class="code-row"><code>ollama pull qwen2.5-coder</code><button class="copy-btn" data-copy="ollama pull qwen2.5-coder">Copy</button></div></article>
-  <article class="card" style="margin-top:14px"><h3>Install Aider with pip</h3><p>Use a Python environment on your development computer.</p><div class="code-row"><code>python -m pip install aider-chat</code><button class="copy-btn" data-copy="python -m pip install aider-chat">Copy</button></div></article>
-  <p class="notice" style="margin-top:18px"><strong>Keep your API keys private.</strong> Never put secret keys in <code>index.html</code>, <code>app.js</code>, or any public GitHub repository. A real public-facing API integration needs a secure backend that keeps keys on the server.</p>
- </section>
- <section class="section">
-  <div class="eyebrow">Made to grow</div><h2>Build something useful with AJ.</h2><p class="lead">AJ is a curated starting point. Tool features, pricing, model availability and licenses can change, so follow the official links before installing or deploying.</p>
-  <div class="actions"><a class="btn primary" href="https://github.com/ajaypascua69-hue/Aj" target="_blank" rel="noopener noreferrer">View AJ on GitHub ↗</a><a class="btn" href="#top">Back to top ↑</a></div>
- </section>
-</main>
-<footer class="footer"><div class="wrap footer-inner"><span><strong>AJ — Open Source AI Development Hub</strong><br>Build freely. Learn continuously.</span><span>© <span id="year">2026</span> AJ</span></div></footer>
-<script src="app.js" defer></script>
-</body>
-</html>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">L</span> LEO <i>AI</i></a><div class="top-actions"><span class="status" id="model-status">Loading free models…</span><button class="small-btn" id="new-chat">＋ New chat</button></div></header>
+<main class="app-shell">
+<aside class="sidebar"><p class="side-label">YOUR WORKSPACE</p><button class="side-action" id="side-new">＋ New conversation</button><p class="side-label">EXPLORE LEO</p>
+<button class="side-link" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples.">文　Language practice</button>
+<button class="side-link" data-prompt="Explain a difficult topic in simple language with examples.">✦　Learn something</button>
+<button class="side-link" data-prompt="Help me plan, write, and debug a software project.">⌘　Coding assistant</button>
+<button class="side-link" data-prompt="Help me write a clear and polished piece of writing.">✎　Writing assistant</button>
+<div class="sidebar-note"><strong>Free-first AI</strong><p>LEO looks for models marked free by the provider. Free access can have limits and availability may change.</p></div>
+<a class="repo-link" href="https://github.com/ajaypascua69-hue/Aj" target="_blank" rel="noopener">View project on GitHub ↗</a></aside>
+<section class="chat-panel" aria-label="LEO AI chat">
+<div class="welcome" id="welcome"><div class="hero-orb">✦</div><p class="eyebrow">YOUR AI, YOUR IDEAS</p><h1>What can I help<br><span>you with today?</span></h1><p class="welcome-copy">Ask questions, explore ideas, write, learn, or build something new. LEO can work across many languages.</p>
+<div class="suggestions">
+<button class="suggestion" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples."><b>文</b><span><strong>Practice a language</strong><small>Learn phrases and vocabulary</small></span>↗</button>
+<button class="suggestion" data-prompt="Explain how artificial intelligence works in simple terms."><b>✧</b><span><strong>Understand a topic</strong><small>Clear explanations and examples</small></span>↗</button>
+<button class="suggestion" data-prompt="Help me create a simple website. Start with a plan and beginner-friendly code."><b>⌘</b><span><strong>Build with code</strong><small>Plan, create, and debug</small></span>↗</button>
+<button class="suggestion" data-prompt="Give me three creative ideas for a useful mobile app."><b>✎</b><span><strong>Explore an idea</strong><small>Brainstorm something original</small></span>↗</button>
+</div></div>
+<div class="messages" id="messages" aria-live="polite" hidden></div>
+<div class="composer-wrap"><div class="model-row"><label for="model-select">AI MODEL</label><select id="model-select"><option>Finding free models…</option></select><button class="text-btn" id="voice-output" type="button" aria-pressed="false">◖ Voice off</button></div>
+<form class="composer" id="chat-form"><label class="attach-btn" for="attachment" title="Attach an image or document">＋</label><input id="attachment" type="file" accept="image/*,.pdf,.txt,.md,.csv" hidden><textarea id="prompt" rows="1" maxlength="12000" placeholder="Message LEO AI…" aria-label="Message LEO AI"></textarea><button class="mic-btn" id="mic-button" type="button" aria-label="Voice input">🎙</button><button class="send-btn" id="send-button" type="submit" aria-label="Send message">↑</button></form><div class="attachment-name" id="attachment-name" hidden></div><p class="disclaimer">LEO can make mistakes. Check important information. <a href="https://docs.puter.com/AI/" target="_blank" rel="noopener">AI service details</a>.</p></div>
+</section></main><div class="toast" id="toast" role="status"></div><footer class="mobile-footer">LEO AI · Free-first tools · <a href="https://github.com/ajaypascua69-hue/Aj">Project files</a></footer>
+</body></html>
