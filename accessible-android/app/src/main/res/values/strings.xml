@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Guided Vision 2 - Be My Eyes</string>
     <string name="service_name">Guided Vision 2 Screen Reader</string>
-    <string name="service_description">Reads visible text and accessibility labels, supports touch exploration, directional scrolling, diagonal item navigation, and offline image labels and an online Guided Vision launcher for Gemini Live.</string>
+    <string name="service_description">Reads visible text and accessibility labels, supports touch exploration, directional scrolling, diagonal item navigation, and offline image labels and a built-in offline camera assistant with image labels and text recognition.</string>
 </resources>
