@@ -105,3 +105,7 @@ The Android APK workflow now copies `auth.js` and `auth.css` into the packaged w
 ## Current capability boundary
 
 This repository currently contains a local deterministic assistant, task and knowledge tools, starter language phrases with device speech support, reusable local skill profiles, and a template-based app exporter. It does not yet contain a general-purpose LLM, live multi-provider AI routing, natural open-ended multilingual conversation, general-purpose natural-language app generation, or a complete autonomous build-and-repair agent. Do not describe those future capabilities as already working.
+
+## USB backup and restore
+
+The USB Storage panel exports a portable JSON backup of device-local tasks, knowledge notes, and selected preferences. It deliberately excludes customizable skills and active-skill selection; those remain in Leo AI's local browser storage and are not written to the backup. To place a backup on a USB drive on Android, create the backup, open the Android Files app, and move the downloaded JSON file from Downloads to the connected USB drive. To restore, select the JSON backup from the USB drive using the Android file picker. Restore replaces the existing tasks and knowledge notes but leaves skills untouched. This is a file-based backup/restore flow, not continuous direct USB-drive synchronization; Android's file manager is used to move files to and from removable storage.
