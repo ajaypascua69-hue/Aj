@@ -55,3 +55,24 @@ Never add API keys, passwords, access tokens, or private credentials to this pub
 ## Licensing
 
 The repository's existing LICENSE governs AJ project files. Third-party services and models retain their own licenses and terms.
+
+## Install on Android
+
+### Install the PWA (no APK required)
+
+1. Open https://ajaypascua69-hue.github.io/Aj/ in Chrome on Android.
+2. Open Chrome's menu and choose **Install app** or **Add to Home screen** (the wording can vary).
+3. Confirm the installation. The app shell can open offline, but AI chat still needs an internet connection and an available free provider model.
+
+### Build an Android APK for free
+
+A GitHub Actions workflow builds a **debug APK** using Capacitor and the Android SDK:
+
+1. Open the repository's **Actions** tab: https://github.com/ajaypascua69-hue/Aj/actions
+2. Select **Build LEO AI Android APK**.
+3. If the workflow has not started automatically, choose **Run workflow** and run it on `main`.
+4. Wait for the build to finish successfully.
+5. Open the completed workflow run, find **Artifacts**, and download `leo-ai-android-debug-apk`.
+6. Extract the ZIP and install `app-debug.apk` on your Android device. Android may ask you to allow installation from that source.
+
+The APK is a debug build for personal testing, not a Play Store release. It packages the current web app files into a native Android WebView container. The AI chat still relies on the internet and the same third-party free-model availability. GitHub Actions provides free usage within the account's applicable quota; this project does not guarantee unlimited build minutes. No paid signing service or paid API is required for this debug build.
