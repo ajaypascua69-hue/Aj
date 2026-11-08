@@ -126,7 +126,17 @@ jobs:
             echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 --decode > release-upload.jks
             export ANDROID_KEYSTORE_PATH="$PWD/release-upload.jks"
           fi
-          ./gradlew lintRelease assembleDebug bundleRelease --no-daemon
+          # Retry transient distribution/repository failures.
+          for attempt in 1 2 3; do
+            if ./gradlew lintRelease assembleDebug bundleRelease --no-daemon; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Gradle build failed on attempt $attempt; retrying after a short delay."
+              sleep $((attempt * 20))
+            fi
+          done
+          exit 1
       - name: Upload installable debug APK
         uses: actions/upload-artifact@v4
         with:
