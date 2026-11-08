@@ -20,3 +20,7 @@ android {
         jvmTarget = "17"
     }
 }
+
+dependencies {
+    implementation("com.google.mlkit:image-labeling:17.0.9")
+}
