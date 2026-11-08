@@ -1,21 +1,38 @@
-MIT License
+AJ PROPRIETARY LICENSE
+Copyright (c) 2026 AJ. All rights reserved.
 
-Copyright (c) 2026 AJ
+1. Permission to use
+You are granted a limited, personal, non-exclusive, non-transferable,
+revocable license to download, install, and use an unmodified copy of AJ
+for your own personal purposes.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. Restrictions
+Unless you receive prior written permission from the copyright owner, you
+may not:
+- modify, adapt, translate, or create derivative works from AJ;
+- copy, republish, redistribute, sublicense, sell, rent, or commercially
+  exploit AJ or any portion of it;
+- remove or alter copyright, ownership, or license notices; or
+- present AJ or a modified version of AJ as your own work.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. Ownership
+AJ and all rights not expressly granted in this license remain the
+exclusive property of the copyright owner.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+4. Third-party materials
+Third-party software, libraries, models, names, logos, and services that
+may be linked to or included with AJ are governed by their own licenses
+and terms. This license does not change those terms or grant rights to
+third-party materials.
+
+5. No warranty
+AJ is provided "AS IS", without warranties or conditions of any kind,
+to the fullest extent permitted by applicable law.
+
+6. Termination
+This license terminates automatically if you violate its terms. Upon
+termination, you must stop using AJ and delete copies in your possession.
+
+For permission beyond the uses expressly allowed above, contact the
+copyright owner through the contact information published in the AJ
+repository or website.
