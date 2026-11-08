@@ -1,38 +1,51 @@
 AJ PROPRIETARY LICENSE
 Copyright (c) 2026 AJ. All rights reserved.
 
-1. Permission to use
-You are granted a limited, personal, non-exclusive, non-transferable,
-revocable license to download, install, and use an unmodified copy of AJ
-for your own personal purposes.
+1. Permission to use AJ
+You are granted a limited, non-exclusive, non-transferable license to
+download, install, and use an unmodified copy of AJ. You may use AJ to
+learn, explore tools, and create your own independent projects and work.
 
-2. Restrictions
-Unless you receive prior written permission from the copyright owner, you
-may not:
-- modify, adapt, translate, or create derivative works from AJ;
-- copy, republish, redistribute, sublicense, sell, rent, or commercially
-  exploit AJ or any portion of it;
+2. Permission to publish your own work
+You may publish, share, distribute, display, and sell work that you
+independently create using AJ, including websites, applications, code,
+documents, and other projects. You own the original work you create,
+subject to any third-party rights, licenses, and terms that apply to
+materials or services you use.
+
+This permission does not give you ownership of AJ, its source code,
+branding, or other AJ materials, and does not permit you to include or
+redistribute AJ itself as part of your work except with prior written
+permission.
+
+3. Restrictions on AJ
+Unless you receive prior written permission from the copyright owner,
+you may not:
+- modify, adapt, translate, or create derivative works of AJ;
+- republish, redistribute, sublicense, sell, rent, or commercially
+  exploit AJ or copies of AJ;
 - remove or alter copyright, ownership, or license notices; or
 - present AJ or a modified version of AJ as your own work.
 
-3. Ownership
+4. Ownership
 AJ and all rights not expressly granted in this license remain the
-exclusive property of the copyright owner.
+property of the copyright owner. Your independently created work is
+not claimed by AJ under this license.
 
-4. Third-party materials
-Third-party software, libraries, models, names, logos, and services that
-may be linked to or included with AJ are governed by their own licenses
-and terms. This license does not change those terms or grant rights to
-third-party materials.
+5. Third-party materials
+Third-party software, libraries, models, names, logos, and services
+linked to or used with AJ are governed by their own licenses and terms.
+You are responsible for following those terms. This license does not
+grant rights to third-party materials.
 
-5. No warranty
+6. No warranty
 AJ is provided "AS IS", without warranties or conditions of any kind,
 to the fullest extent permitted by applicable law.
 
-6. Termination
+7. Termination
 This license terminates automatically if you violate its terms. Upon
 termination, you must stop using AJ and delete copies in your possession.
 
-For permission beyond the uses expressly allowed above, contact the
+For permissions beyond those expressly allowed above, contact the
 copyright owner through the contact information published in the AJ
 repository or website.
