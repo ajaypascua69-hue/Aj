@@ -62,8 +62,8 @@ class MainActivity : Activity() {
             textSize = 16f
             setPadding(0, 12, 0, 4)
         })
-        val languageOptions = listOf("System default", "English", "Filipino")
-        val languageValues = listOf("system", "en", "fil")
+        val languageOptions = listOf("System default", "English", "Filipino", "Spanish", "French", "German", "Italian", "Portuguese", "Japanese", "Korean", "Chinese (Mandarin)", "Arabic", "Hindi", "Indonesian", "Thai", "Vietnamese", "Russian", "Dutch", "Turkish")
+        val languageValues = listOf("system", "en", "fil-PH", "es", "fr", "de", "it", "pt", "ja", "ko", "zh-CN", "ar", "hi", "id", "th", "vi", "ru", "nl", "tr")
         val languagePicker = Spinner(this).apply {
             adapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_spinner_dropdown_item, languageOptions)
             setSelection(languageValues.indexOf(prefs.getString("speech_language", "system")).coerceAtLeast(0))
@@ -98,11 +98,11 @@ class MainActivity : Activity() {
             setPadding(0, 20, 0, 4)
         })
         page.addView(TextView(this).apply {
-            text = "Reads selected text and controls. When you focus an unlabeled image, on-device image recognition attempts to identify its visible contents. Results are short labels, not a full human-level photo description."
+            text = "TalkBack-style screen description: reads the visible text, controls, and accessibility labels on the current screen. It can also attempt on-device image labeling for focused images. Image labels are brief and depend on what the app exposes to Android accessibility."
             textSize = 14f
         })
         page.addView(Button(this).apply {
-            text = "Describe Current Screen"
+            text = "Describe Screen (TalkBack-style)"
             setOnClickListener {
                 sendBroadcast(Intent("org.ajaypascua.accessible.DESCRIBE_SCREEN").setPackage(packageName))
             }
@@ -112,11 +112,11 @@ class MainActivity : Activity() {
             setOnClickListener { startActivity(Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS)) }
         })
         page.addView(Button(this).apply {
-            text = "Open Android Text-to-Speech Settings"
+            text = "Choose Android TTS engine, voices and language data"
             setOnClickListener { startActivity(Intent("com.android.settings.TTS_SETTINGS")) }
         })
         page.addView(TextView(this).apply {
-            text = "\nGesture note: Android and individual apps control which touch gestures reach an accessibility service. Gesture behavior can vary by device."
+            text = "\nLanguage note: Accessible uses the Android Text-to-Speech engine. Only languages and voices installed and supported by your selected engine will speak correctly. Install additional voice data in Android Text-to-Speech settings.\n\nGesture note: Android and individual apps control which touch gestures reach an accessibility service. Gesture behavior can vary by device."
             textSize = 13f
         })
         setContentView(page)
