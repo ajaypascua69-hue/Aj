@@ -56,13 +56,21 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
     override fun onInit(status: Int) {
         ready = status == TextToSpeech.SUCCESS
         if (ready) {
-            val language = prefs.getString("speech_language", "system") ?: "system"
-            tts?.language = when (language) {
-                "en" -> Locale.ENGLISH
-                "fil" -> Locale("fil", "PH")
-                else -> Locale.getDefault()
-            }
+            applySelectedLanguage()
             applySpeechRate()
+        }
+    }
+
+    private fun applySelectedLanguage() {
+        val tag = prefs.getString("speech_language", "system") ?: "system"
+        val locale = if (tag == "system") Locale.getDefault() else Locale.forLanguageTag(tag)
+        val engine = tts ?: return
+        val availability = engine.isLanguageAvailable(locale)
+        if (availability >= TextToSpeech.LANG_AVAILABLE) {
+            engine.language = locale
+        } else {
+            engine.language = Locale.getDefault()
+            speak("The selected language is not installed in your Android text-to-speech engine. Using the system language instead.")
         }
     }
 
