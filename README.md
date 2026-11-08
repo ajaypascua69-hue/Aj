@@ -72,3 +72,18 @@ A permission-aware implementation plan is in [MULTILINGUAL-ROADMAP.md](MULTILING
 LEO includes a local custom Skills Builder. Users can create up to 50 named skill profiles with a description, custom instruction text, trigger words, and a selected built-in workflow (assistant, coding, app development, writing, learning, translation, or language practice). Skills can be activated, deactivated, and deleted. Profiles are stored in browser local storage on the current device and are not synced across devices.
 
 Important limitation: this standalone deterministic engine can save and select a skill profile and choose a built-in workflow, but it does not yet have a general-purpose language model capable of reliably following arbitrary custom instructions. The builder is a foundation for future model-backed skills, not a claim of Gemini-level custom Gem intelligence. Do not store passwords or sensitive data in skills.
+
+
+## LEO App Builder and Android APKs
+
+The App Builder provides local starter templates for a notes app, checklist, calculator, and blank responsive app. It exports a ZIP containing editable HTML, CSS, JavaScript, and a README. It does not use an AI model and does not yet generate arbitrary complex application logic from a natural-language description.
+
+To package a generated project as an Android APK:
+
+1. Extract the project ZIP.
+2. Add its project files to the repository's `generated-app/` directory.
+3. Open GitHub Actions → **Build LEO AI Android APK**.
+4. Run the workflow and choose `generated-app`, then supply the Android app name and package ID.
+5. After a successful run, download the debug APK from the workflow's Artifacts.
+
+The APK workflow uses Capacitor and GitHub-hosted runners. GitHub Actions free usage limits apply. Debug APKs are suitable for testing and direct installation; Play Store publishing requires a properly signed release and compliance with Play policies. Never commit signing keys or passwords to the repository.
