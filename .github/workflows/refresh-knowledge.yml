@@ -1,6 +1,12 @@
 name: Refresh LEO public knowledge feeds
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_knowledge.py'
+      - 'knowledge/sources.json'
+      - '.github/workflows/refresh-knowledge.yml'
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
