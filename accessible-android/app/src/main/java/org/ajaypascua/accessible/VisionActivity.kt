@@ -1,7 +1,7 @@
 package org.ajaypascua.accessible
 
 import android.Manifest
-import android.app.Activity
+import androidx.activity.ComponentActivity
 import android.content.pm.PackageManager
 import android.graphics.Color
 import android.os.Bundle
@@ -34,7 +34,7 @@ import java.util.concurrent.Executors
  * Standalone local camera assistant. Camera frames are processed on-device, never uploaded.
  * Uses image classification and OCR, not a generative vision-language model.
  */
-class VisionActivity : Activity(), TextToSpeech.OnInitListener {
+class VisionActivity : ComponentActivity(), TextToSpeech.OnInitListener {
     private lateinit var previewView: PreviewView
     private lateinit var status: TextView
     private lateinit var cameraExecutor: ExecutorService
