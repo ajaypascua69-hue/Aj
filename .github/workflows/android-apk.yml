@@ -63,7 +63,10 @@ jobs:
       - name: Prepare selected app source
         run: |
           mkdir -p www
-          if [ "$APP_SOURCE" = "auto" ]; then\n            if [ -f generated-app/index.html ]; then APP_SOURCE="generated-app"; else APP_SOURCE="leo"; fi\n          fi\n          if [ "$APP_SOURCE" = "generated-app" ]; then
+          if [ "$APP_SOURCE" = "auto" ]; then
+            if [ -f generated-app/index.html ]; then APP_SOURCE="generated-app"; else APP_SOURCE="leo"; fi
+          fi
+          if [ "$APP_SOURCE" = "generated-app" ]; then
             if [ ! -f generated-app/index.html ]; then
               echo "generated-app/index.html is missing. Ask LEO to create the web app files and add them to generated-app/ first."
               exit 1
