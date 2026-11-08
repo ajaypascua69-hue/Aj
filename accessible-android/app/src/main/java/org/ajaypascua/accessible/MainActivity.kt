@@ -2,6 +2,7 @@ package org.ajaypascua.accessible
 
 import android.app.Activity
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
 import android.view.Gravity
@@ -100,6 +101,27 @@ class MainActivity : Activity() {
         page.addView(TextView(this).apply {
             text = "TalkBack-style screen description: reads the visible text, controls, and accessibility labels on the current screen. It can also attempt on-device image labeling for focused images. Image labels are brief and depend on what the app exposes to Android accessibility."
             textSize = 14f
+        })
+        page.addView(TextView(this).apply {
+            text = "Guided Vision (online)"
+            textSize = 18f
+            setPadding(0, 20, 0, 4)
+        })
+        page.addView(TextView(this).apply {
+            text = "Opens Google Gemini so you can start Gemini Live, share your camera, ask questions, and hear live visual guidance. Internet, a supported Gemini account/region, and the Gemini app or website are required. This feature is provided by Google, not built into Accessible."
+            textSize = 14f
+        })
+        page.addView(Button(this).apply {
+            text = "Open Guided Vision in Gemini Live"
+            contentDescription = "Open Google Gemini to start Guided Vision with camera sharing"
+            setOnClickListener {
+                val gemini = packageManager.getLaunchIntentForPackage("com.google.android.apps.bard")
+                if (gemini != null) {
+                    startActivity(gemini)
+                } else {
+                    startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://gemini.google.com/app")))
+                }
+            }
         })
         page.addView(Button(this).apply {
             text = "Describe Screen (TalkBack-style)"
