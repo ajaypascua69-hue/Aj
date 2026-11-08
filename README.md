@@ -50,7 +50,7 @@ Then open http://localhost:8000.
 
 ## Online-only behavior and settings
 
-LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. Settings let users choose response style, reply language, and Enter-to-send behavior. The Knowledge button opens a local library: users must explicitly save answers or add notes, and matching saved notes are added as context to later prompts. LEO does not automatically scrape websites or copy proprietary model outputs, and saving notes does not retrain the underlying model.
+LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. Settings let users choose response style, reply language, and Enter-to-send behavior. The Knowledge button opens a local library: users must explicitly save answers or add notes with HTTPS source links and confirm that they checked the sources. The default evidence standard requires two independent sources; an alternative allows one authoritative primary source. Entries are labelled source-reviewed by the user, not independently certified, because this static browser app cannot fetch and verify source contents itself. Matching saved notes and source links are added as context to later prompts. LEO does not automatically scrape websites or copy proprietary model outputs, and saving notes does not retrain the underlying model.
 
 ## Security
 
