@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Accessible</string>
+    <string name="service_name">Accessible Screen Reader</string>
+    <string name="service_description">Reads visible text and accessibility labels for controls and images. Supports basic directional scrolling gestures.</string>
+</resources>
