@@ -17,7 +17,7 @@ on:
         default: LEO AI
         type: string
       app_id:
-        description: Android package ID (example: com.example.myapp)
+        description: "Android package ID (example: com.example.myapp)"
         required: true
         default: com.ajaypascua.leoai
         type: string
