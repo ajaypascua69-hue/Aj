@@ -2,6 +2,25 @@ name: Build LEO AI Android APK
 
 on:
   workflow_dispatch:
+    inputs:
+      app_source:
+        description: Which app should be packaged?
+        required: true
+        type: choice
+        options:
+          - leo
+          - generated-app
+        default: leo
+      app_name:
+        description: Android app display name
+        required: true
+        default: LEO AI
+        type: string
+      app_id:
+        description: Android package ID (example: com.example.myapp)
+        required: true
+        default: com.ajaypascua.leoai
+        type: string
   push:
     branches: [main]
     paths:
@@ -12,6 +31,8 @@ on:
       - 'icon.svg'
       - 'capacitor.config.json'
       - 'package.json'
+      - 'service-worker.js'
+      - 'generated-app/**'
       - '.github/workflows/android-apk.yml'
 
 permissions:
@@ -21,6 +42,10 @@ jobs:
   build-apk:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      APP_SOURCE: ${{ github.event.inputs.app_source || (github.event_name == 'push' && 'generated-app' || 'leo') }}
+      APP_NAME: ${{ github.event.inputs.app_name || 'LEO AI' }}
+      APP_ID: ${{ github.event.inputs.app_id || 'com.ajaypascua.leoai' }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -35,10 +60,19 @@ jobs:
           java-version: '21'
       - name: Install Capacitor
         run: npm install
-      - name: Prepare web assets
+      - name: Prepare selected app source
         run: |
           mkdir -p www
-          cp index.html app.js style.css manifest.webmanifest icon.svg service-worker.js www/
+          if [ "$APP_SOURCE" = "generated-app" ]; then
+            if [ ! -f generated-app/index.html ]; then
+              echo "generated-app/index.html is missing. Ask LEO to create the web app files and add them to generated-app/ first."
+              exit 1
+            fi
+            cp -R generated-app/. www/
+          else
+            cp index.html app.js style.css manifest.webmanifest icon.svg service-worker.js www/
+          fi
+          node -e "const fs=require('fs'); const id=process.env.APP_ID; if(!/^[a-zA-Z][a-zA-Z0-9_]*(\\.[a-zA-Z][a-zA-Z0-9_]*)+$/.test(id)){throw new Error('Invalid Android package ID: '+id)}; fs.writeFileSync('capacitor.config.json',JSON.stringify({appId:id,appName:process.env.APP_NAME,webDir:'www',android:{allowMixedContent:false}},null,2))"
       - name: Generate Android project
         run: npx cap add android
       - name: Sync Android project
