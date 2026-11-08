@@ -8,6 +8,8 @@ import android.view.Gravity
 import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.SeekBar
+import android.widget.Spinner
+import android.widget.ArrayAdapter
 import android.widget.Switch
 import android.widget.TextView
 
@@ -55,6 +57,24 @@ class MainActivity : Activity() {
         rateLabel.text = "Speech rate: %.1fx".format(prefs.getFloat("speech_rate", 1.0f))
         page.addView(rateLabel)
         page.addView(rate)
+        page.addView(TextView(this).apply {
+            text = "Speech language"
+            textSize = 16f
+            setPadding(0, 12, 0, 4)
+        })
+        val languageOptions = listOf("System default", "English", "Filipino")
+        val languageValues = listOf("system", "en", "fil")
+        val languagePicker = Spinner(this).apply {
+            adapter = ArrayAdapter(this@MainActivity, android.R.layout.simple_spinner_dropdown_item, languageOptions)
+            setSelection(languageValues.indexOf(prefs.getString("speech_language", "system")).coerceAtLeast(0))
+            onItemSelectedListener = object : android.widget.AdapterView.OnItemSelectedListener {
+                override fun onNothingSelected(parent: android.widget.AdapterView<*>?) {}
+                override fun onItemSelected(parent: android.widget.AdapterView<*>?, view: android.view.View?, position: Int, id: Long) {
+                    prefs.edit().putString("speech_language", languageValues[position]).apply()
+                }
+            }
+        }
+        page.addView(languagePicker)
 
         fun addToggle(label: String, key: String, default: Boolean = true) {
             page.addView(Switch(this).apply {
@@ -78,7 +98,7 @@ class MainActivity : Activity() {
             setPadding(0, 20, 0, 4)
         })
         page.addView(TextView(this).apply {
-            text = "Describe the text, buttons, icons and image descriptions exposed by the current app. Unlabeled photos require an image-understanding service and may not be recognized in this test build."
+            text = "Reads selected text and controls. When you focus an unlabeled image, on-device image recognition attempts to identify its visible contents. Results are short labels, not a full human-level photo description."
             textSize = 14f
         })
         page.addView(Button(this).apply {
