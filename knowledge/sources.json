@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "policy": "Allowlisted public RSS/Atom feeds from official organizations. Feed entries are leads to primary pages, not independently verified facts.",
+  "max_items_per_source": 20,
+  "sources": [
+    {"name":"NASA News","domain":"nasa.gov","feed":"https://www.nasa.gov/news-release/feed/"},
+    {"name":"NOAA News","domain":"noaa.gov","feed":"https://www.noaa.gov/rss.xml"},
+    {"name":"CISA Cybersecurity Advisories","domain":"cisa.gov","feed":"https://www.cisa.gov/cybersecurity-advisories/all.xml"},
+    {"name":"WHO News","domain":"who.int","feed":"https://www.who.int/rss-feeds/news-english.xml"},
+    {"name":"National Science Foundation News","domain":"nsf.gov","feed":"https://www.nsf.gov/rss/rss_www_news.xml"}
+  ]
+}
