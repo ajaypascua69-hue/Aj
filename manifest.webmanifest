@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "AJ — AI Development Hub",
+  "short_name": "AJ",
+  "description": "Discover AI app builders, coding agents, open models and practical developer guides.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#080d1b",
+  "theme_color": "#080d1b",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
