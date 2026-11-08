@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#090d18"><meta name="description" content="LEO AI — a standalone assistant with local tools and knowledge retrieval.">
-<title>LEO AI — Standalone assistant</title>
-<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#090d18"><meta name="description" content="Leo AI — an independent assistant workspace with local tools, custom skills, and an Android app build workflow.">
+<title>Leo AI</title>
+<link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="auth.css">
 <script src="enhancements.js" defer></script><script src="voice-engine.js" defer></script><script src="app-builder.js" defer></script>
-<script src="app.js" defer></script>
+<script src="auth.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
-<header class="topbar"><a class="brand" href="./"><span class="brand-mark">L</span> LEO <i>AI</i></a><div class="top-actions"><span class="status ready" id="model-status">Standalone mode</span><button class="small-btn" id="app-builder-open" type="button">▣ App builder</button><button class="small-btn" id="skills-open" type="button">✧ My skills</button><button class="small-btn" id="tasks-open" type="button">✓ My tasks</button><button class="small-btn" id="knowledge-open" type="button">▤ Knowledge</button><button class="small-btn" id="settings-open" type="button" aria-haspopup="dialog">⚙ Settings</button><button class="small-btn" id="export-chat" type="button">↓ Export</button><button class="small-btn" id="new-chat" type="button">＋ New chat</button></div></header>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">L</span> Leo <i>AI</i></a><div class="top-actions"><span class="status ready" id="model-status">Standalone mode</span><button class="small-btn" id="app-builder-open" type="button">▣ App builder</button><button class="small-btn" id="skills-open" type="button">✧ My skills</button><button class="small-btn" id="tasks-open" type="button">✓ My tasks</button><button class="small-btn" id="knowledge-open" type="button">▤ Knowledge</button><button class="small-btn" id="settings-open" type="button" aria-haspopup="dialog">⚙ Settings</button><button class="small-btn" id="export-chat" type="button">↓ Export</button><button class="small-btn" id="new-chat" type="button">＋ New chat</button></div></header>
 <main class="app-shell">
 <aside class="sidebar"><p class="side-label">YOUR WORKSPACE</p><button class="side-action" id="side-new" type="button">＋ New conversation</button><p class="side-label">EXPLORE LEO</p>
 <button class="side-link" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples." type="button">文　Language practice</button>
