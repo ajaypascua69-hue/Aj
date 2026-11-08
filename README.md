@@ -1,57 +1,55 @@
 # AJ / LEO AI
 
-AJ now hosts **LEO AI**, a free-first, multilingual AI assistant.
+AJ hosts **LEO AI**, a free-first, multilingual AI assistant.
 
 **Live website:** https://ajaypascua69-hue.github.io/Aj/
 
-## LEO AI features
+## Features
 
-- Responsive chat interface for desktop and Android browsers
-- Multilingual conversations through supported AI models
-- Dynamic model selector that prioritizes provider models marked `:free`
-- Image and document attachments when supported by the chosen model
+- Responsive AI chat interface for desktop and Android browsers
+- Multilingual conversations using a choice of supported AI models
+- Live model catalogue from Puter.js, with free variants listed first and paid/standard models labelled separately
+- Image understanding: attach an image in chat and ask LEO to describe it, read visible text, explain objects/icons, or analyze a diagram
+- AI Image Studio: generate an image from a text prompt or use a reference image for image-to-image generation
+- Image model choices include FLUX.1 Schnell, GPT Image and Gemini image options, subject to provider availability
 - Browser speech input where supported
 - Optional spoken replies using browser speech synthesis
-- Installable progressive web app interface and offline app-shell caching
+- Installable progressive web app shell and offline caching for the app interface
 - No private API keys stored in this public repository
 
-## Free access and AI usage
+## Free use and AI costs
 
-The website source and GitHub Pages hosting can be free. LEO AI connects to hosted models through [Puter.js](https://docs.puter.com/), so the repository owner does not need to run a paid AI server or publish a secret API key.
+The website source and GitHub Pages hosting can be free. LEO connects to hosted models through https://docs.puter.com/AI/, so the repository owner does not need to operate an AI server or publish a secret API key.
 
-LEO prioritizes model variants marked `:free` in the provider catalogue. Free models may have quotas, rate limits, temporary availability, and provider-specific conditions. The Puter user-pays model may ask each user to sign in; usage beyond any free allowance or use of paid models may cost that user money. Unlimited free AI usage for all visitors is not guaranteed.
+Chat model variants labelled :free are listed first. Providers can impose rate limits and daily quotas and can remove free variants. Other chat models are shown separately and may cost money.
 
-Read the current [Puter AI documentation](https://docs.puter.com/AI/) and [model catalogue](https://developer.puter.com/ai/) before relying on a specific model.
+**Image generation is not guaranteed free.** The selected FLUX.1 Schnell route is listed by Puter at about US$0.0027 per image at the time this feature was implemented. Other image models may cost more. The image generator displays a confirmation before sending a request. Provider prices and availability can change.
+
+Puter's user-pays model may require visitors to sign in and may charge the visitor for usage. This means the app can be hosted without a paid server, but unlimited free AI for every visitor cannot be promised.
+
+Check current Puter AI documentation at https://docs.puter.com/AI/, the model catalogue at https://developer.puter.com/ai/models/, image generation documentation at https://docs.puter.com/AI/txt2img/, and FLUX.1 Schnell pricing at https://developer.puter.com/ai/black-forest-labs/flux-schnell/ before relying on a specific model or price.
 
 ## Run locally
 
 Serve this folder from a local web server rather than opening the HTML file directly:
 
-```bash
-python -m http.server 8000
-```
+    python -m http.server 8000
 
-Then open `http://localhost:8000`.
+Then open http://localhost:8000.
 
 ## Project files
 
-- `index.html` — LEO AI interface
-- `style.css` — responsive styling
-- `app.js` — chat, free model discovery, file attachments and voice tools
-- `manifest.webmanifest` — installable app metadata
-- `service-worker.js` — offline app-shell cache
-- `icon.svg` — app icon
-
-## Use AJ and publish your own work
-
-You may download, install, and use an unmodified copy of AJ. You may also use AJ to learn about tools and create your own independent projects.
-
-**You are allowed to publish, share, distribute, display, and sell your own work created using AJ.** You retain ownership of the original work you create, subject to third-party licenses and terms that apply to any tools, code, models, or materials you use.
-
-This permission does not allow you to modify, rebrand, resell, or redistribute AJ itself or claim AJ as your own. See [LICENSE](LICENSE) for the complete terms.
-
-This repository is public so that the project can be viewed and downloaded. Public visibility does not make AJ open source or grant permission to modify or redistribute AJ.
+- index.html — LEO AI interface and image studio
+- style.css — responsive styling
+- app.js — chat, model discovery, image understanding, image generation and voice tools
+- manifest.webmanifest — installable app metadata
+- service-worker.js — offline app-shell cache
+- icon.svg — app icon
 
 ## Security
 
-Never add API keys, passwords, access tokens, or private credentials to this public repository. LEO AI uses the Puter.js browser SDK and does not embed a private model API key.
+Never add API keys, passwords, access tokens, or private credentials to this public repository. LEO uses the Puter.js browser SDK and does not embed a private model API key.
+
+## Project permissions
+
+The repository's existing LICENSE governs use of AJ project files. Third-party services, models, and model weights retain their own licenses and terms. Public visibility alone does not grant permission to modify or redistribute AJ.
