@@ -65,3 +65,10 @@ LEO runs without external AI inference providers. This separation means provider
 LEO now has a small best-effort language detector and improved selection of the device's installed speech voice for replies. Browser speech recognition remains browser/device dependent and may require internet. This is not a full conversational language model, does not reliably identify accents or code-switching, and does not provide offline speech recognition by itself.
 
 A permission-aware implementation plan is in [MULTILINGUAL-ROADMAP.md](MULTILINGUAL-ROADMAP.md). Candidate components include sherpa-onnx for native offline Android speech, Qwen3-1.7B as an Apache-2.0 multilingual open-weight conversation model, and Kokoro-82M for supported on-device TTS locales. These are research candidates only: their model files and runtimes are **not bundled or integrated yet**. Model downloads, storage, RAM, device performance, and each exact model/voice license must be checked before adding them. No paid API is required by the current app.
+
+
+## Custom skills
+
+LEO includes a local custom Skills Builder. Users can create up to 50 named skill profiles with a description, custom instruction text, trigger words, and a selected built-in workflow (assistant, coding, app development, writing, learning, translation, or language practice). Skills can be activated, deactivated, and deleted. Profiles are stored in browser local storage on the current device and are not synced across devices.
+
+Important limitation: this standalone deterministic engine can save and select a skill profile and choose a built-in workflow, but it does not yet have a general-purpose language model capable of reliably following arbitrary custom instructions. The builder is a foundation for future model-backed skills, not a claim of Gemini-level custom Gem intelligence. Do not store passwords or sensitive data in skills.
