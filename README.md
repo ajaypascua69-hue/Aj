@@ -15,7 +15,7 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 - Browser speech input where supported
 - Optional spoken replies using browser speech synthesis
 - Refresh button to re-check the currently available free model list
-- Export completed chat history as a plain-text file directly on the device
+- User-controlled knowledge library: save reviewed assistant answers or notes, retrieve matching saved items in later prompts, and delete saved entries\n- Knowledge library is stored locally in the browser on that device; it does not train model weights or sync across devices\n- Export completed chat history as a plain-text file directly on the device
 - Online-only web app; an internet connection is required and app pages are not cached for offline use
 - No private API keys stored in this public repository
 
@@ -50,7 +50,7 @@ Then open http://localhost:8000.
 
 ## Online-only behavior and settings
 
-LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. Settings let users choose response style, reply language, and Enter-to-send behavior.
+LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. Settings let users choose response style, reply language, and Enter-to-send behavior. The Knowledge button opens a local library: users must explicitly save answers or add notes, and matching saved notes are added as context to later prompts. LEO does not automatically scrape websites or copy proprietary model outputs, and saving notes does not retrain the underlying model.
 
 ## Security
 
