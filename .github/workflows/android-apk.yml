@@ -25,7 +25,8 @@ on:
     branches: [main]
     paths:
       - 'index.html'
-      - 'auth.js'\n      - 'usb-storage.js'
+      - 'auth.js'
+      - 'usb-storage.js'
       - 'auth.css'
       - 'app.js'
       - 'app-builder.js'
