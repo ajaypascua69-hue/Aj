@@ -13,11 +13,15 @@ AJ is a directory and learning hub for discovering AI app builders, coding assis
 - Practical guidance for choosing tools and reviewing AI-generated code
 - Security reminders for API keys and public repositories
 
-## Use AJ
+## Use AJ and publish your own work
 
-You may access the live website or download the repository and run an unmodified copy for your personal use, subject to the terms in [LICENSE](LICENSE).
+You may download, install, and use an unmodified copy of AJ. You may also use AJ to learn about tools and create your own independent projects.
 
-This repository is public so that the project can be viewed and downloaded. Public visibility does not mean that the project is open source or that modification and redistribution are permitted.
+**You are allowed to publish, share, distribute, display, and sell your own work created using AJ.** You retain ownership of the original work you create, subject to third-party licenses and terms that apply to any tools, code, models, or materials you use.
+
+This permission does not allow you to modify, rebrand, resell, or redistribute AJ itself or claim AJ as your own. See [LICENSE](LICENSE) for the complete terms.
+
+This repository is public so that the project can be viewed and downloaded. Public visibility does not make AJ open source or grant permission to modify or redistribute AJ.
 
 ## Run locally
 
@@ -38,9 +42,7 @@ This is a static website. No build step or package installation is required.
 
 Copyright (c) 2026 AJ. All rights reserved.
 
-The license permits personal downloading, installation, and use of an unmodified copy. Modification, adaptation, redistribution, resale, sublicensing, and commercial exploitation are not permitted without prior written permission from the copyright owner.
-
-Third-party tools, models, libraries, and services referenced by this project remain subject to their own terms and licenses.
+You may use an unmodified copy of AJ and publish, share, distribute, display, or sell your own independently created work. You may not modify, rebrand, or redistribute AJ itself without prior written permission. Third-party materials remain subject to their own licenses and terms.
 
 ## Security
 
