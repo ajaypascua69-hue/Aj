@@ -6,6 +6,12 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Build
+import android.graphics.Bitmap
+import android.graphics.Rect
+import android.view.Display
+import com.google.mlkit.vision.common.InputImage
+import com.google.mlkit.vision.label.ImageLabeling
+import com.google.mlkit.vision.label.defaults.ImageLabelerOptions
 import android.speech.tts.TextToSpeech
 import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
@@ -53,6 +59,19 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
 
     override fun onAccessibilityEvent(event: AccessibilityEvent?) {
         if (!ready || event == null || !prefs.getBoolean("speak_events", true)) return
+        if (event.eventType == AccessibilityEvent.TYPE_VIEW_ACCESSIBILITY_FOCUSED ||
+            event.eventType == AccessibilityEvent.TYPE_VIEW_FOCUSED) {
+            val focused = event.source
+            if (focused != null) {
+                val label = (focused.text ?: focused.contentDescription)?.toString()?.trim()
+                val isImage = focused.className?.toString()?.contains("Image", true) == true
+                if (!label.isNullOrBlank()) speak(label)
+                else if (isImage) describeSelectedImage(focused)
+                else if (focused.isClickable) speak("Selected control")
+                focused.recycle()
+                return
+            }
+        }
         val parts = mutableListOf<String>()
         if (prefs.getBoolean("read_labels", true)) {
             event.text.mapNotNullTo(parts) { it?.toString()?.trim()?.takeIf(String::isNotEmpty) }
@@ -70,6 +89,54 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
             applySpeechRate()
             tts?.speak(message, TextToSpeech.QUEUE_ADD, null, "accessible-event")
         }
+    }
+
+
+    private fun describeSelectedImage(node: AccessibilityNodeInfo) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.R) {
+            speak("Image selected. This Android version does not support image recognition here.")
+            return
+        }
+        val bounds = Rect()
+        node.getBoundsInScreen(bounds)
+        if (bounds.isEmpty) {
+            speak("Image selected, but its picture area is unavailable.")
+            return
+        }
+        speak("Analyzing selected image.")
+        takeScreenshot(Display.DEFAULT_DISPLAY, mainExecutor, object : TakeScreenshotCallback() {
+            override fun onSuccess(screenshot: ScreenshotResult) {
+                val hardwareBitmap = Bitmap.wrapHardwareBuffer(screenshot.hardwareBuffer, screenshot.colorSpace)
+                screenshot.hardwareBuffer.close()
+                if (hardwareBitmap == null) {
+                    speak("I could not read this image.")
+                    return
+                }
+                val screen = hardwareBitmap.copy(Bitmap.Config.ARGB_8888, false)
+                hardwareBitmap.recycle()
+                val left = bounds.left.coerceIn(0, screen.width - 1)
+                val top = bounds.top.coerceIn(0, screen.height - 1)
+                val right = bounds.right.coerceIn(left + 1, screen.width)
+                val bottom = bounds.bottom.coerceIn(top + 1, screen.height)
+                val crop = Bitmap.createBitmap(screen, left, top, right - left, bottom - top)
+                screen.recycle()
+                val labeler = ImageLabeling.getClient(ImageLabelerOptions.DEFAULT_OPTIONS)
+                labeler.process(InputImage.fromBitmap(crop, 0))
+                    .addOnSuccessListener { labels ->
+                        val words = labels.sortedByDescending { it.confidence }.take(3).map { it.text }
+                        speak(if (words.isEmpty()) "I could not identify the contents of this photo."
+                              else "Image description: " + words.joinToString(", "))
+                    }
+                    .addOnFailureListener { speak("I could not describe this image.") }
+                    .addOnCompleteListener {
+                        crop.recycle()
+                        labeler.close()
+                    }
+            }
+            override fun onFailure(errorCode: Int) {
+                speak("Image recognition is unavailable for this screen.")
+            }
+        })
     }
 
     private fun collectUsefulLabels(node: AccessibilityNodeInfo, out: MutableList<String>, depth: Int) {
