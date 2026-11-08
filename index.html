@@ -2,40 +2,31 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#090d18"><meta name="description" content="LEO AI — a multilingual AI assistant for learning, writing, coding and creativity.">
-<title>LEO AI — Your AI assistant</title>
+<meta name="theme-color" content="#090d18"><meta name="description" content="LEO AI — a multilingual assistant using available free AI models.">
+<title>LEO AI — Free AI assistant</title>
 <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
 <script src="https://js.puter.com/v2/"></script><script src="app.js" defer></script>
 </head>
 <body>
-<header class="topbar"><a class="brand" href="./"><span class="brand-mark">L</span> LEO <i>AI</i></a><div class="top-actions"><span class="status" id="model-status">Loading AI models…</span><button class="small-btn" id="new-chat">＋ New chat</button></div></header>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">L</span> LEO <i>AI</i></a><div class="top-actions"><span class="status" id="model-status">Checking free models…</span><button class="small-btn" id="new-chat" type="button">＋ New chat</button></div></header>
 <main class="app-shell">
-<aside class="sidebar"><p class="side-label">YOUR WORKSPACE</p><button class="side-action" id="side-new">＋ New conversation</button><p class="side-label">EXPLORE LEO</p>
-<button class="side-link" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples.">文　Language practice</button>
-<button class="side-link" data-prompt="Explain a difficult topic in simple language with examples.">✦　Learn something</button>
-<button class="side-link" data-prompt="Help me plan, write, and debug a software project.">⌘　Coding assistant</button>
-<button class="side-link" data-prompt="Help me write a clear and polished piece of writing.">✎　Writing assistant</button>
-<button class="side-link" id="open-image-studio">▧　AI Image Studio</button>
-<div class="sidebar-note"><strong>Free-first AI</strong><p>Free chat models appear first. Paid models and image generation are clearly labelled before use.</p></div>
+<aside class="sidebar"><p class="side-label">YOUR WORKSPACE</p><button class="side-action" id="side-new" type="button">＋ New conversation</button><p class="side-label">EXPLORE LEO</p>
+<button class="side-link" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples." type="button">文　Language practice</button>
+<button class="side-link" data-prompt="Explain a difficult topic in simple language with examples." type="button">✦　Learn something</button>
+<button class="side-link" data-prompt="Help me plan, write, and debug a software project." type="button">⌘　Coding assistant</button>
+<button class="side-link" data-prompt="Help me write a clear and polished piece of writing." type="button">✎　Writing assistant</button>
+<div class="sidebar-note"><strong>Free models only</strong><p>LEO lists only models explicitly marked free. If no free model is available, chat is disabled instead of switching to a paid model.</p></div>
 <a class="repo-link" href="https://github.com/ajaypascua69-hue/Aj" target="_blank" rel="noopener">View project on GitHub ↗</a></aside>
 <section class="chat-panel" aria-label="LEO AI chat">
-<div class="welcome" id="welcome"><div class="hero-orb">✦</div><p class="eyebrow">YOUR AI, YOUR IDEAS</p><h1>What can I help<br><span>you with today?</span></h1><p class="welcome-copy">Chat, understand images, create artwork, write, learn, and build. Explore AI models from multiple providers.</p>
+<div class="welcome" id="welcome"><div class="hero-orb">✦</div><p class="eyebrow">FREE-MODEL AI ASSISTANT</p><h1>What can I help<br><span>you with today?</span></h1><p class="welcome-copy">Chat in multiple languages, learn, write, brainstorm, and get help with code. LEO only offers AI models listed as free.</p>
 <div class="suggestions">
-<button class="suggestion" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples."><b>文</b><span><strong>Practice a language</strong><small>Learn phrases and vocabulary</small></span>↗</button>
-<button class="suggestion" data-prompt="Explain how artificial intelligence works in simple terms."><b>✧</b><span><strong>Understand a topic</strong><small>Clear explanations and examples</small></span>↗</button>
-<button class="suggestion" data-prompt="Help me create a simple website. Start with a plan and beginner-friendly code."><b>⌘</b><span><strong>Build with code</strong><small>Plan, create, and debug</small></span>↗</button>
-<button class="suggestion" id="welcome-image-studio"><b>▧</b><span><strong>Create an image</strong><small>Turn a prompt into artwork</small></span>↗</button>
+<button class="suggestion" data-prompt="Teach me five useful Japanese phrases with pronunciation and examples." type="button"><b>文</b><span><strong>Practice a language</strong><small>Learn phrases and vocabulary</small></span>↗</button>
+<button class="suggestion" data-prompt="Explain how artificial intelligence works in simple terms." type="button"><b>✧</b><span><strong>Understand a topic</strong><small>Clear explanations and examples</small></span>↗</button>
+<button class="suggestion" data-prompt="Help me create a simple website. Start with a plan and beginner-friendly code." type="button"><b>⌘</b><span><strong>Build with code</strong><small>Plan, create, and debug</small></span>↗</button>
+<button class="suggestion" data-prompt="Help me practice English conversation. Correct my grammar kindly." type="button"><b>文</b><span><strong>Practice English</strong><small>Conversation and grammar</small></span>↗</button>
 </div></div>
 <div class="messages" id="messages" aria-live="polite" hidden></div>
-<section class="image-studio" id="image-studio" hidden aria-label="AI image studio">
-<div class="studio-heading"><div><p class="eyebrow">LEO CREATIVE</p><h2>AI Image Studio</h2><p>Create a new image or transform a reference image.</p></div><button class="text-btn" id="close-image-studio" type="button">Close ✕</button></div>
-<label for="image-prompt">DESCRIBE YOUR IMAGE</label><textarea id="image-prompt" rows="3" maxlength="4000" placeholder="A cinematic view of a futuristic Manila skyline at sunset, detailed digital art…"></textarea>
-<div class="studio-controls"><label class="reference-label" for="reference-image">＋ Add reference image (optional)</label><input id="reference-image" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden><span id="reference-name" class="reference-name">No reference image</span>
-<label for="image-model">IMAGE MODEL</label><select id="image-model"><option value="black-forest-labs/flux-schnell">FLUX.1 Schnell · about $0.0027/image</option><option value="openai/gpt-image-2.6-flare">GPT Image 2.6 Flare · paid</option><option value="openai/gpt-image-2.6-sunburst">GPT Image 2.6 Sunburst · paid</option><option value="gemini-3.1-flash-image">Gemini 3.1 Flash Image · paid/availability varies</option></select></div>
-<p class="studio-cost">Image generation is not guaranteed free. The selected FLUX model is listed at about US$0.0027 per image; other models may cost more. Your provider account may require sign-in or payment.</p>
-<button class="generate-btn" id="generate-image" type="button">✦ Generate image</button><div class="image-result" id="image-result" aria-live="polite"></div>
-</section>
-<div class="composer-wrap"><div class="model-row"><label for="model-select">CHAT MODEL</label><select id="model-select"><option>Loading available models…</option></select><button class="text-btn" id="image-studio-toggle" type="button">▧ Image Studio</button><button class="text-btn" id="voice-output" type="button" aria-pressed="false">◖ Voice off</button></div>
-<form class="composer" id="chat-form"><label class="attach-btn" for="attachment" title="Attach an image for LEO to understand">＋</label><input id="attachment" type="file" accept="image/*" hidden><textarea id="prompt" rows="1" maxlength="12000" placeholder="Message LEO AI…" aria-label="Message LEO AI"></textarea><button class="mic-btn" id="mic-button" type="button" aria-label="Voice input">🎙</button><button class="send-btn" id="send-button" type="submit" aria-label="Send message">↑</button></form><div class="attachment-name" id="attachment-name" hidden></div><p class="disclaimer">LEO can make mistakes. Check important information. <a href="https://docs.puter.com/AI/" target="_blank" rel="noopener">AI service details</a>.</p></div>
-</section></main><div class="toast" id="toast" role="status"></div><footer class="mobile-footer">LEO AI · Free-first tools · <a href="https://github.com/ajaypascua69-hue/Aj">Project files</a></footer>
+<div class="composer-wrap"><div class="model-row"><label for="model-select">FREE CHAT MODEL</label><select id="model-select" aria-label="Choose a free AI model"><option value="">Checking free models…</option></select><button class="text-btn" id="voice-output" type="button" aria-pressed="false">◖ Voice off</button></div>
+<form class="composer" id="chat-form"><textarea id="prompt" rows="1" maxlength="12000" placeholder="Message LEO AI…" aria-label="Message LEO AI"></textarea><button class="mic-btn" id="mic-button" type="button" aria-label="Voice input">🎙</button><button class="send-btn" id="send-button" type="submit" aria-label="Send message">↑</button></form><p class="disclaimer">Free model availability and quotas depend on the AI provider. LEO never automatically selects a paid model. <a href="https://docs.puter.com/AI/" target="_blank" rel="noopener">Service details</a>.</p></div>
+</section></main><div class="toast" id="toast" role="status"></div><footer class="mobile-footer">LEO AI · Free models only · <a href="https://github.com/ajaypascua69-hue/Aj">Project files</a></footer>
 </body></html>
