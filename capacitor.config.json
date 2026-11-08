@@ -1,0 +1,8 @@
+{
+  "appId": "com.ajaypascua.leoai",
+  "appName": "LEO AI",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}
