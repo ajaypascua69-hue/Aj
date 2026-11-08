@@ -1,0 +1,16 @@
+{
+  "name": "leo-ai-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free Android wrapper build for LEO AI",
+  "scripts": {
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/android": "^7.0.0"
+  }
+}
