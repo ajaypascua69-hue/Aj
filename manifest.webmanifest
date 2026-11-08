@@ -1,20 +1,13 @@
 {
   "id": "./",
-  "name": "AJ — AI Development Hub",
-  "short_name": "AJ",
-  "description": "Discover AI app builders, coding agents, open models and practical developer guides.",
+  "name": "LEO AI — Your AI Assistant",
+  "short_name": "LEO AI",
+  "description": "A multilingual AI assistant for learning, writing and coding.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#080d1b",
-  "theme_color": "#080d1b",
-  "icons": [
-    {
-      "src": "icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
-  ]
+  "background_color": "#090d18",
+  "theme_color": "#090d18",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }
