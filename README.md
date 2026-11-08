@@ -9,6 +9,8 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 - Responsive chat interface for desktop and Android browsers
 - Multilingual conversations, subject to the selected model's capabilities
 - Dynamic model list filtered to explicitly free model variants only
+- Task modes for general assistance, coding, app development, writing, learning, and translation
+- Coding and app-development guidance for project planning, architecture, accessible UI, file-by-file code, build steps, and testing
 - No paid model fallback: if no free model is listed or available, LEO disables chat rather than selecting a paid model
 - Browser speech input where supported
 - Optional spoken replies using browser speech synthesis
