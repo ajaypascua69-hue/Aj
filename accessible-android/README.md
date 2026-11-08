@@ -1,9 +1,9 @@
-# Accessible for Android
+# Accessible - 2 for Android
 
-Accessible is an experimental Android accessibility-service project. The existing AJ website remains at the repository root; this native Android project is isolated in `accessible-android/`.
+Accessible - 2 is an experimental Android accessibility-service project. The existing AJ website remains at the repository root; this native Android project is isolated in `accessible-android/`.
 
 ## Build and install a test APK
-GitHub Actions builds a debug APK when changes are pushed to this folder. Download the artifact named **Accessible-debug-apk** from the Actions run. Install the APK on your Android device, then open Accessible and enable **Accessible Screen Reader** in Android Accessibility Settings.
+GitHub Actions builds a debug APK when changes are pushed to this folder. Download the artifact named **Accessible-2-debug-apk** from the Actions run. Install the APK on your Android device, then open Accessible - 2 and enable **Accessible - 2 Screen Reader** in Android Accessibility Settings.
 
 ## Current prototype scope
 - Speaks text and accessibility labels exposed by Android apps.
