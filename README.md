@@ -9,7 +9,8 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 - Responsive chat interface for desktop and Android browsers
 - Multilingual conversations, subject to the selected model's capabilities
 - Dynamic model list filtered to explicitly free model variants only
-- Task modes for general assistance, coding, app development, writing, learning, and translation
+- Task modes for general assistance, personal assistance, coding, app development, writing, learning, and translation
+- Personal assistant workspace with a device-local task list (add, complete, and delete tasks)
 - Coding and app-development guidance for project planning, architecture, accessible UI, file-by-file code, build steps, and testing
 - No paid model fallback: if no free model is listed or available, LEO disables chat rather than selecting a paid model
 - Browser speech input where supported
@@ -50,7 +51,7 @@ Then open http://localhost:8000.
 
 ## Online-only behavior and settings
 
-LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. Settings let users choose response style, reply language, and Enter-to-send behavior. The Knowledge button opens a local library: users must explicitly save answers or add notes with HTTPS source links and confirm that they checked the sources. The default evidence standard requires two independent sources; an alternative allows one authoritative primary source. Entries are labelled source-reviewed by the user, not independently certified, because this static browser app cannot fetch and verify source contents itself. Matching saved notes and source links are added as context to later prompts. LEO does not automatically scrape websites or copy proprietary model outputs, and saving notes does not retrain the underlying model.
+LEO requires an internet connection. It does not register a service worker or provide offline app-shell caching. On launch it attempts to unregister older service workers and clear old Cache Storage entries created by previous versions. The Personal assistant mode helps plan days, prioritize tasks, create checklists, and draft messages. The My tasks panel stores up to 100 simple tasks in this browser's local storage; it is not a cloud-synced task service and cannot notify users while the app is closed. Settings let users choose response style, reply language, and Enter-to-send behavior. The Knowledge button opens a local library: users must explicitly save answers or add notes with HTTPS source links and confirm that they checked the sources. The default evidence standard requires two independent sources; an alternative allows one authoritative primary source. Entries are labelled source-reviewed by the user, not independently certified, because this static browser app cannot fetch and verify source contents itself. Matching saved notes and source links are added as context to later prompts. LEO does not automatically scrape websites or copy proprietary model outputs, and saving notes does not retrain the underlying model.
 
 ## Security
 
