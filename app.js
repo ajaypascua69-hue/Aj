@@ -1,5 +1,5 @@
 (() => {
- const $=s=>document.querySelector(s),form=$('#chat-form'),input=$('#prompt'),messagesEl=$('#messages'),welcome=$('#welcome'),modelSelect=$('#model-select'),sendButton=$('#send-button'),statusEl=$('#model-status'),voiceButton=$('#voice-output');
+ const $=s=>document.querySelector(s),form=$('#chat-form'),input=$('#prompt'),messagesEl=$('#messages'),welcome=$('#welcome'),modelSelect=$('#model-select'),sendButton=$('#send-button'),statusEl=$('#model-status'),voiceButton=$('#voice-output'),refreshButton=$('#refresh-models'),exportButton=$('#export-chat');
  let history=[],busy=false,speakReplies=false,freeModels=[];
  const systemPrompt='You are LEO AI, a helpful, thoughtful, multilingual assistant. Help with learning, writing, coding, reasoning and accessibility. Reply in the language the user uses unless they request another. Be accurate and honest. Never claim to have performed actions you did not perform.';
  function toast(t){const e=$('#toast');e.textContent=t;e.classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>e.classList.remove('show'),2800);}
@@ -12,11 +12,13 @@
  form.addEventListener('submit',e=>{e.preventDefault();send(input.value.trim());});
  input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();form.requestSubmit();}});
  input.addEventListener('input',()=>{input.style.height='auto';input.style.height=Math.min(input.scrollHeight,170)+'px';});
- function newChat(){history=[];messagesEl.replaceChildren();messagesEl.hidden=true;welcome.hidden=false;input.value='';input.focus();}
+ function newChat(){history=[];messagesEl.replaceChildren();messagesEl.hidden=true;welcome.hidden=false;input.value='';input.focus();toast('Started a new conversation');}
+ refreshButton.addEventListener('click',async()=>{refreshButton.disabled=true;refreshButton.textContent='Checking…';await loadModels();refreshButton.disabled=false;refreshButton.textContent='↻ Refresh free models';toast(freeModels.length?'Free model list refreshed':'No free models are currently listed');});
+ exportButton.addEventListener('click',()=>{if(!history.length){toast('There is no completed conversation to export yet.');return;}const lines=['LEO AI conversation','Exported: '+new Date().toLocaleString(),''];for(const m of history){lines.push((m.role==='user'?'You':'LEO AI')+':',m.content,'');}const blob=new Blob([lines.join('\\n')],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='leo-ai-conversation.txt';document.body.append(a);a.click();a.remove();URL.revokeObjectURL(url);toast('Conversation exported');});
  $('#new-chat').addEventListener('click',newChat);$('#side-new').addEventListener('click',newChat);
  document.querySelectorAll('[data-prompt]').forEach(b=>b.addEventListener('click',()=>{input.value=b.dataset.prompt;input.focus();input.style.height='auto';input.style.height=Math.min(input.scrollHeight,170)+'px';}));
  voiceButton.addEventListener('click',()=>{speakReplies=!speakReplies;voiceButton.setAttribute('aria-pressed',String(speakReplies));voiceButton.textContent=speakReplies?'◖ Voice on':'◖ Voice off';if(!speakReplies&&'speechSynthesis'in window)speechSynthesis.cancel();});
- const SR=window.SpeechRecognition||window.webkitSpeechRecognition,mic=$('#mic-button');if(SR){mic.addEventListener('click',()=>{const rec=new SR();rec.lang=navigator.language||'en-US';rec.interimResults=false;rec.onresult=e=>{input.value+=(input.value?' ':'')+e.results[0][0].transcript;input.focus();};rec.onerror=()=>toast('Voice input is unavailable');rec.start();toast('Listening…');});}else{mic.disabled=true;mic.title='Voice input is not supported by this browser';}
+ const SR=window.SpeechRecognition||window.webkitSpeechRecognition,mic=$('#mic-button');if(SR){mic.addEventListener('click',()=>{const rec=new SR();rec.lang=navigator.language||'en-US';rec.interimResults=false;rec.onresult=e=>{input.value+=(input.value?' ':'')+e.results[0][0].transcript;input.focus();};rec.onerror=()=>toast('Voice input is unavailable');rec.onend=()=>mic.removeAttribute('aria-busy');mic.setAttribute('aria-busy','true');try{rec.start();toast('Listening…');}catch{mic.removeAttribute('aria-busy');toast('Voice input could not start');}});}else{mic.disabled=true;mic.title='Voice input is not supported by this browser';}
  if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./service-worker.js').catch(console.warn));
  loadModels();
 })();
