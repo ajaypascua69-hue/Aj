@@ -16,7 +16,7 @@ import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.Preview
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.camera.view.PreviewView
-import androidx.core.app.ActivityCompat
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
 import com.google.mlkit.vision.common.InputImage
@@ -46,6 +46,14 @@ class VisionActivity : ComponentActivity(), TextToSpeech.OnInitListener {
     private var lastSpoken = ""
     @Volatile private var paused = false
     private var speechReady = false
+    private val cameraPermissionLauncher by lazy {
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+            if (granted) startCamera() else {
+                status.text = "Camera permission is needed for live visual assistance."
+                speak("Camera permission was not granted.")
+            }
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -108,18 +116,7 @@ class VisionActivity : ComponentActivity(), TextToSpeech.OnInitListener {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED) {
             startCamera()
         } else {
-            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.CAMERA), CAMERA_REQUEST)
-        }
-    }
-
-    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
-        if (requestCode == CAMERA_REQUEST) {
-            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) startCamera()
-            else {
-                status.text = "Camera permission is needed for live visual assistance."
-                speak("Camera permission was not granted.")
-            }
+            cameraPermissionLauncher.launch(Manifest.permission.CAMERA)
         }
     }
 
@@ -224,5 +221,4 @@ class VisionActivity : ComponentActivity(), TextToSpeech.OnInitListener {
         super.onDestroy()
     }
 
-    companion object { private const val CAMERA_REQUEST = 4812 }
 }
