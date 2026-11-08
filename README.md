@@ -58,3 +58,10 @@ LEO runs without external AI inference providers. This separation means provider
 - Choose a practice language in Settings; browser speech recognition and speech synthesis use the matching locale when available.
 - Actual voice availability, accent, and naturalness depend on speech voices installed by the user's Android device or browser. This feature does not train a speech model or guarantee native-level pronunciation.
 - Phrase examples are starter material and should be reviewed by fluent speakers before being treated as authoritative.
+
+
+## Multilingual voice and conversation status
+
+LEO now has a small best-effort language detector and improved selection of the device's installed speech voice for replies. Browser speech recognition remains browser/device dependent and may require internet. This is not a full conversational language model, does not reliably identify accents or code-switching, and does not provide offline speech recognition by itself.
+
+A permission-aware implementation plan is in [MULTILINGUAL-ROADMAP.md](MULTILINGUAL-ROADMAP.md). Candidate components include sherpa-onnx for native offline Android speech, Qwen3-1.7B as an Apache-2.0 multilingual open-weight conversation model, and Kokoro-82M for supported on-device TTS locales. These are research candidates only: their model files and runtimes are **not bundled or integrated yet**. Model downloads, storage, RAM, device performance, and each exact model/voice license must be checked before adding them. No paid API is required by the current app.
