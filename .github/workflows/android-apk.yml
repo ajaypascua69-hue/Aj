@@ -107,13 +107,9 @@ jobs:
           python3 - <<'PY'
           from pathlib import Path
           p = Path('gradle/wrapper/gradle-wrapper.properties')
-          s = p.read_text()
-          if 'networkTimeout=' in s:
-              import re
-              s = re.sub(r'networkTimeout=\\d+', 'networkTimeout=120000', s)
-          else:
-              s += '\\nnetworkTimeout=120000\\n'
-          p.write_text(s)
+          lines = [line for line in p.read_text().splitlines() if not line.startswith('networkTimeout=')]
+          lines.append('networkTimeout=120000')
+          p.write_text('\n'.join(lines) + '\n')
           PY
       - name: Build debug APK and release App Bundle
         working-directory: android
