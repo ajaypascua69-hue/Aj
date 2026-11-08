@@ -8,7 +8,7 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 
 - Responsive chat interface for desktop and Android browsers
 - Multilingual conversations, subject to the selected model's capabilities
-- Dynamic model list filtered to explicitly free model variants only
+- Dynamic model list filtered to explicitly free model variants only, with provider, context-window, and output-limit metadata when exposed by the provider
 - Task modes for general assistance, personal assistance, coding, app development, writing, learning, and translation
 - Personal assistant workspace with a device-local task list (add, complete, and delete tasks)
 - Coding and app-development guidance for project planning, architecture, accessible UI, file-by-file code, build steps, and testing
@@ -24,7 +24,7 @@ AJ hosts **LEO AI**, a multilingual assistant interface configured to use only A
 
 The repository source and GitHub Pages static hosting can be used without a hosting fee under their applicable free-tier terms. LEO's AI chat is routed through Puter.js. The app filters the model catalogue to model IDs ending in `:free` and never automatically chooses a paid model.
 
-Free models can have rate limits, quotas, temporary outages, sign-in requirements, or availability changes. A model marked free today may later disappear or change terms. The app will stop offering chat if it cannot find a free model. This project does not promise unlimited AI usage or guarantee that a third-party provider will always keep a free model available.
+The model picker displays provider metadata such as context-window and maximum output-token limits when available. These are provider-reported catalogue details, not independent performance benchmarks. Free models can have rate limits, quotas, temporary outages, sign-in requirements, or availability changes. A model marked free today may later disappear or change terms. The app will stop offering chat if it cannot find a free model. This project does not promise unlimited AI usage or guarantee that a third-party provider will always keep a free model available.
 
 LEO intentionally does not include paid image generation or paid model choices. It also includes a local conversation export feature; exported text is created in the browser and is not uploaded by that feature. Browser speech features use the browser/device and may not be supported everywhere.
 
