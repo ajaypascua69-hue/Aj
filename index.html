@@ -1,14 +1,94 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="AJ — Open Source AI Development Hub"><meta name="theme-color" content="#0b1020"><title>AJ — AI Development Hub</title>
-<style>
-:root{color-scheme:dark;--bg:#0b1020;--panel:#141e34;--muted:#aab6d1;--line:#2b3855;--a:#a99cff;--c:#5ce2d5}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0,#292456 0,transparent 38%),var(--bg);color:#edf2ff;font:16px/1.65 system-ui,Arial}a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}header{position:sticky;top:0;background:#0b1020ed;border-bottom:1px solid var(--line);z-index:2}nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;font-size:1.25rem;letter-spacing:.06em}.brand b{display:inline-grid;place-items:center;background:linear-gradient(135deg,var(--a),var(--c));color:#07111e;border-radius:12px;width:38px;height:38px;margin-right:9px}nav div:last-child{display:flex;gap:22px;color:var(--muted)}.hero{padding:86px 0 62px;max-width:800px}.eyebrow{color:var(--c);font-weight:800;letter-spacing:.15em;text-transform:uppercase;font-size:.8rem}h1{font-size:clamp(2.7rem,7vw,5rem);line-height:1.06;letter-spacing:-.05em;margin:15px 0}.gradient{background:linear-gradient(90deg,var(--a),var(--c));color:transparent;background-clip:text}.lead{font-size:1.15rem;color:var(--muted);max-width:680px}.btn{display:inline-block;margin:16px 10px 0 0;padding:12px 18px;border:1px solid var(--line);border-radius:12px;font-weight:750}.primary{background:linear-gradient(110deg,var(--a),var(--c));color:#07111e;border:0}.section{padding:42px 0}.section h2{font-size:2rem;margin-bottom:5px}.muted,p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,#17233c,#111a2d);border:1px solid var(--line);border-radius:16px;padding:21px}.card h3{margin:4px 0 8px}.tag{font-size:.78rem;color:var(--c);font-weight:750}.tablewrap{overflow:auto;border:1px solid var(--line);border-radius:14px}table{width:100%;border-collapse:collapse;min-width:550px}th,td{text-align:left;padding:14px;border-bottom:1px solid var(--line)}th{color:var(--c)}code{background:#080e1b;padding:3px 6px;border-radius:5px}footer{border-top:1px solid var(--line);margin-top:45px;padding:28px 0;color:var(--muted)}@media(max-width:700px){nav div:last-child{gap:10px;font-size:.82rem}.grid{grid-template-columns:1fr}.hero{padding:55px 0 35px}}
-</style></head><body>
-<header><nav class="wrap"><a class="brand" href="#"><b>AJ</b> AJ / DEV HUB</a><div><a href="#builders">Builders</a><a href="#agents">Agents</a><a href="#models">Models</a><a href="#guide">Guide</a></div></nav></header>
-<main class="wrap"><section class="hero"><div class="eyebrow">Build freely. Own your code.</div><h1>Your ideas.<br><span class="gradient">Your AI toolkit.</span></h1><p class="lead">Explore an open-source ecosystem for building full-stack apps, connecting your own APIs, running local AI models, and fixing bugs with developer agents.</p><a class="btn primary" href="#builders">Explore the toolkit →</a><a class="btn" href="#guide">Get started</a></section>
-<section class="grid"><article class="card"><div class="tag">OPEN SOURCE</div><h3>Own your code</h3><p>Inspect, customize and control your projects.</p></article><article class="card"><div class="tag">YOUR API KEYS</div><h3>Bring your keys</h3><p>Connect supported AI providers and services securely.</p></article><article class="card"><div class="tag">LOCAL FIRST</div><h3>Run local models</h3><p>Use compatible models on hardware that supports them.</p></article></section>
-<section id="builders" class="section"><div class="eyebrow">01 / Create</div><h2>Open-source app builders</h2><p>Tools to scaffold applications, edit project files and preview what you're making.</p><div class="grid"><article class="card"><h3>Dyad</h3><p>Open-source desktop app builder for creating web applications with natural-language prompts and direct code access. Check current provider support and setup requirements.</p><span class="tag">Desktop app builder</span></article><article class="card"><h3>LoomCode AI</h3><p>Included in the supplied toolkit as a rapid app-generation option. Verify its current source, maintenance and security before installing.</p><span class="tag">Research before use</span></article><article class="card"><h3>Full-stack workflow</h3><p>Combine frontend, backend, database and authentication services to turn a prototype into a deployable app.</p><span class="tag">Build end to end</span></article></div></section>
-<section id="agents" class="section"><div class="eyebrow">02 / Improve</div><h2>Autonomous coding agents</h2><div class="grid"><article class="card"><h3>Aider</h3><p>Terminal-based AI pair programming in a Git repository. Edit files, debug and create Git commits as part of your workflow.</p></article><article class="card"><h3>GPT Engineer</h3><p>Use project specifications to scaffold application code and directory structures. Review generated code and dependencies.</p></article><article class="card"><h3>Continue / Kilo</h3><p>IDE-based coding assistants for working inside supported editors. Check current features and provider support.</p></article></div></section>
-<section id="models" class="section"><div class="eyebrow">03 / Power</div><h2>Open-weight AI models</h2><p>Choose based on task, hardware, license and current availability.</p><div class="tablewrap"><table><thead><tr><th>Model family</th><th>Strengths to evaluate</th><th>Potential use</th></tr></thead><tbody><tr><td>Qwen</td><td>Reasoning and code generation</td><td>Full-stack logic and debugging</td></tr><tr><td>DeepSeek</td><td>Reasoning and problem solving</td><td>Complex bugs and algorithms</td></tr><tr><td>Llama</td><td>Broad language and coding ecosystem</td><td>Code review and assistant workflows</td></tr></tbody></table></div></section>
-<section id="guide" class="section"><div class="eyebrow">04 / Launch</div><h2>Recommended setup guide</h2><div class="grid"><article class="card"><h3>1. Install a local model runner</h3><p>Install Ollama if your device supports it, then choose a model that fits available memory.</p><code>ollama pull qwen2.5-coder</code></article><article class="card"><h3>2. Scaffold an app</h3><p>Choose an app builder, configure a supported model provider, and generate a small starter project.</p></article><article class="card"><h3>3. Review and test</h3><p>Inspect every change, run tests and commit working versions to Git.</p><code>pip install aider-chat</code></article></div><p class="muted">Security: Never paste API keys into public repositories or frontend code. Use server-side environment variables or a secure secrets manager.</p></section></main>
-<footer><div class="wrap"><strong>AJ — Open Source AI Development Hub</strong><br>Build freely. Learn continuously. <span style="float:right">© AJ</span></div></footer>
-</body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="AJ — Open Source AI Development Hub. Discover app builders, coding agents, open models and practical developer guides.">
+<meta name="theme-color" content="#080d1b">
+<title>AJ — Open Source AI Development Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+ <nav class="wrap nav" aria-label="Main navigation">
+  <a class="brand" href="#top"><span class="brand-mark">AJ</span><span>AJ / DEV HUB</span></a>
+  <div class="nav-links" data-nav>
+   <a href="#builders">Builders</a><a href="#agents">Agents</a><a href="#models">Models</a><a href="#guide">Get started</a>
+  </div>
+  <div class="nav-actions"><button class="menu-btn" data-menu-button aria-label="Toggle navigation" aria-expanded="false">Menu</button></div>
+ </nav>
+</header>
+<main id="top" class="wrap">
+ <section class="hero">
+  <div class="eyebrow">Build freely. Own your code.</div>
+  <h1>Your ideas.<br><span class="gradient">Your AI toolkit.</span></h1>
+  <p class="lead">A practical launchpad for discovering open-source app builders, coding agents and AI models. Explore tools, compare options, and follow a clear path from idea to tested project.</p>
+  <div class="actions"><a class="btn primary" href="#toolkit">Explore the toolkit ↗</a><a class="btn" href="#guide">Start building</a></div>
+ </section>
+ <section class="stats" aria-label="What you can explore">
+  <div class="stat"><strong>Build</strong><span>App builders and frameworks</span></div>
+  <div class="stat"><strong>Code</strong><span>AI pair programmers and agents</span></div>
+  <div class="stat"><strong>Learn</strong><span>Models, setup and safe deployment</span></div>
+ </section>
+ <section id="toolkit" class="section">
+  <div class="section-head"><div><div class="eyebrow">01 / Explore</div><h2>Developer toolkit</h2><p class="muted">Search the directory or filter it by what you want to do.</p></div><input class="searchbar" id="tool-search" type="search" placeholder="Search tools…" aria-label="Search tools"></div>
+  <div class="filters" aria-label="Filter tools">
+   <button class="filter" data-filter="all" aria-pressed="true">All tools</button>
+   <button class="filter" data-filter="builder" aria-pressed="false">App builders</button>
+   <button class="filter" data-filter="agent" aria-pressed="false">Coding agents</button>
+   <button class="filter" data-filter="model" aria-pressed="false">AI models</button>
+   <button class="filter" data-filter="platform" aria-pressed="false">Platforms</button>
+  </div>
+  <div class="grid" id="tool-grid">
+   <article class="card tool-card" data-category="builder" data-keywords="visual app builder desktop web app code prompt"><span class="tag">APP BUILDER</span><h3>Dyad</h3><p>Open-source local app builder for creating web apps with AI assistance while keeping access to your code.</p><div class="card-foot"><a class="text-link" href="https://www.dyad.sh/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
+   <article class="card tool-card" data-category="agent" data-keywords="terminal pair programming git coding assistant"><span class="tag">CODING AGENT</span><h3>Aider</h3><p>AI pair programming in your terminal, designed to work with existing codebases and Git.</p><div class="card-foot"><a class="text-link" href="https://aider.chat/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
+   <article class="card tool-card" data-category="agent" data-keywords="ide editor assistant autocomplete chat"><span class="tag">IDE ASSISTANT</span><h3>Continue</h3><p>Open-source AI code assistant for supported development environments. Review its current editor and model integrations.</p><div class="card-foot"><a class="text-link" href="https://www.continue.dev/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
+   <article class="card tool-card" data-category="agent" data-keywords="autonomous software engineering agent openhands"><span class="tag">AI SOFTWARE AGENT</span><h3>OpenHands</h3><p>Open-source platform for AI software-development agents. Check deployment requirements and permissions before use.</p><div class="card-foot"><a class="text-link" href="https://github.com/All-Hands-AI/OpenHands" target="_blank" rel="noopener noreferrer">GitHub project ↗</a></div></article>
+   <article class="card tool-card" data-category="platform" data-keywords="local llm model runner inference"><span class="tag">LOCAL AI</span><h3>Ollama</h3><p>Run supported language models locally on compatible computers and explore model-specific hardware requirements.</p><div class="card-foot"><a class="text-link" href="https://ollama.com/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
+   <article class="card tool-card" data-category="platform" data-keywords="models datasets demos machine learning"><span class="tag">MODEL LIBRARY</span><h3>Hugging Face</h3><p>Discover model cards, datasets and demos. Always read each model's license and usage conditions.</p><div class="card-foot"><a class="text-link" href="https://huggingface.co/models" target="_blank" rel="noopener noreferrer">Explore models ↗</a></div></article>
+   <article class="card tool-card" data-category="model" data-keywords="qwen code reasoning open weights"><span class="tag">MODEL FAMILY</span><h3>Qwen</h3><p>Explore Qwen model variants for coding, reasoning and general tasks; compare model cards and licenses.</p><div class="card-foot"><a class="text-link" href="https://huggingface.co/Qwen" target="_blank" rel="noopener noreferrer">Model collection ↗</a></div></article>
+   <article class="card tool-card" data-category="model" data-keywords="deepseek code reasoning model"><span class="tag">MODEL FAMILY</span><h3>DeepSeek</h3><p>Explore available DeepSeek models and check their capabilities, terms and compute requirements.</p><div class="card-foot"><a class="text-link" href="https://huggingface.co/deepseek-ai" target="_blank" rel="noopener noreferrer">Model collection ↗</a></div></article>
+   <article class="card tool-card" data-category="model" data-keywords="meta llama open models language"><span class="tag">MODEL FAMILY</span><h3>Llama</h3><p>Browse Llama releases and their applicable license terms before choosing a model for your project.</p><div class="card-foot"><a class="text-link" href="https://www.llama.com/" target="_blank" rel="noopener noreferrer">Official website ↗</a></div></article>
+  </div>
+  <p class="empty" id="empty-state" hidden>No tools match your search. Try another word or choose “All tools”.</p>
+ </section>
+ <section id="builders" class="section">
+  <div class="eyebrow">02 / Choose</div><h2>Which tool should you start with?</h2><p class="muted">A quick way to match the tool to the job.</p>
+  <div class="table-wrap"><table><thead><tr><th>Your goal</th><th>Start exploring</th><th>Remember</th></tr></thead><tbody>
+   <tr><td>Create a web app with visual help</td><td>Dyad</td><td>Keep your source code and test the result.</td></tr>
+   <tr><td>Edit an existing codebase with AI</td><td>Aider or Continue</td><td>Review diffs before accepting changes.</td></tr>
+   <tr><td>Experiment with local AI</td><td>Ollama</td><td>Choose a model that fits your device.</td></tr>
+   <tr><td>Find models and datasets</td><td>Hugging Face</td><td>Check licenses, safety and model cards.</td></tr>
+  </tbody></table></div>
+ </section>
+ <section id="agents" class="section">
+  <div class="eyebrow">03 / Build safely</div><h2>A reliable AI coding workflow</h2>
+  <div class="steps">
+   <article class="step"><span class="step-num">1</span><h3>Describe the task</h3><p>Write down the feature, expected behavior and how you will know it works.</p></article>
+   <article class="step"><span class="step-num">2</span><h3>Make a small change</h3><p>Ask your coding assistant to explain its plan and change only the files needed.</p></article>
+   <article class="step"><span class="step-num">3</span><h3>Test and review</h3><p>Run the app, inspect the changes, test on mobile and keep a working Git commit.</p></article>
+  </div>
+ </section>
+ <section id="models" class="section">
+  <div class="eyebrow">04 / Connect</div><h2>Models and API connections</h2>
+  <div class="grid">
+   <article class="card"><h3>Hosted AI APIs</h3><p>Providers may offer hosted models through API endpoints. Read the provider's current documentation, pricing and rate limits.</p></article>
+   <article class="card"><h3>Local models</h3><p>Local inference can reduce dependence on hosted APIs, but needs compatible hardware, storage and memory.</p></article>
+   <article class="card"><h3>Choose by task</h3><p>Compare coding quality, context size, speed, cost, privacy and license—not just benchmark scores.</p></article>
+  </div>
+ </section>
+ <section id="guide" class="section">
+  <div class="eyebrow">05 / Get started</div><h2>Starter commands</h2><p class="muted">These commands are examples for a computer with the required software installed. They do not run on this website.</p>
+  <article class="card"><h3>Download a coding model with Ollama</h3><p>Choose a model tag that is currently available and suitable for your hardware.</p><div class="code-row"><code>ollama pull qwen2.5-coder</code><button class="copy-btn" data-copy="ollama pull qwen2.5-coder">Copy</button></div></article>
+  <article class="card" style="margin-top:14px"><h3>Install Aider with pip</h3><p>Use a Python environment on your development computer.</p><div class="code-row"><code>python -m pip install aider-chat</code><button class="copy-btn" data-copy="python -m pip install aider-chat">Copy</button></div></article>
+  <p class="notice" style="margin-top:18px"><strong>Keep your API keys private.</strong> Never put secret keys in <code>index.html</code>, <code>app.js</code>, or any public GitHub repository. A real public-facing API integration needs a secure backend that keeps keys on the server.</p>
+ </section>
+ <section class="section">
+  <div class="eyebrow">Made to grow</div><h2>Build something useful with AJ.</h2><p class="lead">AJ is a curated starting point. Tool features, pricing, model availability and licenses can change, so follow the official links before installing or deploying.</p>
+  <div class="actions"><a class="btn primary" href="https://github.com/ajaypascua69-hue/Aj" target="_blank" rel="noopener noreferrer">View AJ on GitHub ↗</a><a class="btn" href="#top">Back to top ↑</a></div>
+ </section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><span><strong>AJ — Open Source AI Development Hub</strong><br>Build freely. Learn continuously.</span><span>© <span id="year">2026</span> AJ</span></div></footer>
+<script src="app.js" defer></script>
+</body>
+</html>
