@@ -128,7 +128,7 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
             return
         }
         speak("Analyzing selected image.")
-        takeScreenshot(Display.DEFAULT_DISPLAY, mainExecutor, object : TakeScreenshotCallback() {
+        takeScreenshot(Display.DEFAULT_DISPLAY, mainExecutor, object : TakeScreenshotCallback {
             override fun onSuccess(screenshot: ScreenshotResult) {
                 val hardwareBitmap = Bitmap.wrapHardwareBuffer(screenshot.hardwareBuffer, screenshot.colorSpace)
                 screenshot.hardwareBuffer.close()
