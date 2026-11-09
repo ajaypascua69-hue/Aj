@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T13:29:17.061885Z",
+  "generated_at": "2026-11-09T19:10:42.600980Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 4,
@@ -12,6 +12,66 @@
   ],
   "items": [
     {
+      "id": "296570263bff528de702",
+      "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
+      "summary": "Mid-power (3-7 kW) Hall effect thruster systems have been identified by government and industry stakeholders as critical capabilities for satellite, defense, and exploration missions. Given the need for this capability, NASA is launching the Advanced Mid-Power Electric Rocket (AMPERE) Challenge. The NASA AMPERE Challenge invites U.S. commercial companies to develop and demonstrate mid-power Hall effect […]",
+      "url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/nasa-advanced-mid-power-electric-rocket-challenge/",
+      "published": "2026-11-09T17:42:42Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T19:10:42.600980Z"
+    },
+    {
+      "id": "1cc5f2f52d4a3eb94958",
+      "title": "La NASA destina un millón de dólares al reto estudiantil Base Lunar",
+      "summary": "Read this release in English here.El domingo 8 de noviembre de 2026, la NASA anunció la convocatoria del reto estudiantil Base Lunar, dotado con un millón de dólares, durante un acto de MAX POWER celebrado en el Complejo de Visitantes del Centro Espacial Kennedy, en Florida. En el marco de una edad de oro de […]",
+      "url": "https://www.nasa.gov/news-release/la-nasa-destina-un-millon-de-dolares-al-reto-estudiantil-base-lunar/",
+      "published": "2026-11-09T17:36:33Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T19:10:42.600980Z"
+    },
+    {
+      "id": "6d2fde613775329ce4c1",
+      "title": "Astronauts Across Generations Share the Stage",
+      "summary": "On Nov. 6, 2026, Purpose Entertainment hosted the Artemis Celebration Gala at NASA’s Kennedy Space Center Visitor Complex in Merritt Island, Florida. Held on the eve of NASA’s MAX POWER event, the gala celebrated the explorers, innovators, and visionaries advancing the next era of human spaceflight. The event honored the successful completion of the agency’s […]",
+      "url": "https://www.nasa.gov/image-article/astronauts-across-generations-share-the-stage/",
+      "published": "2026-11-09T16:56:29Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T19:10:42.600980Z"
+    },
+    {
+      "id": "7486d264defc72a04ab5",
+      "title": "MAX POWER: NASA’s Inaugural Aerospace Expo Ignites America’s Future",
+      "summary": "Thousands gathered over several days in early November to experience MAX POWER – NASA’s first exhibition of America’s superiority in space, aeronautics, and technology on and around the agency’s Kennedy Space Center in Florida. The multi-day, family-friendly event honored the nation’s 250th anniversary and served as a culmination of the agency’s Inspiration Tour. Among the […]",
+      "url": "https://www.nasa.gov/general/max-power-nasas-inaugural-aerospace-expo-ignites-americas-future/",
+      "published": "2026-11-09T16:07:10Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T19:10:42.600980Z"
+    },
+    {
+      "id": "814683e8ea38e960573a",
+      "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+      "summary": "NASA’s two ESCAPADE (Escape and Plasma Acceleration and Dynamics Explorers) spacecraft have each successfully completed a powered Earth flyby, using Earth’s gravity in combination with a sustained engine burn to slingshot themselves toward Mars. With these successful maneuvers complete, the twin spacecraft are on target to reach the Red Planet in September 2027. “This is […]",
+      "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+      "published": "2026-11-09T16:01:47Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T19:10:42.600980Z"
+    },
+    {
       "id": "4a12bbf02787036486fa",
       "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
       "summary": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct. 31, completing the agency’s second yearlong Mars surface simulation. Ross Elder, Ellen Ellis, James Spicer, and Matthew Montgomery entered the roughly 1,700-square-foot, 3D-printed habitat at […]",
@@ -21,19 +81,19 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "a59ecf0ed038c09ccd77",
       "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
-      "summary": "APOD Science APOD APOD: 2026 November 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rigel and the […]",
+      "summary": "APODScienceAPODAPOD: 2026 November 9 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rigel and the Witch Head Nebula Explanation: Does the blue nebula look like the head of a […]",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
       "published": "2026-11-09T05:05:00Z",
       "source": "NASA News",
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "7a08c18947818dff78a4",
@@ -45,7 +105,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "c761ee8cc798e95facf1",
@@ -57,79 +117,19 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "2ad2bab7f257e5b71465",
       "title": "APOD: 2026 November 8 – Major Fireball Meteor",
-      "summary": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor […]",
+      "summary": "APODScienceAPODAPOD: 2026 November 8 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor Explanation: The sky glows with soft pinkish colors of fading twilight in this serendipitous […]",
       "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
       "published": "2026-11-08T05:05:00Z",
       "source": "NASA News",
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
-    },
-    {
-      "id": "dbe2408cd654f1f2b9bb",
-      "title": "NASA Awards Moon Base Transportation, Technology, Science Projects",
-      "summary": "NASA announced a suite of awards and mission updates on Saturday to expand the agency’s Moon Base exploration, science, and infrastructure capabilities. The investments will advance commercial robotic deliveries, a nuclear-powered rover named PROMISE, launch and orbital transfer services, and surface infrastructure as the agency works with American industry to establish a sustained presence on […]",
-      "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
-      "published": "2026-11-07T22:47:03Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
-    },
-    {
-      "id": "7d3c56d69fb4855e9c58",
-      "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
-      "summary": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. The next generation […]",
-      "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
-      "published": "2026-11-07T18:11:57Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
-    },
-    {
-      "id": "abfc544f9d2e9bd483f7",
-      "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
-      "summary": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif […]",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
-      "published": "2026-11-07T05:05:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
-    },
-    {
-      "id": "eec1c5a8a5f3f996043f",
-      "title": "M30’s Sparkling Stars",
-      "summary": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the early telescopes of Messier’s time. M30 lies about […]",
-      "url": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
-      "published": "2026-11-06T16:23:41Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
-    },
-    {
-      "id": "7a52226e7674d82b61e8",
-      "title": "Supercomputing Tech Demo Schedule",
-      "summary": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe Templates in Fortran 2028Tom Clune11:00 AM Type-safe Templates in Fortran 2028Tom Clune1:00PM Mixing and Matching and Multiple Versions, Oh My!Brad Richardson1:30 PMMixing and Matching and Multiple […]",
-      "url": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
-      "published": "2026-11-06T16:03:52Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -141,7 +141,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -153,7 +153,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -165,7 +165,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -177,7 +177,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -189,7 +189,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "d51102ca34982ed7b76f",
@@ -201,7 +201,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -213,7 +213,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "224ecf4deb20834ef1ef",
@@ -225,7 +225,19 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
+    },
+    {
+      "id": "767205ba5e14ec8f0586",
+      "title": "FORCE BLUE Veterans conduct tour of duty in your national marine sanctuaries",
+      "summary": "FORCE BLUE Veterans conduct tour of duty in your national marine sanctuaries In September 2024, a team of FORCE BLUE Special Operations veterans volunteered in NOAA's Thunder Bay National Marine Sanctuary to work on various scientific and educational initiatives aimed at conservation. (Image credit: With permission from FORCE BLUE) November 9, 2026 All national marine sanctuaries rely on the energy and passion of volunteers. With the mission of healing veterans and healing the ocean, FORCE BLUE redeploys Special Operations veterans and military-trained combat divers to work alongside scientists on conservation projects. When Special Operations veterans team up with NOAA's marine scientists, there's nothing we can't accomplish. Divers perform coral restoration in Puerto Rico at the end of February 2018. In just one day of the mission, 110 corals were reattached — mostly Orbicella annularis and some brain corals, ranging from 20-50 centimeters in size. (Image credit: Jim Hellemn/forceblueteam.org) Download Image The former Special Operations divers of FORCE BLUE are working with top scientists and environmentalists from NOAA's Office of National Marine Sanctuaries on a multiyear Sanc",
+      "url": "https://www.noaa.gov/stories/force-blue-veterans-conduct-tour-of-duty-in-your-national-marine-sanctuaries",
+      "published": "2026-10-28T15:43:52Z",
+      "source": "NOAA News",
+      "domain": "noaa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -237,7 +249,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -249,7 +261,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -261,7 +273,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "fe932c9a033d2988c046",
@@ -273,7 +285,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "e2d1167d7e308f600b90",
@@ -285,19 +297,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
-    },
-    {
-      "id": "2cc8a706859aec6e61fa",
-      "title": "Mariculture in Alaska! Reflecting on my time spent in the hatchery and creating a home in Juneau, Alaska",
-      "summary": "Mariculture in Alaska! Reflecting on my time spent in the hatchery and creating a home in Juneau, Alaska Ella Skonieczny alongside her fellow Hollings intern Alleyah Britton, and mentor Becca, holding Pacific oysters ( Crassostrea gigas ) from the Salty Lady Seafood Company oyster farm. During this trip out to the farm, we collected water samples to survey chlorophyll-a levels, nutrients, and monitor for harmful algal bloom species. (Image credit: Courtesy of Ella Skonieczny) Download Image October 29, 2026 Hello, my name is Ella Skonieczny! I am a rising senior at Eckerd College double majoring in marine science and environmental studies. This summer I had the amazing opportunity to work at the Alaska Fisheries Science Center Ted Stevens Marine Research Institute within the Auke Bay Laboratory division in Juneau, Alaska. During my time in Alaska, I worked under the mariculture team, working on an ongoing research project between NOAA and the Department of Fisheries and Oceans in Canada offsite link . This study aims to understand how food availability for Pacific oysters ( Crassostrea gigas ) alters their ability to survive and adapt to external environmental factors such as large",
-      "url": "https://www.noaa.gov/office-education/hollings-scholarship/stories/mariculture-in-alaska-reflecting-on-my-time-spent-in-hatchery-and-creating-home-in-juneau-alaska",
-      "published": "2026-10-16T15:02:33Z",
-      "source": "NOAA News",
-      "domain": "noaa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -309,7 +309,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -321,7 +321,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -333,7 +333,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -345,7 +345,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -357,7 +357,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -369,7 +369,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -381,7 +381,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -393,7 +393,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -405,7 +405,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -417,7 +417,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "2583e85a8aa688aa76a5",
@@ -429,7 +429,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "b53480a2e33e42f931cf",
@@ -441,7 +441,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -453,7 +453,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -465,7 +465,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -477,7 +477,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -489,7 +489,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -501,7 +501,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -513,7 +513,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -525,7 +525,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -537,7 +537,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -549,7 +549,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -561,7 +561,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -573,7 +573,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -585,7 +585,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -597,7 +597,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -609,7 +609,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -621,7 +621,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -633,7 +633,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -645,7 +645,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -657,7 +657,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -669,7 +669,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T13:29:17.061885Z"
+      "checked_at": "2026-11-09T19:10:42.600980Z"
     }
   ]
 }
