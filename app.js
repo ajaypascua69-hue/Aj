@@ -40,6 +40,7 @@
  function updateModelInfo(){if(modelInfo)modelInfo.textContent='Standalone local engine · no AI model provider or paid API · deterministic tools and saved-knowledge retrieval.';}
  function localAnswer(text){
   const q=String(text||'').trim(),lower=q.toLowerCase();
+  const memoryReply=window.LEOBrain?.handleMemoryCommand(q);if(memoryReply)return memoryReply;
   const selectedSkill=matchingSkill(q);if(selectedSkill&&selectedSkill.mode&&selectedSkill.mode!=='auto'&&taskMode.value==='auto')taskMode.value=selectedSkill.mode;
   const lang=prefs.language==='auto'?'English':prefs.language;
   if(selectedSkill&&/\b(what skill|show skill|skill instructions)\b/i.test(q)){return 'Active custom skill: '+selectedSkill.name+'\nDescription: '+(selectedSkill.description||'Not provided')+'\nInstructions saved: '+selectedSkill.instructions+'\nBuilt-in workflow: '+selectedSkill.mode+'\n\nNote: this version stores and selects your skill profile, but its deterministic engine cannot yet follow arbitrary instructions like a connected general-purpose AI model.';}
