@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! I'm Leo AI. How can I help?",
+        "Hi! What would you like to work on?"
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "who are you",
+        "what is your name",
+        "tell me about yourself"
+      ],
+      "responses": [
+        "I'm Leo AI, an independent AI project that is being built step by step."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that's helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "help me",
+        "what are your abilities"
+      ],
+      "responses": [
+        "I'm an early prototype. I can recognize some trained request types and remember facts you teach me. My abilities will grow as the brain is developed and tested."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you next time."
+      ]
+    }
+  ]
+}
