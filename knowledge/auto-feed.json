@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T01:25:58.541767Z",
+  "generated_at": "2026-11-09T07:42:37.195843Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 4,
@@ -12,6 +12,30 @@
   ],
   "items": [
     {
+      "id": "a59ecf0ed038c09ccd77",
+      "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
+      "summary": "APOD Science APOD APOD: 2026 November 9 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rigel and the […]",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
+      "published": "2026-11-09T05:05:00Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T07:42:37.195843Z"
+    },
+    {
+      "id": "7a08c18947818dff78a4",
+      "title": "Ozone Hole Reaches Its 2026 Maximum",
+      "summary": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
+      "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+      "published": "2026-11-09T05:00:00Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-09T07:42:37.195843Z"
+    },
+    {
       "id": "c761ee8cc798e95facf1",
       "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
       "summary": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
@@ -21,7 +45,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "2ad2bab7f257e5b71465",
@@ -33,7 +57,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "dbe2408cd654f1f2b9bb",
@@ -45,7 +69,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "7d3c56d69fb4855e9c58",
@@ -57,7 +81,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "abfc544f9d2e9bd483f7",
@@ -69,7 +93,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "eec1c5a8a5f3f996043f",
@@ -81,7 +105,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "7a52226e7674d82b61e8",
@@ -93,7 +117,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -105,7 +129,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -117,7 +141,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "0025ede2c7919dd754f5",
@@ -129,31 +153,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
-    },
-    {
-      "id": "eab52b8f658af55d9338",
-      "title": "Taking a Gander at Utah’s Goosenecks",
-      "summary": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
-      "url": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
-      "published": "2026-11-06T05:01:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
-    },
-    {
-      "id": "e0db5679dd530a66fec2",
-      "title": "Midwestern City Lights",
-      "summary": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detroit, Michigan; and the New York metropolitan region. The International Space Station was orbiting 259 miles above Earth when this […]",
-      "url": "https://www.nasa.gov/image-article/midwestern-city-lights/",
-      "published": "2026-11-05T15:17:19Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -165,7 +165,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -177,7 +177,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -189,7 +189,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "d51102ca34982ed7b76f",
@@ -201,7 +201,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -213,7 +213,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "224ecf4deb20834ef1ef",
@@ -225,7 +225,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -237,7 +237,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -249,7 +249,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -261,7 +261,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "fe932c9a033d2988c046",
@@ -273,7 +273,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "e2d1167d7e308f600b90",
@@ -285,7 +285,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "2cc8a706859aec6e61fa",
@@ -297,7 +297,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -309,7 +309,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -321,7 +321,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -333,7 +333,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -345,7 +345,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -357,7 +357,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -369,7 +369,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -381,7 +381,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -393,7 +393,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -405,7 +405,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -417,7 +417,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "2583e85a8aa688aa76a5",
@@ -429,7 +429,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "b53480a2e33e42f931cf",
@@ -441,7 +441,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -453,7 +453,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -465,7 +465,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -477,7 +477,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -489,7 +489,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -501,7 +501,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -513,7 +513,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -525,7 +525,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -537,7 +537,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -549,7 +549,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -561,7 +561,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -573,7 +573,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -585,7 +585,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -597,7 +597,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -609,7 +609,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -621,7 +621,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -633,7 +633,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -645,7 +645,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -657,7 +657,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -669,7 +669,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T01:25:58.541767Z"
+      "checked_at": "2026-11-09T07:42:37.195843Z"
     }
   ]
 }
