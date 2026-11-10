@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T07:26:43.477088Z",
+  "generated_at": "2026-11-10T13:21:10.719971Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 4,
@@ -21,7 +21,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "b0568fb1f2caccb2f8f1",
@@ -33,7 +33,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "6f3118c7c697820aff45",
@@ -45,7 +45,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "b0a8bb9eaa93b54894ca",
@@ -57,7 +57,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "7993e6026aab754aef9d",
@@ -69,7 +69,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "65b4422f5b06df1478a7",
@@ -81,7 +81,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "a7c8c4e750a816b46693",
@@ -93,7 +93,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "ebbfa94666f52bc95e5e",
@@ -105,7 +105,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "296570263bff528de702",
@@ -117,7 +117,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "1cc5f2f52d4a3eb94958",
@@ -129,7 +129,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -141,7 +141,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -153,7 +153,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -165,7 +165,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -177,7 +177,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -189,7 +189,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "d51102ca34982ed7b76f",
@@ -201,7 +201,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -213,7 +213,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "224ecf4deb20834ef1ef",
@@ -225,7 +225,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "767205ba5e14ec8f0586",
@@ -237,7 +237,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -249,7 +249,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -261,7 +261,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -273,7 +273,19 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
+    },
+    {
+      "id": "d9954121bedcf04acc23",
+      "title": "My internship leveraging education to protect whales",
+      "summary": "My internship leveraging education to protect whales Exploring outreach strategies to encourage responsible whale-human interactions in Monterey Bay. A humpback whale ( Megaptera novaeangliae ) breaching at the surface of the ocean. (Image credit: Douglas Croft, NOAA Sanctuaries Get Into Your Sanctuary Photo Contest) Download Image November 10, 2026 Hi everyone! My name is Megan Broome, and I am a student at the University of North Carolina Wilmington studying marine biology and environmental science with a minor in neuroscience. During the summer of 2026, I had the incredible opportunity to intern with Monterey Bay National Marine Sanctuary (MBNMS) in Santa Cruz, California, as part of the Ernest F. Hollings Undergraduate Scholarship Program. My work this summer contributed to the conservation of the sanctuary’s natural resources by effectively interpreting science to enhance environmental literacy within the local community. Whales are essential ecological and economic contributors to MBNMS, yet many species are either endangered or threatened. My project focused on the four most commonly seen species in the sanctuary, including humpback ( Megaptera novaeangliae ), blue ( Balaeno",
+      "url": "https://www.noaa.gov/office-education/hollings-scholarship/stories/my-internship-leveraging-education-to-protect-whales",
+      "published": "2026-10-16T15:45:53Z",
+      "source": "NOAA News",
+      "domain": "noaa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "fe932c9a033d2988c046",
@@ -285,19 +297,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
-    },
-    {
-      "id": "e2d1167d7e308f600b90",
-      "title": "Quantifying primary productivity in a freshwater estuary in Huron, Ohio",
-      "summary": "Quantifying primary productivity in a freshwater estuary in Huron, Ohio Bryn Fleming collecting American water lotus ( Nelumbo lutea ) in order to measure their rates of photosynthesis and respiration. (Image credit: Jacob Cianci-Gaskill) Download Image November 4, 2026 This summer, I worked with the Old Woman Creek National Estuarine Research Reserve (NERR) as a water quality research intern. My project focused on measuring the rates of oxygen production by different plants and phytoplankton in the estuary. I also calculated overall oxygen flux in the estuary using large time-series datasets collected from water quality monitoring stations. These measurements are important because they tell us about the health of an ecosystem and whether it stores or produces carbon. Measuring the availability and flux of oxygen in water is important for understanding ecosystem health. When water is hypoxic or anoxic (low or no oxygen), animals in the estuary are negatively affected, sometimes leading to mass die-offs. Measuring overall flux of the estuary is important for understanding its role in carbon cycling, and whether it stores or releases carbon dioxide (CO₂). Since CO₂ is a greenhouse ga",
-      "url": "https://www.noaa.gov/office-education/hollings-scholarship/stories/quantifying-primary-productivity-in-freshwater-estuary-in-huron-ohio",
-      "published": "2026-10-16T15:27:13Z",
-      "source": "NOAA News",
-      "domain": "noaa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -309,7 +309,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -321,7 +321,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -333,7 +333,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -345,7 +345,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -357,7 +357,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -369,7 +369,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -381,7 +381,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -393,7 +393,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -405,7 +405,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -417,7 +417,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "2583e85a8aa688aa76a5",
@@ -429,7 +429,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "b53480a2e33e42f931cf",
@@ -441,7 +441,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -453,7 +453,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -465,7 +465,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -477,7 +477,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -489,7 +489,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -501,7 +501,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -513,7 +513,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -525,7 +525,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -537,7 +537,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -549,7 +549,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -561,7 +561,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -573,7 +573,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -585,7 +585,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -597,7 +597,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -609,7 +609,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -621,7 +621,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -633,7 +633,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -645,7 +645,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -657,7 +657,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -669,7 +669,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-10T07:26:43.477088Z"
+      "checked_at": "2026-11-10T13:21:10.719971Z"
     }
   ]
 }
