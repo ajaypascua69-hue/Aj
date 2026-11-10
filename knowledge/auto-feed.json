@@ -1,16 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T19:10:42.600980Z",
+  "generated_at": "2026-11-10T01:18:45.571887Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 4,
   "errors": [
     {
       "source": "CISA Cybersecurity Advisories",
-      "error": "no element found: line 34565, column 4"
+      "error": "unclosed token: line 34118, column 0"
     }
   ],
   "items": [
+    {
+      "id": "7993e6026aab754aef9d",
+      "title": "Rubies on Mars?",
+      "summary": "Written by Roger C. Wiens, SuperCam Principal Investigator for NASA’s Perseverance rover at Purdue University Nov. 4, 2026 Exploration on Mars turns up the unexpected. Perseverance is equipped with a fantastic set of instruments for studying the rock record of this ancient planet. Both PIXL and SuperCam have great capabilities for detecting all kinds of […]",
+      "url": "https://science.nasa.gov/blog/rubies-on-mars/",
+      "published": "2026-11-09T22:27:12Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-10T01:18:45.571887Z"
+    },
+    {
+      "id": "65b4422f5b06df1478a7",
+      "title": "Newest Sample, Oldest Rock?",
+      "summary": "Written by Tasha Coelho, Mastcam-Z Student Collaborator at Arizona State University Nov. 1, 2026 Perseverance’s most recent abrasion “Pumbe” bears a striking resemblance to an earlier abrasion, “Badger Peak.” That’s no coincidence. As previously reported, that rock had a hardness too high to core. However, the team felt strongly that it was worth the effort […]",
+      "url": "https://science.nasa.gov/blog/newest-sample-oldest-rock/",
+      "published": "2026-11-09T22:25:52Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-10T01:18:45.571887Z"
+    },
+    {
+      "id": "a7c8c4e750a816b46693",
+      "title": "La NASA busca a la próxima generación de astronautas",
+      "summary": "Read this release in English here.La NASA busca a los exploradores que ayudarán a escribir el próximo capítulo de los vuelos espaciales tripulados. Ya está abierto el plazo de inscripción para la próxima promoción de astronautas de la agencia, que se incorporarán a la NASA en un momento en el que Estados Unidos regresa a […]",
+      "url": "https://www.nasa.gov/news-release/la-nasa-busca-a-la-proxima-generacion-de-astronautas/",
+      "published": "2026-11-09T19:27:20Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-10T01:18:45.571887Z"
+    },
+    {
+      "id": "ebbfa94666f52bc95e5e",
+      "title": "NASA’s Chandra Finds Source of Star’s Mysterious Outbursts",
+      "summary": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star. A new study, published Monday in the latest issue of The Astrophysical Journal, details the discovery of a previously hidden companion object that keeps pulling material away from the massive star every 113 days as they orbit […]",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-finds-source-of-stars-mysterious-outbursts/",
+      "published": "2026-11-09T18:55:50Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-10T01:18:45.571887Z"
+    },
     {
       "id": "296570263bff528de702",
       "title": "NASA Advanced Mid-Power Electric Rocket Challenge",
@@ -21,7 +69,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "1cc5f2f52d4a3eb94958",
@@ -33,7 +81,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "6d2fde613775329ce4c1",
@@ -45,7 +93,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "7486d264defc72a04ab5",
@@ -57,7 +105,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "814683e8ea38e960573a",
@@ -69,7 +117,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "4a12bbf02787036486fa",
@@ -81,55 +129,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
-    },
-    {
-      "id": "a59ecf0ed038c09ccd77",
-      "title": "APOD: 2026 November 9 – Rigel and the Witch Head Nebula",
-      "summary": "APODScienceAPODAPOD: 2026 November 9 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rigel and the Witch Head Nebula Explanation: Does the blue nebula look like the head of a […]",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-9-rigel-and-the-witch-head-nebula/",
-      "published": "2026-11-09T05:05:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
-    },
-    {
-      "id": "7a08c18947818dff78a4",
-      "title": "Ozone Hole Reaches Its 2026 Maximum",
-      "summary": "The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.",
-      "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
-      "published": "2026-11-09T05:00:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
-    },
-    {
-      "id": "c761ee8cc798e95facf1",
-      "title": "NASA Announces $1 Million to Students for Moon Base Challenge",
-      "summary": "On Sunday, NASA announced the opening of its $1 million Moon Base Student Challenge during a MAX POWER event at Kennedy Space Center Visitor Complex in Florida. As part of a Golden Age of Science, the competition invites student teams at U.S. high schools and post-secondary schools to contribute designs for the Moon Base. “We’re […]",
-      "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
-      "published": "2026-11-08T15:26:38Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
-    },
-    {
-      "id": "2ad2bab7f257e5b71465",
-      "title": "APOD: 2026 November 8 – Major Fireball Meteor",
-      "summary": "APODScienceAPODAPOD: 2026 November 8 –…Today’s APODArchiveSubmissionsIndexSearchCalendarRSSEducationAboutDiscuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor Explanation: The sky glows with soft pinkish colors of fading twilight in this serendipitous […]",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
-      "published": "2026-11-08T05:05:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -141,7 +141,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -153,7 +153,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -165,7 +165,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -177,7 +177,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -189,7 +189,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "d51102ca34982ed7b76f",
@@ -201,7 +201,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -213,7 +213,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "224ecf4deb20834ef1ef",
@@ -225,19 +225,19 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "767205ba5e14ec8f0586",
       "title": "FORCE BLUE Veterans conduct tour of duty in your national marine sanctuaries",
-      "summary": "FORCE BLUE Veterans conduct tour of duty in your national marine sanctuaries In September 2024, a team of FORCE BLUE Special Operations veterans volunteered in NOAA's Thunder Bay National Marine Sanctuary to work on various scientific and educational initiatives aimed at conservation. (Image credit: With permission from FORCE BLUE) November 9, 2026 All national marine sanctuaries rely on the energy and passion of volunteers. With the mission of healing veterans and healing the ocean, FORCE BLUE redeploys Special Operations veterans and military-trained combat divers to work alongside scientists on conservation projects. When Special Operations veterans team up with NOAA's marine scientists, there's nothing we can't accomplish. Divers perform coral restoration in Puerto Rico at the end of February 2018. In just one day of the mission, 110 corals were reattached — mostly Orbicella annularis and some brain corals, ranging from 20-50 centimeters in size. (Image credit: Jim Hellemn/forceblueteam.org) Download Image The former Special Operations divers of FORCE BLUE are working with top scientists and environmentalists from NOAA's Office of National Marine Sanctuaries on a multiyear Sanc",
+      "summary": "FORCE BLUE Veterans conduct tour of duty in your national marine sanctuaries In September 2024, a team of FORCE BLUE Special Operations veterans volunteered in NOAA's Thunder Bay National Marine Sanctuary to work on various scientific and educational initiatives aimed at conservation. (Image credit: With permission from FORCE BLUE) November 9, 2026 Our national marine sanctuaries have always relied on the energy and passion of volunteers. With the mission of healing veterans and healing the ocean, FORCE BLUE redeploys Special Operations veterans and military-trained combat divers to work alongside scientists on conservation projects. When Special Operations veterans team up with NOAA's marine scientists, there's nothing that can't be accomplished. Divers perform coral restoration in Puerto Rico at the end of February 2018. In just one day of the mission, 110 corals were reattached — mostly Orbicella annularis and some brain corals, ranging from 20-50 centimeters in size. (Image credit: Jim Hellemn/forceblueteam.org) Download Image Former Special Operations divers are working with top scientists and environmentalists from NOAA's Office of National Marine Sanctuaries on a multiyear S",
       "url": "https://www.noaa.gov/stories/force-blue-veterans-conduct-tour-of-duty-in-your-national-marine-sanctuaries",
       "published": "2026-10-28T15:43:52Z",
       "source": "NOAA News",
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -249,7 +249,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -261,7 +261,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -273,7 +273,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "fe932c9a033d2988c046",
@@ -285,7 +285,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "e2d1167d7e308f600b90",
@@ -297,7 +297,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -309,7 +309,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -321,7 +321,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -333,7 +333,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -345,7 +345,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -357,7 +357,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -369,7 +369,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -381,7 +381,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -393,7 +393,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -405,7 +405,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -417,7 +417,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "2583e85a8aa688aa76a5",
@@ -429,7 +429,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "b53480a2e33e42f931cf",
@@ -441,7 +441,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -453,7 +453,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -465,7 +465,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -477,7 +477,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -489,7 +489,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -501,7 +501,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -513,7 +513,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -525,7 +525,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -537,7 +537,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -549,7 +549,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -561,7 +561,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -573,7 +573,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -585,7 +585,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -597,7 +597,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -609,7 +609,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -621,7 +621,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -633,7 +633,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -645,7 +645,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -657,7 +657,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -669,7 +669,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-09T19:10:42.600980Z"
+      "checked_at": "2026-11-10T01:18:45.571887Z"
     }
   ]
 }
