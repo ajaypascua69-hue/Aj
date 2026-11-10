@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.EasySecureApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#315CBB</item>
+        <item name="colorSecondary">#5477C7</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+</resources>
