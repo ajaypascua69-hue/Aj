@@ -1,11 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T13:29:06.949160Z",
+  "generated_at": "2026-11-12T19:12:42.957172Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
-  "successful_sources": 5,
-  "errors": [],
+  "successful_sources": 4,
+  "errors": [
+    {
+      "source": "CISA Cybersecurity Advisories",
+      "error": "no element found: line 34067, column 181"
+    }
+  ],
   "items": [
+    {
+      "id": "03b2b12fb438a7da3e6c",
+      "title": "NASA Ames Stars of the Month: November 2026",
+      "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Alyssa Villanueva, Steve Howell, and Samuel LeBlanc. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva is an engineer at Blue […]",
+      "url": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-november-2026/",
+      "published": "2026-11-12T17:54:32Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-12T19:12:42.957172Z"
+    },
+    {
+      "id": "f417d68273321e102667",
+      "title": "NASA’s Hubble Offers Cosmic Sampler of Targets for Roman",
+      "summary": "A gallery of gravitational lenses captured by NASA’s Hubble Space Telescope showcases the diversity of this cosmic phenomenon and lays the groundwork for follow-up observations by the Nancy Grace Roman Space Telescope.",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
+      "published": "2026-11-12T13:18:40Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-12T19:12:42.957172Z"
+    },
     {
       "id": "ffa5fe4e6d1f6a565854",
       "title": "Through NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA",
@@ -16,7 +45,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "4ba363972864241ce93d",
@@ -28,7 +57,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "194978038e8ca1346802",
@@ -40,7 +69,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "4cf45c515c57b8a726af",
@@ -52,7 +81,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "50c0532d825f061a79ea",
@@ -64,7 +93,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "01d85cb1ee9e09a44d00",
@@ -76,7 +105,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "29d7784395f1f351d88b",
@@ -88,7 +117,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "5a83548011fc8ea5dd08",
@@ -100,67 +129,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "44a267904ff4b1ac6e71",
-      "title": "NASA Scientists Show How Gravitational Waves Can Reveal New Worlds",
-      "summary": "The LISA (Laser Interferometer Space Antenna) observatory, now in development, will detect gravitational waves, the tiny ripples in space-time caused by orbiting masses. Now two studies led by NASA astrophysicists show in new detail how LISA could reveal a new and unique population of exoplanets — worlds beyond our solar system — throughout our galaxy. […]",
-      "url": "https://science.nasa.gov/missions/lisa/gravitational-waves-can-reveal-new-worlds/",
-      "published": "2026-11-10T16:00:26Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "7f6bab725b771022aeb4",
-      "title": "CHAPEA Crew Leaves a Mark",
-      "summary": "The Crew Health and Performance Exploration Analog (CHAPEA) Mission 2 crew arranged photos around a boot print in the simulated Martian sand outside their habitat on Aug. 31, 2026. The crew recently exited their habitat on Saturday, Oct. 31, after 378 days of isolation in a facility at the agency’s Johnson Space Center in Houston. Health […]",
-      "url": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-      "published": "2026-11-10T14:57:55Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "1873d2c72244481583a9",
-      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks Multiple Products OS Command Injection Vulnerability CVE-2026-111793 Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability CVE-2026-116606 Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-124194 Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability CVE-2026-125350 Google Chromium Use-After-Free Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remedia",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
-      "published": "2026-11-10T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "affd612b50cbdaed13ed",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnerability CVE-2026-123158 OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability CVE-2026-123218 IBM Aspera Faspex Incorrect Authorization Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations fo",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "published": "2026-11-09T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "4588ad837963f7452a92",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based v",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-11-06T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -172,7 +141,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -184,31 +153,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "1ea0c5fc8e6b59b4b3cc",
-      "title": "Post-Quantum Questions to Ask Your Vendors",
-      "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryptography (PQC). As quantum computing advances, widely used public-key cryptography will become vulnerable to compromise from cryptographically relevant quantum computers (CRQCs). To protect their systems and data, organizations must plan for and transition to PQC—which includes algorithms capable of withstanding both classical computing and quantum-enabled threats—before CRQCs become available. Many organizations rely on third-party vendors for managed services, cloud capabilities, and other cryptography-dependent products and services. Cryptography is also embedded in systems and devices that are difficult to update, tied to long asset lifecycles, and require vendor support or replacement—such as industrial control systems and Internet of Things (IoT) devices. Reliance on vendors means that effective PQC transition depends on vendor readiness, and early, structured engagement with these vendors is critical to",
-      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "published": "2026-11-05T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "0ac53edd9d5cfd94f826",
-      "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-      "summary": "Overview The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referred to as “the authoring organizations”—are aware of malicious cyber activity targeting industrial refrigeration and cold chain monitoring systems globally. Organizations in the Healthcare and Public Health , Chemical , Food and Agriculture , and Transportation Systems Sectors widely use these systems, including in refrigerated transport services, for automated and remote monitoring of temperatures, continuous temperature logging, defrost cycle management, and energy optimization. The authoring organizations urge owners and operators to defend against this activity by using strong authentication, keeping systems updated, identifying any systems that are accessible from the internet, removing unnecessary remote access, and securing any necessary remote access. Threat The authoring organizations are aware of malicious cyber actors targeting electronic temperature controllers and commercial refrigeration controllers in retail grocery and cold storage",
-      "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
-      "published": "2026-11-05T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -220,7 +165,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -232,7 +177,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -244,19 +189,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "4588ad837963f7452a92",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability ",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-11-04T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "d51102ca34982ed7b76f",
@@ -268,31 +201,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "4588ad837963f7452a92",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-119977 WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-ba",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-11-03T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "0f82835c26015a1d3302",
-      "title": "Subnet Solutions PowerSYSTEM Center",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The following versions of Subnet Solutions PowerSYSTEM Center are affected: PowerSYSTEM Center 2020 <=5.29.x (CVE-2026-63017) PowerSYSTEM Center 2024 >=6.0.x|<=6.2.x (CVE-2026-63017, CVE-2026-63774) PowerSYSTEM Center 2026 >=7.0.x|<=7.1.x (CVE-2026-63017, CVE-2026-63774) CVSS Vendor Equipment v3 9 Subnet Solutions PowerSYSTEM Center 2 Vulnerabilities Incorrect Authorization, Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') Background Critical Infrastructure Sectors: Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Canada Vulnerabilities Expand All + CVE-2026-63017 Incorrect authorization in PowerSYSTEM Center allows a low-privileged, authenticated user to access resources normally limited to administrators. Read More 3 Affected Products Subnet Solutions PowerSYSTEM Center 2024 >=6.0.x|<=6.2.x Product Status: known_affected Remediations Mitigation For users who are currently using PowerSYSTEM Center 2024, Subnet Solutions recommend",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
-      "published": "2026-11-03T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -304,19 +213,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "915ba1bcfc169ae11eaf",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch w",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-30T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "224ecf4deb20834ef1ef",
@@ -328,55 +225,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "1874d494c44bb260cae6",
-      "title": "Hitachi Energy TRO600 series products",
-      "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive information. Please refer to the Recommended Immediate Actions section for information about the mitigation/remediation. The following versions of Hitachi Energy TRO600 series products are affected: TRO600 vers:TRO600/<=9.2.1.6, vers:TRO600/<=9.1.1.0, 9.2.2.1, 9.1.2.0 (CVE-2026-10756, CVE-2026-106087) CVSS Vendor Equipment v3 7.5 Hitachi Energy TRO600 2 Vulnerabilities Improper Restriction of Communication Channel to Intended Endpoints, Missing Authentication for Critical Function Background Critical Infrastructure Sectors: Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Switzerland Vulnerabilities Expand All + CVE-2026-10756 TRO600 contains a vulnerability that allows an authenticated attacker to bypass network access restrictions and access services intended to be reachable only from localhost. By leveraging port forwarding, an attacker can interact with locally bound ports and services, r",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-      "published": "2026-10-29T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "915ba1bcfc169ae11eaf",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability CVE-2026-76418 Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether ",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-29T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "ed49a83ae8a57f3ad995",
-      "title": "Siemens Mendix SAML Module",
-      "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Mendix SAML Module are affected: Mendix SAML (Mendix 10 compatible) vers:intdot/<4.2.4 (CVE-2026-89209) Mendix SAML (Mendix 11 compatible) vers:intdot/<4.2.4 (CVE-2026-89209) Mendix SAML (Mendix 9 compatible) vers:intdot/<3.6.29 (CVE-2026-89209) CVSS Vendor Equipment v3 6.8 Siemens Mendix SAML (Mendix 10 compatible) 1 Vulnerability Authentication Bypass by Capture-replay Background Critical Infrastructure Sectors: Critical Manufacturing, Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-89209 Affected versions of the module do not properly protect against SAML assertion replay in IdP-initiated authentication flows. This could allow unauthenticated remote attackers to gain unauthorized access to the application by replaying a valid SAM",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-      "published": "2026-10-29T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "74809c2e0a5707f79e7a",
-      "title": "Hitachi Energy CoreTec Product",
-      "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. The following versions of Hitachi Energy CoreTec Product are affected: CoreTec5 vers:CoreTec5/<=3.4.0, 5.0.0 (CVE-2026-13162, CVE-2026-43284) CoreTec4 vers:CoreTec4/<=3.4.0 (CVE-2026-13162) CVSS Vendor Equipment v3 8.8 Hitachi Energy CoreTec5 2 Vulnerabilities Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'), Write-what-where Condition Background Critical Infrastructure Sectors: Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Switzerland Vulnerabilities Expand All + CVE-2026-13162 An OS command vulnerability exists in CoreTec product that allows authenticated users with certain roles to execute arbitrary system commands with full control over the device. The vulnerability exists in the configuration daemon's time synchronization",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-      "published": "2026-10-29T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "767205ba5e14ec8f0586",
@@ -388,19 +237,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "915ba1bcfc169ae11eaf",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB ",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-28T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -412,7 +249,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -424,79 +261,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "915ba1bcfc169ae11eaf",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked Return Value Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-27T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "3650364938a178491292",
-      "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information disclosure, tampering with, destruction, or deletion of information, and a denial-of-service (DoS) condition of the system. The following versions of Mitsubishi Electric GENESIS, GENESIS64, ICONICS Suite, HyperHistorian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32, BizViz, Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, HyperHistorian, AnalytiX, MobileHMI, IoTWorX, GENESIS32 and BizViz are affected: Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS64 >=10.97|<=10.97.2 (CVE-2023-4863) Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions ICONICS Suite >=10.97|<=10.97.2 (CVE-2023-4863) Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS <=11.03 (CVE-2026-16436, CVE-2026-16437) Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS64 <=10.97.3 (CVE-2026-16436, CVE-2026-16437, CVE-2026-16438",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
-      "published": "2026-10-27T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "d0e4a0fa24732c836eda",
-      "title": "EPICS Base",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. The following versions of EPICS Base are affected: EPICS Base release <=7.0.10 (CVE-2026-114595, CVE-2026-114596, CVE-2026-114597, CVE-2026-114598) CVSS Vendor Equipment v3 9.8 The EPICS Community EPICS Base release 3 Vulnerabilities Integer Overflow or Wraparound, Improper Handling of Length Parameter Inconsistency, Access of Resource Using Incompatible Type ('Type Confusion') Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Global Vulnerabilities Expand All + CVE-2026-114595 In EPICS Base release 7.0.10 and prior, an integer overflow in network request processing can cause memory to be allocated with an incorrect size. Subsequent handling of attacker supplied data may result in memory corruption, denial of service, or potential remote code execution. Read More 1 Affected Product The EPICS Community EPICS Base release: <=7.0.10 Product Status: known_affected Remediations Mitigation T",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
-      "published": "2026-10-27T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "915ba1bcfc169ae11eaf",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619 – PHP Stale Internal Request-State Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-26T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "4588ad837963f7452a92",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based ",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-      "published": "2026-10-23T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
-    },
-    {
-      "id": "4588ad837963f7452a92",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114625 Arista VeloCloud Orchestrator SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based vulnerability man",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-10-23T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -508,7 +273,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "d9954121bedcf04acc23",
@@ -520,7 +285,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "fe932c9a033d2988c046",
@@ -532,7 +297,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -544,7 +309,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -556,7 +321,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -568,7 +333,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -580,7 +345,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -592,7 +357,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -604,7 +369,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -616,7 +381,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -628,7 +393,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -640,7 +405,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -652,7 +417,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "2583e85a8aa688aa76a5",
@@ -664,7 +429,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "b53480a2e33e42f931cf",
@@ -676,7 +441,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -688,7 +453,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -700,7 +465,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -712,7 +477,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -724,7 +489,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -736,7 +501,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -748,7 +513,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -760,7 +525,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -772,7 +537,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -784,7 +549,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -796,7 +561,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -808,7 +573,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -820,7 +585,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -832,7 +597,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -844,7 +609,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -856,7 +621,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -868,7 +633,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -880,7 +645,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -892,7 +657,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -904,7 +669,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-12T13:29:06.949160Z"
+      "checked_at": "2026-11-12T19:12:42.957172Z"
     }
   ]
 }
