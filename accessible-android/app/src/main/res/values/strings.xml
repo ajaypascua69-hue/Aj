@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Guided Vision 2 - Be My Eyes</string>
-    <string name="service_name">Guided Vision 2 Screen Reader</string>
-    <string name="service_description">Reads visible text and accessibility labels, supports touch exploration, directional scrolling, diagonal item navigation, and offline image labels and a built-in offline camera assistant with image labels and text recognition.</string>
+    <string name="app_name">Accessible</string>
+    <string name="service_name">Accessible Screen Reader</string>
+    <string name="service_description">A screen reader with manual diagonal navigation and spoken feedback on user request.</string>
 </resources>
