@@ -1,4 +1,4 @@
-name: Build Guided Vision 2 Be My Eyes Android APK
+name: Build Accessible Android APK
 
 on:
   push:
@@ -28,10 +28,12 @@ jobs:
       - name: Build debug APK
         working-directory: accessible-android
         run: gradle --no-daemon :app:assembleDebug
+      - name: Rename APK to Accessible.apk
+        run: cp accessible-android/app/build/outputs/apk/debug/app-debug.apk Accessible.apk
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: Guided-Vision-2-Be-My-Eyes-debug-apk
-          path: accessible-android/app/build/outputs/apk/debug/app-debug.apk
+          name: Accessible-APK
+          path: Accessible.apk
           if-no-files-found: error
           retention-days: 30
