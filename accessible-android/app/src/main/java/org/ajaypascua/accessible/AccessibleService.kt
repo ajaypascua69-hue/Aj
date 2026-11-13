@@ -78,50 +78,10 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
         tts?.setSpeechRate(prefs.getFloat("speech_rate", 1.0f).coerceIn(0.5f, 3.0f))
     }
 
-    override fun onAccessibilityEvent(event: AccessibilityEvent?) {
-        if (!ready || event == null || !prefs.getBoolean("speak_events", true)) return
-        if (event.eventType == AccessibilityEvent.TYPE_VIEW_ACCESSIBILITY_FOCUSED ||
-            event.eventType == AccessibilityEvent.TYPE_VIEW_FOCUSED) {
-            val focused = event.source
-            if (focused != null) {
-                val label = (focused.text ?: focused.contentDescription)?.toString()?.trim()
-                val className = focused.className?.toString().orEmpty()
-                val isImage = className.contains("Image", true)
-                val role = when {
-                    isImage -> "Image"
-                    className.contains("Button", true) -> "Button"
-                    className.contains("CheckBox", true) -> "Checkbox"
-                    className.contains("Switch", true) -> "Switch"
-                    className.contains("EditText", true) -> "Text field"
-                    focused.isScrollable -> "Scrollable area"
-                    focused.isClickable -> "Control"
-                    else -> ""
-                }
-                if (isImage && label.isNullOrBlank()) describeSelectedImage(focused)
-                else if (!label.isNullOrBlank()) speak(if (role.isNotEmpty()) "$role: $label" else label)
-                else if (role.isNotEmpty()) speak("Selected $role")
-                focused.recycle()
-                return
-            }
-        }
-        val parts = mutableListOf<String>()
-        if (prefs.getBoolean("read_labels", true)) {
-            event.text.mapNotNullTo(parts) { it?.toString()?.trim()?.takeIf(String::isNotEmpty) }
-        }
-        if (prefs.getBoolean("speak_hints", true)) {
-            event.contentDescription?.toString()?.trim()?.takeIf(String::isNotEmpty)?.let(parts::add)
-        }
-        event.source?.let { node ->
-            collectUsefulLabels(node, parts, 0)
-            node.recycle()
-        }
-        val message = parts.distinct().joinToString(". ").take(500)
-        if (message.isNotBlank() && message != lastSpoken) {
-            lastSpoken = message
-            applySpeechRate()
-            tts?.speak(message, TextToSpeech.QUEUE_ADD, null, "accessible-event")
-        }
-    }
+    // Intentionally do not speak accessibility events automatically.
+    // Speech is produced only by an explicit user gesture or the manual
+    // "Describe Screen" command.
+    override fun onAccessibilityEvent(event: AccessibilityEvent?) = Unit
 
 
     private fun describeSelectedImage(node: AccessibilityNodeInfo) {
@@ -230,19 +190,14 @@ class AccessibleService : AccessibilityService(), TextToSpeech.OnInitListener {
     }
 
     override fun onGesture(gestureId: Int): Boolean {
-        if (!prefs.getBoolean("directional_gestures", true) && !prefs.getBoolean("diagonal_gestures", true)) return false
+        // Only the two requested diagonal gestures navigate.
+        // All cardinal (left, right, up, down) swipes are intentionally ignored.
+        if (!prefs.getBoolean("diagonal_gestures", true)) return false
+
         val root = rootInActiveWindow ?: return false
         val handled = when (gestureId) {
-            GESTURE_SWIPE_UP -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, false, false) else false
-            GESTURE_SWIPE_DOWN -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, true, false) else false
-            GESTURE_SWIPE_LEFT -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, true, true) else false
-            GESTURE_SWIPE_RIGHT -> if (prefs.getBoolean("directional_gestures", true)) scroll(root, false, true) else false
-            GESTURE_SWIPE_UP_AND_LEFT, GESTURE_SWIPE_UP_AND_RIGHT -> {
-                if (prefs.getBoolean("diagonal_gestures", true)) moveAccessibilityFocus(root, false) else false
-            }
-            GESTURE_SWIPE_DOWN_AND_LEFT, GESTURE_SWIPE_DOWN_AND_RIGHT -> {
-                if (prefs.getBoolean("diagonal_gestures", true)) moveAccessibilityFocus(root, true) else false
-            }
+            GESTURE_SWIPE_UP_AND_RIGHT -> moveAccessibilityFocus(root, next = true)
+            GESTURE_SWIPE_DOWN_AND_LEFT -> moveAccessibilityFocus(root, next = false)
             else -> false
         }
         root.recycle()
