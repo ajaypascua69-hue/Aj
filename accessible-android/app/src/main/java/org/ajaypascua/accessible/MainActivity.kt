@@ -85,12 +85,16 @@ class MainActivity : Activity() {
                 setPadding(0, 8, 0, 8)
             })
         }
-        addToggle("Speak screen changes", "speak_events")
-        addToggle("Speak hints and control descriptions", "speak_hints")
-        addToggle("Read text and control labels", "read_labels")
+        // Screen reading is manual only; no automatic speech-on-event toggle.
+        addToggle("Speak hints and control descriptions in manual descriptions", "speak_hints")
+        addToggle("Include text and control labels in manual descriptions", "read_labels")
         addToggle("Screen Description feature", "screen_description")
-        addToggle("Directional swipe navigation", "directional_gestures")
-        addToggle("Diagonal previous/next navigation", "diagonal_gestures")
+        addToggle("Diagonal navigation (up-right = next, down-left = previous)", "diagonal_gestures", true)
+        page.addView(TextView(this).apply {
+            text = "Navigation: swipe diagonally up-right to move to the next item; swipe diagonally down-left to move to the previous item. Left, right, up, and down swipes do not navigate. Accessible does not read automatically; use the diagonal gestures or the Describe Screen button."
+            textSize = 14f
+            setPadding(0, 8, 0, 8)
+        })
 
         page.addView(TextView(this).apply {
             text = "Screen Description"
