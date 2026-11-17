@@ -1,16 +1,203 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T13:27:33.337004Z",
+  "generated_at": "2026-11-17T19:17:49.675881Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
-  "successful_sources": 4,
-  "errors": [
-    {
-      "source": "CISA Cybersecurity Advisories",
-      "error": "unclosed token: line 34009, column 0"
-    }
-  ],
+  "successful_sources": 5,
+  "errors": [],
   "items": [
+    {
+      "id": "483d4eb2463437fdb981",
+      "title": "NICER Status Updates",
+      "summary": "November 17, 2026 NASA’s NICER Telescope Ends Science Operations After studying the universe for six and a half years beyond its initial mission, NASA’s NICER (Neutron star Interior Composition Explorer) telescope on the International Space Station has ended science operations. The mission and space station teams are now focused on plans to finalize NICER’s 8-year […]",
+      "url": "https://www.nasa.gov/missions/station/nicer-status-updates/",
+      "published": "2026-11-17T18:18:16Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "8cb1bb717c6654d0050b",
+      "title": "NASA to Conduct Low-Altitude Flights Over Texas Farmland",
+      "summary": "Editor’s Note: This article was originally published on Oct. 15, 2026, and has been updated to correct the location and update the duration of the flight deployment. A NASA Dynamic Aviation A200 aircraft will conduct low-flying research flights over farmland near Amarillo, Texas, from Thursday, Oct. 22, through Monday, Nov. 2. These flights will measure […]",
+      "url": "https://www.nasa.gov/general/nasa-to-conduct-low-altitude-flights-over-texas-farmland/",
+      "published": "2026-11-17T17:12:20Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "10962f69a602a69fec70",
+      "title": "Curiosity Blog, Sols 5072-5076: The Return of the Polygons",
+      "summary": "Written by Abigail Fraeman, Deputy Project Scientist, Jet Propulsion Laboratory, California Institute of Technology Earth planning date: Friday, Nov. 13, 2026 Curiosity’s past several weeks have been very focused on drilling and analysis of the “Basque Lakes” and “Nazca” samples. We learned a lot from those drilled samples, but it’s time to hit the Martian […]",
+      "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5072-5076-the-return-of-the-polygons/",
+      "published": "2026-11-17T17:06:07Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "047c78b6ae933f49ba81",
+      "title": "NASA Invites Media, Public to View Roman Telescope’s First Images",
+      "summary": "NASA will release the first images from its Nancy Grace Roman Space Telescope during a live stream from the American Geophysical Union (AGU) Annual Meeting in San Francisco at 3:30 p.m. EST (12:30 p.m. PST) Monday, Dec. 7. The images will showcase the unique scientific capabilities of Roman, which will soon capture deep, panoramic, never-before-seen […]",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-view-roman-telescopes-first-images/",
+      "published": "2026-11-17T17:00:29Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "0b551b7aab9e8b9a0f80",
+      "title": "Space Selfie",
+      "summary": "NASA astronaut Anil Menon took this selfie during a spacewalk on Oct. 29, 2026. He and CSA (Canadian Space Agency) astronaut Joshua Kutryk installed a new roll-out solar array on the International Space Station. Get daily updates from the space station. Image credit: NASA/Anil Menon",
+      "url": "https://www.nasa.gov/image-article/space-selfie-2/",
+      "published": "2026-11-17T16:51:14Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "dde93c4101375139f347",
+      "title": "Siemens Mendix Studio Pro",
+      "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Mendix Studio Pro are affected: Mendix Studio Pro 11 vers:intdot/>=11.15.0|<11.16.0 (CVE-2026-112136, CVE-2026-112137) Mendix Studio Pro 11.12 vers:intdot/>=11.12.6|<11.12.7 (CVE-2026-112136, CVE-2026-112137) CVSS Vendor Equipment v3 8.8 Siemens Mendix Studio Pro 11 2 Vulnerabilities Binding to an Unrestricted IP Address, Cross-Site Request Forgery (CSRF) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-112136 The affected products MCP Server does not properly restrict its HTTP listener to the loopback interface, leaving it potentially exposed to remote systems. This could allow an attac",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "1bb42ab0e42e61f83da2",
+      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+      "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version. The following versions of Siemens .NET Client Library for SIMATIC S7 Webserver API are affected: .NET Client Library for SIMATIC S7 Webserver API vers:intdot/<3.3.61, vers:intdot/<3.3.62 (CVE-2026-85114, CVE-2026-85115) CVSS Vendor Equipment v3 7.5 Siemens .NET Client Library for SIMATIC S7 Webserver API 2 Vulnerabilities Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-85114 Affected applications do not properly validate filenames received from remote servers during ticket downloads. This could allow an attacker who can manipulate the ticket response to wri",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "ef6494e61ad158de45da",
+      "title": "Siemens meta-iot2050",
+      "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Siemens is preparing fixes and recommends mitigations for products where fixes are not or not yet available. The following versions of Siemens meta-iot2050 are affected: meta-iot2050 vers:intdot/>=01.03.01 (CVE-2026-109830) CVSS Vendor Equipment v3 7.3 Siemens meta-iot2050 1 Vulnerability Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-109830 Affected devices take parts from a configuration file and execute them unchecked. This could allow an attacker which is able to manipulate the configuration file to make the user execute arbitrary code on the device. Read More 1 Affected Product meta-iot2050 >= V01.03.01 Product Status: known_affected Remediations None available Curre",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "7d4d397db47ca5d20837",
+      "title": "Siemens SIMATIC WinCC",
+      "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC WinCC are affected: SIMATIC WinCC V7.5 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.0 vers:all/* (CVE-2026-59082) SIMATIC WinCC V8.1 vers:all/* (CVE-2026-59082) CVSS Vendor Equipment v3 7.8 Siemens SIMATIC WinCC V7.5 1 Vulnerability Insufficient UI Warning of Dangerous Operations Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-59082 Affected devices implicitly execute active content when opening files. This could allow an attacker to make the user execute arbitrary code on the device. Read More 3 Affected Products SIMATIC WinCC V7.5 Product Status: known_affected Remediations Mitigation The affected product may be operated only by personnel qualified for the specific task in accordance wi",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "9190a23522f4c05bdfc3",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information The following versions of Siemens RUGGEDCOM APE1808 are affected: RUGGEDCOM APE1808 vers:all/* (CVE-2026-106175) CVSS Vendor Equipment v3 2.3 Siemens RUGGEDCOM APE1808 1 Vulnerability Double Free Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-106175 A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands. Read More 1 Affected Product RUGGEDCOM APE1808 with Fortinet NGFW Product Status: known_affected Remediations Vendor fix Update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contact customer support to receive detailed information Additional Metrics Relevant CWE: CWE-415 Double Free CV",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "e054ac863c5793b8c82e",
+      "title": "Dorsett Controls InfoScan",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoScan 5 Vulnerabilities Improper Certificate Validation, Exposure of Sensitive System Information to an Unauthorized Control Sphere, Use of Hard-coded Cryptographic Key, Missing Authentication for Critical Function, Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Water and Wastewater Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE-2026-117659 The InfoScan Electron desktop client improperly handles TLS certificate errors by accepting certificates without validating their trustworthiness. The client also configures Electron with nodeIntegration enabled, contextIsolatio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "abf321ad6620093f67f5",
+      "title": "Siemens Industrial Software Products",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Please also have a look on following Software Field Bulletins: Teamcenter: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 Polarion: https://support.sw.siemens.com/en-US/knowledge-base/PL8869197 Manufacturing Operations Center (Opcenter) and Process Preparation X: https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Software Products are affected: HyperLynx vers:all/* (CVE-2026-111497) Innexis Architecture Native Acceleration 2026 vers:all/* (CVE-2026-111497) Insights Hub vers:all/* (CVE-2026-111497) Opcenter Connect Electronics vers:all/* (CVE-2026-",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "91f8fd2a541554536441",
+      "title": "Siemens Industrial Automation Software Products",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens products. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Automation Software Products are affected: COMOS Walkinside vers:all/* (CVE-2026-111497) gDAP (gPROMS Digital Application Platform) vers:all/* () Project Server Web Administration Tool vers:all/* (CVE-2026-111497) SIMATIC BRAUMAT vers:intdot/>=8.2.0.1|<8.2.0.5 (CVE-2026-111497) SIMATIC Profiling Tool vers:all/* (CVE-2026-111497) SIMATIC SISTAR vers:intdot/>=8.2.0.1|<8.2.0.5 (CVE-2026-111497) SIMATIC WinCC Companion vers:all/* (CVE-2026-111497) SIMATIC WinCC OA V3",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "53887f516d6ca4cd1c84",
+      "title": "Siemens SIMATIC",
+      "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens SIMATIC are affected: SIMATIC BATCH V9.1 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2020 vers:all/* (CVE-2026-58114) SIMATIC Information Server 2022 vers:all/* (CVE-2026-58114) SIMATIC PCS 7 V9.1 vers:all/* (CVE-2026-58114) SIMATIC Process Historian 2020 vers:all/* (CVE-2026-58114) SIMATIC Process Historian 2022 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V17 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V18 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V19 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V20 vers:all/* (CVE-2026-58114) SIMATIC WinCC Runtime Professional V21 vers:all/* (CVE-2026-58114) SIMATIC WinCC V7.5 vers:all/* (CVE-2026-58114) SIMATIC WinCC V8.0 vers:all/* (CVE-2026-58114) SIMATIC WinCC V8.1 vers:",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "7830a633f8b989729e30",
+      "title": "Siemens ROS#",
+      "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to update to the latest version. The following versions of Siemens ROS# are affected: ROS# vers:intdot/<2.3.1 (CVE-2026-109097) CVSS Vendor Equipment v3 8.2 Siemens ROS# 1 Vulnerability Improper Control of Generation of Code ('Code Injection') Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-109097 Affected systems do not properly escape text of message definition files. This could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Read More 1 Affected Product ROS# < V2.3.1 Product Status: known_affected Remediations Vendor fix Update to V2.3.1 or later version Additional Metrics Relevant CWE: CWE-94 Improper Control of Generation of Code ('Code Injection') CVSS Version Base Score Base Severity",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "3e620578dc5a2ceba854",
+      "title": "Siemens Simcenter Femap",
+      "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version. The following versions of Siemens Simcenter Femap are affected: Simcenter Femap vers:intdot/<2606.0002 (CVE-2026-64629) CVSS Vendor Equipment v3 7.8 Siemens Simcenter Femap 1 Vulnerability Out-of-bounds Read Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-64629 The affected applications contains an out of bounds read vulnerability while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. Read More 1 Affected Product Simcenter Femap < V2606.0002 Product Status: known_affected Remediations Vendor fix Update to V2606.0002 or later version Additional Metrics Relevant CWE: CWE-125 Out-of-bounds Read CVSS Version Base Score Base Severity Vector String 3.1 7.8 HIGH CVSS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
     {
       "id": "a88a92ed7b68f05d19b0",
       "title": "APOD: 2026 November 17 – Milky Way versus Aurora",
@@ -21,7 +208,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "c465390ce7ecc7b0476e",
@@ -33,7 +220,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "e45904e3d2e1721315d6",
@@ -45,7 +232,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "44d0fc7f2d68f22715e2",
@@ -57,7 +244,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "9c5ea5d5ebc05e62710e",
@@ -69,67 +256,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
-    },
-    {
-      "id": "6409b44f028f7c75b746",
-      "title": "Sentinel-6B in Orbit Around Earth",
-      "summary": "Description This artist’s concept shows the Sentinel-6B satellite, which will become the reference satellite for other missions studying sea surface height.",
-      "url": "https://science.nasa.gov/photojournal/sentinel-6b-in-orbit-around-earth/",
-      "published": "2026-11-16T18:52:32Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
-    },
-    {
-      "id": "7796466c94cc74ebbc8e",
-      "title": "Thunderbirds in Formation",
-      "summary": "U.S. Air Force Thunderbirds fighter jets pass overhead during the agency’s MAX POWER expo and air show on Saturday, Nov. 7, 2026, at NASA’s Kennedy Space Center in Florida. NASA’s inaugural MAX POWER was an aerospace festival celebrating the past, present, and future of flight and space exploration in honor of America’s 250th anniversary. Image […]",
-      "url": "https://www.nasa.gov/image-article/thunderbirds-in-formation/",
-      "published": "2026-11-16T18:34:47Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
-    },
-    {
-      "id": "326850828394d7e48718",
-      "title": "Contractor to Civil Servant: NASA Welcomes Jim Mirandy",
-      "summary": "The rumble of a rocket engine might be considered a soundtrack for Jim Mirandy’s life. Mirandy has grown up with NASA as a constant presence, and his path to becoming a civil servant at NASA’s Stennis Space Center near Bay St. Louis, Mississippi, has been decades in the making. Hired under the agency’s workforce directive […]",
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/contractor-to-civil-servant-jim-mirandy/",
-      "published": "2026-11-16T15:22:09Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
-    },
-    {
-      "id": "990ca442b788b7a7d5de",
-      "title": "APOD: 2026 November 16 – NGC 7129: Star Formation with Jets from Webb",
-      "summary": "APOD Science APOD APOD: 2026 November 16 – NGC… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. NGC 7129: […]",
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-16-ngc-7129-star-formation-with-jets-from-webb/",
-      "published": "2026-11-16T05:05:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
-    },
-    {
-      "id": "183e71a5f9cbd01f4024",
-      "title": "The Last Ice on Puncak Jaya",
-      "summary": "Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.",
-      "url": "https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/",
-      "published": "2026-11-16T05:00:00Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "a3c6eb5f21fc0a3af995",
@@ -141,7 +268,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "e37a83c0a55715b40297",
@@ -153,7 +280,115 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "915ba1bcfc169ae11eaf",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was ap",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-13T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "fc14f07f0c8bd7ef04c1",
+      "title": "Siemens Desigo, Gridscale",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Desigo, Gridscale are affected: Desigo CC family V8 vers:all/* (CVE-2026-111497) Desigo CC family V9 vers:all/* (CVE-2026-111497) Gridscale X DSA vers:intdot/>=5.3|<5.4 (CVE-2026-111497) Gridscale X PSS®E vers:intdot/<36.8.0 (CVE-2026-111497) CVSS Vendor Equipment v3 9.8 Siemens Desigo CC family V8 1 Vulnerability Out-of-bounds Write Background Critical Infrastructure Sectors: Critical Manufacturing, Energy, Information Technology Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-111497 A buffer overflow vulnerability in the Brotli decoder (c/",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+      "published": "2026-11-12T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "9190a23522f4c05bdfc3",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications. The following versions of Siemens RUGGEDCOM APE1808 are affected: RUGGEDCOM APE1808 vers:all/* (CVE-2026-111497) CVSS Vendor Equipment v3 9.8 Siemens RUGGEDCOM APE1808 1 Vulnerability Out-of-bounds Write Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-111497 A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available ver",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+      "published": "2026-11-12T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "39dc3824d89e0034c795",
+      "title": "Siemens Building Automation and Energy Products",
+      "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products. As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals. Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mit",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+      "published": "2026-11-12T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "b15246a9ba346e74cb82",
+      "title": "Siemens Industrial Edge Management",
+      "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is included in the IEM software stack, the affected functionality is not used or exposed. The same applies to IEDK. - Management Applications installed: Follow the specific mitigations until a fix is available. - Device Applications installed: Follow the specific mitigations until a fix is available. For Siemens-managed services, Industrial Edge Hub and Industrial Edge Management Cloud, appropriate Firewall/WAF protection has already been implemented. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Edge Management are affected: Cloud Connector Configurator vers:intdot/<1.24.3 (CVE-2026-111497) Common Configurator (CC on IEM) vers:all/* (CVE-2026-111497) Common Configurator on Device (C",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+      "published": "2026-11-12T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "9190a23522f4c05bdfc3",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarounds provided in Palo Alto Networks' upstream security notifications. The following versions of Siemens RUGGEDCOM APE1808 are affected: RUGGEDCOM APE1808 vers:all/* (CVE-2026-109618, CVE-2026-109619) CVSS Vendor Equipment v3 9.8 Siemens RUGGEDCOM APE1808 1 Vulnerability Use After Free Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-109618 PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE). Read More",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+      "published": "2026-11-12T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "1873d2c72244481583a9",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks Multiple Products OS Command Injection Vulnerability CVE-2026-111793 Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability CVE-2026-116606 Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability CVE-2026-124194 Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability CVE-2026-125350 Google Chromium Use-After-Free Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remedia",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-10T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "affd612b50cbdaed13ed",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnerability CVE-2026-123158 OpenBSD OpenSSH Unexpected Status Code or Return Value Vulnerability CVE-2026-123218 IBM Aspera Faspex Incorrect Authorization Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations fo",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-09T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
+    },
+    {
+      "id": "4588ad837963f7452a92",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 applies only to FCEB agencies, CISA encourages all organizations to adopt risk-based v",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "2026-11-06T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -165,7 +400,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -177,7 +412,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -189,7 +424,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -201,7 +436,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -213,7 +448,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "d51102ca34982ed7b76f",
@@ -225,7 +460,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -237,7 +472,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "224ecf4deb20834ef1ef",
@@ -249,7 +484,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "767205ba5e14ec8f0586",
@@ -261,7 +496,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -273,7 +508,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -285,7 +520,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -297,7 +532,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -309,7 +544,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -321,7 +556,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -333,7 +568,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -345,7 +580,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -357,7 +592,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -369,7 +604,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -381,7 +616,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -393,7 +628,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -405,7 +640,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -417,7 +652,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "2583e85a8aa688aa76a5",
@@ -429,7 +664,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "b53480a2e33e42f931cf",
@@ -441,7 +676,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -453,7 +688,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -465,7 +700,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -477,7 +712,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -489,7 +724,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -501,7 +736,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -513,7 +748,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -525,7 +760,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -537,7 +772,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -549,7 +784,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -561,7 +796,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -573,7 +808,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -585,7 +820,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -597,7 +832,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -609,7 +844,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -621,7 +856,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -633,7 +868,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -645,7 +880,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -657,7 +892,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -669,7 +904,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-17T13:27:33.337004Z"
+      "checked_at": "2026-11-17T19:17:49.675881Z"
     }
   ]
 }
