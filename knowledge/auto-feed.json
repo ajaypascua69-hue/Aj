@@ -1,11 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T19:16:53.846864Z",
+  "generated_at": "2026-11-24T01:29:31.233251Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 5,
   "errors": [],
   "items": [
+    {
+      "id": "49107c400b580d3f3f5c",
+      "title": "NASA Awards Contract for NOAA’s Near Earth Orbit Network Program",
+      "summary": "NASA, on behalf of the National Oceanic and Atmospheric Administration (NOAA), has awarded a contract to Northrop Grumman Systems Corporation for the Sounder for Microwave-Based Applications (SMBA) instruments on NOAA’s Near Earth Orbit Network (NEON) satellites. The cost-plus-fixed-fee, firm-fixed-price, and time-and-materials hybrid contract has a value of $290.6 million. The period of performance runs from […]",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-contract-for-noaas-near-earth-orbit-network-program/",
+      "published": "2026-11-23T21:10:03Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
     {
       "id": "0163edd269e15e8aad80",
       "title": "Studying Cancer Cells in Microgravity",
@@ -16,7 +28,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "33d9a88b2b81eae687dc",
@@ -28,7 +40,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "8144d7a997f6498a8eb2",
@@ -40,7 +52,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "26f7ae0128f1e447616a",
@@ -52,7 +64,31 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "ac388fb5195bf7cca681",
+      "title": "Podcast: Tiny robots could revolutionize medicine",
+      "summary": "Sambeeta Das discusses her work developing micro robotics for a variety of biomedical applications including treating blood clots, medicine delivery, and cellular patterning...",
+      "url": "https://www.nsf.gov/news/podcast-tiny-robots-could-revolutionize-medicine",
+      "published": "2026-11-23T16:00:19Z",
+      "source": "National Science Foundation News",
+      "domain": "nsf.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "e6f3014e9035d24b740b",
+      "title": "Podcast: Helping doctors save lives before it's too late",
+      "summary": "NSF-supported researcher Suchi Saria discusses the development and implementation of a real-time super intelligence system that is saving lives by monitoring for signs of sepsis...",
+      "url": "https://www.nsf.gov/news/podcast-helping-doctors-save-lives-its-too-late",
+      "published": "2026-11-23T16:00:03Z",
+      "source": "National Science Foundation News",
+      "domain": "nsf.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "c2750e1c8b7f4ddea3cd",
@@ -64,7 +100,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "4daf3c282c496d110278",
@@ -76,7 +112,19 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "915ba1bcfc169ae11eaf",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 reinforces the importance of the KEV Catalog and requires federal agencies to prioritize rapid remediation of high-risk vulnerabilities, specifically those identified by Common Vulnerabilities and Exposures (CVEs) listed in CISA’s KEV Catalog on publicly exposed assets that grant total control of the asset post-exploitation, while deferring action for lower-risk vulnerabilities. BOD 26-04 further establishes basic expectations for when agencies must check whether threat actors compromised the system before the patch was applied. While BOD 26-04 a",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-23T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "b58bbcc083cae0956446",
@@ -88,7 +136,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "e232cff707738a6a319f",
@@ -100,7 +148,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "27a39dfe4e7046e818f2",
@@ -112,7 +160,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "4321ad32c8715059f39c",
@@ -124,7 +172,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "5884373c40e6a248f142",
@@ -136,19 +184,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "33c2a399612531db7734",
-      "title": "Curiosity Spots Drifting Twilight Clouds",
-      "summary": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than […]",
-      "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
-      "published": "2026-11-20T22:27:05Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "9b30d5f80ef64b03f6d8",
@@ -160,7 +196,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "affd612b50cbdaed13ed",
@@ -172,7 +208,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "49f8242b18444aa2e63e",
@@ -184,7 +220,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "b60129b13cc01f904732",
@@ -196,7 +232,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "c835860f0f4d775fae78",
@@ -208,7 +244,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "affd612b50cbdaed13ed",
@@ -220,79 +256,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "3e620578dc5a2ceba854",
-      "title": "Siemens Simcenter Femap",
-      "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version. The following versions of Siemens Simcenter Femap are affected: Simcenter Femap vers:intdot/<2606.0002 (CVE-2026-64629) CVSS Vendor Equipment v3 7.8 Siemens Simcenter Femap 1 Vulnerability Out-of-bounds Read Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-64629 The affected applications contains an out of bounds read vulnerability while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. Read More 1 Affected Product Simcenter Femap < V2606.0002 Product Status: known_affected Remediations Vendor fix Update to V2606.0002 or later version Additional Metrics Relevant CWE: CWE-125 Out-of-bounds Read CVSS Version Base Score Base Severity Vector String 3.1 7.8 HIGH CVSS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
-      "published": "2026-11-17T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "e054ac863c5793b8c82e",
-      "title": "Dorsett Controls InfoScan",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoScan 5 Vulnerabilities Improper Certificate Validation, Exposure of Sensitive System Information to an Unauthorized Control Sphere, Use of Hard-coded Cryptographic Key, Missing Authentication for Critical Function, Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Water and Wastewater Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE-2026-117659 The InfoScan Electron desktop client improperly handles TLS certificate errors by accepting certificates without validating their trustworthiness. The client also configures Electron with nodeIntegration enabled, contextIsolatio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
-      "published": "2026-11-17T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "dde93c4101375139f347",
-      "title": "Siemens Mendix Studio Pro",
-      "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Mendix Studio Pro are affected: Mendix Studio Pro 11 vers:intdot/>=11.15.0|<11.16.0 (CVE-2026-112136, CVE-2026-112137) Mendix Studio Pro 11.12 vers:intdot/>=11.12.6|<11.12.7 (CVE-2026-112136, CVE-2026-112137) CVSS Vendor Equipment v3 8.8 Siemens Mendix Studio Pro 11 2 Vulnerabilities Binding to an Unrestricted IP Address, Cross-Site Request Forgery (CSRF) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-112136 The affected products MCP Server does not properly restrict its HTTP listener to the loopback interface, leaving it potentially exposed to remote systems. This could allow an attac",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
-      "published": "2026-11-17T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "1bb42ab0e42e61f83da2",
-      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
-      "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version. The following versions of Siemens .NET Client Library for SIMATIC S7 Webserver API are affected: .NET Client Library for SIMATIC S7 Webserver API vers:intdot/<3.3.61, vers:intdot/<3.3.62 (CVE-2026-85114, CVE-2026-85115) CVSS Vendor Equipment v3 7.5 Siemens .NET Client Library for SIMATIC S7 Webserver API 2 Vulnerabilities Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-85114 Affected applications do not properly validate filenames received from remote servers during ticket downloads. This could allow an attacker who can manipulate the ticket response to wri",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
-      "published": "2026-11-17T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "72268557946f1d1a7f16",
-      "title": "Critical Java Vulnerability Requires Immediate Patching",
-      "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution. Actions to take CISA urges organizations to take the following actions: Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. Note: JDKs and Java runtimes may not appear as separate entries in software inventories. Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems. If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access. Review Oracle’s security advisory for guidance on patching and affected produ",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
-      "published": "2026-11-17T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "abf321ad6620093f67f5",
-      "title": "Siemens Industrial Software Products",
-      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Please also have a look on following Software Field Bulletins: Teamcenter: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 Polarion: https://support.sw.siemens.com/en-US/knowledge-base/PL8869197 Manufacturing Operations Center (Opcenter) and Process Preparation X: https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Software Products are affected: HyperLynx vers:all/* (CVE-2026-111497) Innexis Architecture Native Acceleration 2026 vers:all/* (CVE-2026-111497) Insights Hub vers:all/* (CVE-2026-111497) Opcenter Connect Electronics vers:all/* (CVE-2026-",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
-      "published": "2026-11-17T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "7830a633f8b989729e30",
@@ -304,7 +268,79 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "e054ac863c5793b8c82e",
+      "title": "Dorsett Controls InfoScan",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versions of Dorsett Controls InfoScan are affected: InfoScan <=1.45.0 (CVE-2026-117659, CVE-2026-120157, CVE-2026-120255, CVE-2026-120260, CVE-2026-120271, CVE-2026-120298) CVSS Vendor Equipment v3 8.1 Dorsett Controls InfoScan 5 Vulnerabilities Improper Certificate Validation, Exposure of Sensitive System Information to an Unauthorized Control Sphere, Use of Hard-coded Cryptographic Key, Missing Authentication for Critical Function, Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Water and Wastewater Systems Countries/Areas Deployed: Worldwide Company Headquarters Location: United States Vulnerabilities Expand All + CVE-2026-117659 The InfoScan Electron desktop client improperly handles TLS certificate errors by accepting certificates without validating their trustworthiness. The client also configures Electron with nodeIntegration enabled, contextIsolatio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "dde93c4101375139f347",
+      "title": "Siemens Mendix Studio Pro",
+      "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access, tool execution, or system compromise. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens Mendix Studio Pro are affected: Mendix Studio Pro 11 vers:intdot/>=11.15.0|<11.16.0 (CVE-2026-112136, CVE-2026-112137) Mendix Studio Pro 11.12 vers:intdot/>=11.12.6|<11.12.7 (CVE-2026-112136, CVE-2026-112137) CVSS Vendor Equipment v3 8.8 Siemens Mendix Studio Pro 11 2 Vulnerabilities Binding to an Unrestricted IP Address, Cross-Site Request Forgery (CSRF) Background Critical Infrastructure Sectors: Critical Manufacturing, Energy Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-112136 The affected products MCP Server does not properly restrict its HTTP listener to the loopback interface, leaving it potentially exposed to remote systems. This could allow an attac",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "1bb42ab0e42e61f83da2",
+      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+      "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client Library for SIMATIC S7 Webserver API and recommends to update to the latest version. The following versions of Siemens .NET Client Library for SIMATIC S7 Webserver API are affected: .NET Client Library for SIMATIC S7 Webserver API vers:intdot/<3.3.61, vers:intdot/<3.3.62 (CVE-2026-85114, CVE-2026-85115) CVSS Vendor Equipment v3 7.5 Siemens .NET Client Library for SIMATIC S7 Webserver API 2 Vulnerabilities Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Generation of Error Message Containing Sensitive Information Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities Expand All + CVE-2026-85114 Affected applications do not properly validate filenames received from remote servers during ticket downloads. This could allow an attacker who can manipulate the ticket response to wri",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "72268557946f1d1a7f16",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "summary": "Purpose CISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938 . This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotSpot Java Virtual Machine (JVM), which is part of the Java Development Kit (JDK). Specially crafted Base64 input could crash the JVM and allow for unauthenticated remote code execution. Actions to take CISA urges organizations to take the following actions: Identify affected Java installations. Review your software inventory for JDKs and Java runtimes, including those bundled with third-party applications or included in container images and appliances. Note: JDKs and Java runtimes may not appear as separate entries in software inventories. Apply relevant Java and vendor patches as soon as they are available, prioritizing internet-facing systems. If immediate patching is not feasible, implement temporary compensating controls, such as restricting and validating Base64 input at the application boundary, enforcing input-size limits, and limiting unauthenticated access. Review Oracle’s security advisory for guidance on patching and affected produ",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "abf321ad6620093f67f5",
+      "title": "Siemens Industrial Software Products",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that could allow a remote attacker to cause memory corruption and potentially execute arbitrary code. This advisory covers the status of impact of various Siemens software products. Please also have a look on following Software Field Bulletins: Teamcenter: https://support.sw.siemens.com/en-US/knowledge-base/PL8869204 Polarion: https://support.sw.siemens.com/en-US/knowledge-base/PL8869197 Manufacturing Operations Center (Opcenter) and Process Preparation X: https://support.sw.siemens.com/en-US/knowledge-base/PL8869211 Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions of Siemens Industrial Software Products are affected: HyperLynx vers:all/* (CVE-2026-111497) Innexis Architecture Native Acceleration 2026 vers:all/* (CVE-2026-111497) Insights Hub vers:all/* (CVE-2026-111497) Opcenter Connect Electronics vers:all/* (CVE-2026-",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
+    },
+    {
+      "id": "3e620578dc5a2ceba854",
+      "title": "Siemens Simcenter Femap",
+      "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter Femap and recommends to update to the latest version. The following versions of Siemens Simcenter Femap are affected: Simcenter Femap vers:intdot/<2606.0002 (CVE-2026-64629) CVSS Vendor Equipment v3 7.8 Siemens Simcenter Femap 1 Vulnerability Out-of-bounds Read Background Critical Infrastructure Sectors: Critical Manufacturing Countries/Areas Deployed: Worldwide Company Headquarters Location: Germany Vulnerabilities CVE-2026-64629 The affected applications contains an out of bounds read vulnerability while parsing specially crafted X_T files. This could allow an attacker to execute code in the context of the current process. Read More 1 Affected Product Simcenter Femap < V2606.0002 Product Status: known_affected Remediations Vendor fix Update to V2606.0002 or later version Additional Metrics Relevant CWE: CWE-125 Out-of-bounds Read CVSS Version Base Score Base Severity Vector String 3.1 7.8 HIGH CVSS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "published": "2026-11-17T12:00:00Z",
+      "source": "CISA Cybersecurity Advisories",
+      "domain": "cisa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "53887f516d6ca4cd1c84",
@@ -316,7 +352,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "91f8fd2a541554536441",
@@ -328,7 +364,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "9190a23522f4c05bdfc3",
@@ -340,7 +376,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "7d4d397db47ca5d20837",
@@ -352,7 +388,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "ef6494e61ad158de45da",
@@ -364,7 +400,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "4588ad837963f7452a92",
@@ -376,7 +412,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "a3c6eb5f21fc0a3af995",
@@ -388,7 +424,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "e37a83c0a55715b40297",
@@ -400,7 +436,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "915ba1bcfc169ae11eaf",
@@ -412,19 +448,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "39dc3824d89e0034c795",
-      "title": "Siemens Building Automation and Energy Products",
-      "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory covers the status of impact of various Siemens software products. As a general security measure, Siemens strongly recommends to protect network access to devices with appropriate mechanisms. In order to operate the devices in a protected IT environment, Siemens recommends to configure the environment according to Siemens' operational guidelines, and to follow the recommendations in the product manuals. Siemens is actively monitoring the situation and assessing the implications of these vulnerabilities on our portfolio. Because this evaluation is ongoing, our findings are subject to change as new technical details and vendor updates emerge. We will publish updated findings, guidance, and remediation recommendations as soon as they become available. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fixes and recommends mit",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-      "published": "2026-11-12T12:00:00Z",
-      "source": "CISA Cybersecurity Advisories",
-      "domain": "cisa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -436,7 +460,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -448,7 +472,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -460,7 +484,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "ce46c80a7767a79a1644",
@@ -472,7 +496,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "8ac0ebc19daa446d83ee",
@@ -484,7 +508,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -496,7 +520,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -508,7 +532,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -520,7 +544,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -532,7 +556,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -544,7 +568,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -556,7 +580,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -568,7 +592,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -580,7 +604,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -592,7 +616,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -604,7 +628,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -616,7 +640,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -628,7 +652,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -640,7 +664,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -652,31 +676,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "2583e85a8aa688aa76a5",
-      "title": "NSF launches $20M pilot to accelerate commercialization of promising deep technologies from small businesses",
-      "summary": "The U.S. National Science Foundation today announced a $20 million investment to launch a two-year pilot supporting small businesses in commercializing their deep-technology ventures. The pilot aims to address a persistent gap separating federally…",
-      "url": "https://www.nsf.gov/news/nsf-launches-20m-pilot-accelerate-commercialization",
-      "published": "2026-09-14T14:00:32Z",
-      "source": "National Science Foundation News",
-      "domain": "nsf.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
-    },
-    {
-      "id": "b53480a2e33e42f931cf",
-      "title": "NSF leadership in a new golden age of science",
-      "summary": "The U.S. National Science Foundation was established in 1950 to keep American discovery at the frontier. That mission has not changed. The science and technology ecosystem around it has...",
-      "url": "https://www.nsf.gov/news/nsf-leadership-new-golden-age-science",
-      "published": "2026-09-10T18:59:14Z",
-      "source": "National Science Foundation News",
-      "domain": "nsf.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -688,7 +688,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -700,7 +700,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -712,7 +712,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -724,7 +724,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -736,7 +736,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -748,7 +748,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -760,7 +760,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -772,7 +772,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -784,7 +784,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -796,7 +796,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -808,7 +808,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -820,7 +820,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -832,7 +832,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -844,7 +844,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -856,7 +856,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -868,7 +868,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -880,7 +880,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -892,7 +892,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -904,7 +904,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-23T19:16:53.846864Z"
+      "checked_at": "2026-11-24T01:29:31.233251Z"
     }
   ]
 }
