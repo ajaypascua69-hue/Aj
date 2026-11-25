@@ -1,11 +1,59 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T13:39:18.508531Z",
+  "generated_at": "2026-11-25T19:11:32.302226Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 5,
   "errors": [],
   "items": [
+    {
+      "id": "c79358a306fa81671a2c",
+      "title": "NASA Eyes Crop Candidates for Future Menus",
+      "summary": "As NASA prepares for future missions to the Moon and Mars, researchers are studying crops that could provide astronauts with fresh food, nutrition, and variety far from Earth. Such crop variety can help with menus in deep space, something top of mind this week as the nation celebrates Thanksgiving. Recent testing points to strawberries, […]",
+      "url": "https://science.nasa.gov/directorates/smd/nasa-eyes-crop-candidates-for-future-menus/",
+      "published": "2026-11-25T17:53:42Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-25T19:11:32.302226Z"
+    },
+    {
+      "id": "b797284ef4eb27abec82",
+      "title": "Childhood, Career Come Full Circle for Budget Analyst at NASA Goddard",
+      "summary": "Conversations about NASA were the norm around the dinner table during Ashley Knight’s childhood. Her parents worked at NASA’s Goddard Space Flight Center in Greenbelt, Maryland, and discussions about happenings at the agency continued even when they came home from the office. “I remember a poignant dialogue we had after the space shuttle Challenger disaster,” […]",
+      "url": "https://www.nasa.gov/centers-and-facilities/goddard/childhood-career-come-full-circle-for-budget-analyst-at-nasa-goddard/",
+      "published": "2026-11-25T16:47:29Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-25T19:11:32.302226Z"
+    },
+    {
+      "id": "870de20e2cebfa1cec56",
+      "title": "Eye of the Sahara",
+      "summary": "The Richat Structure, also known as the “Eye of the Sahara,” is seen from the International Space Station as it orbited above on Nov. 14, 2026. It is an eroded geological dome about 100 million years old created by igneous activity and uplift in the nation of Mauritania. In this type of geologic structure, rocks […]",
+      "url": "https://www.nasa.gov/image-article/eye-of-the-sahara/",
+      "published": "2026-11-25T16:21:04Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-25T19:11:32.302226Z"
+    },
+    {
+      "id": "ff96d1efbee34d4f9d06",
+      "title": "NASA’s Hubble Views Ocean of Stars in Groundwork for Roman",
+      "summary": "These Hubble observations are part of a survey that will help researchers better interpret upcoming Nancy Grace Roman Space Telescope observations as they seek to characterize the stars and search for exoplanets in this busy region of our galaxy.",
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-views-ocean-of-stars-in-groundwork-for-roman/",
+      "published": "2026-11-25T14:56:54Z",
+      "source": "NASA News",
+      "domain": "nasa.gov",
+      "independent_title_matches": 1,
+      "evidence_status": "single-official-source",
+      "checked_at": "2026-11-25T19:11:32.302226Z"
+    },
     {
       "id": "68201c338aaa2e966a1a",
       "title": "APOD: 2026 November 25 – SPHEREx Seeing Through Dust",
@@ -16,7 +64,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "45560c1a0f3162eb23ed",
@@ -28,7 +76,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "58444a5bd691894716f8",
@@ -40,7 +88,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "c54c81d17ac3b8f8d51c",
@@ -52,19 +100,19 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "8e7507ab4c3ad64355cf",
       "title": "Thanksgiving week weather: Potent coastal storms, rain and snow to impact travel",
-      "summary": "Thanksgiving week weather: Potent coastal storms, rain and snow to impact travel An aerial view of a car driving on a winding mountain road inside a colorful autumn forest. (stock image) (Image credit: rusm/Getty Images) November 24, 2026 As millions of Americans hit the roads, rails and skies to celebrate Turkey Day, the weather will likely bring major holiday headaches to both sides of the country. A powerful coastal storm will lash the eastern half of the nation as a Pacific system brings rain and mountain snow to the West. Here’s your Thanksgiving week forecast from NOAA’s Weather Prediction Center : Wednesday: Storms on the horizon A developing autumn storm will bring scattered showers and a few thunderstorms across the lower Mississippi Valley and Southeast for the busy pre-Thanksgiving travel day. Later Wednesday into Thursday morning, chillier air will wrap into the mid-Mississippi Valley, bringing the chance for some wet snow and rain. In the West, a Pacific system will approach the coast and bring the chance for showers to the Pacific Northwest and Northern California. Coastal flooding will also be likely along the West Coast during high tides. Thursday, Thanksgiving Day:",
+      "summary": "Thanksgiving week weather: Potent coastal storms, rain and snow to impact travel An aerial view of a car driving on a winding mountain road inside a colorful autumn forest. (stock image) (Image credit: rusm/Getty Images) November 24, 2026 As millions of Americans hit the roads, rails and skies to celebrate Turkey Day, the weather will likely bring major holiday headaches to both sides of the country. A powerful coastal storm will lash the eastern half of the nation as a Pacific system brings rain and mountain snow to the West. Here’s your Thanksgiving week forecast from NOAA’s Weather Prediction Center : Wednesday: Storms on the horizon A developing autumn storm will bring scattered showers and a few thunderstorms across the lower Mississippi Valley and Southeast for the busy pre-Thanksgiving travel day. Later Wednesday into Thursday morning, chillier air will wrap into the mid-Mississippi Valley, bringing the chance for some significant wet snow around the St. Louis metro area and the surrounding region. In the West, a Pacific system will approach the coast and bring the chance for showers to the Pacific Northwest and Northern California. Coastal flooding will also be likely along",
       "url": "https://www.noaa.gov/news/thanksgiving-week-weather-potent-coastal-storms-rain-and-snow-to-impact-travel",
       "published": "2026-11-24T19:25:33Z",
       "source": "NOAA News",
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "4a35acf9980a9338562f",
@@ -76,7 +124,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "c82ce8f7958916b1e136",
@@ -88,55 +136,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
-    },
-    {
-      "id": "b1ded6b5de674733b9b7",
-      "title": "AGU Hyperwall Schedule",
-      "summary": "American Geophysical Union (AGU) 2026 Join NASA in the Exhibit Hall (Booth #525) for Hyperwall Storytelling by NASA experts. Full Hyperwall Agenda below. TUESDAY, NOVEMBER 17 10:30 AMHigh Resolution Hydrology Simulations and Agentic Super Intelligence Interfaces for Mapping Water Availability and ExtremesSujay Kumar11:00 AMScale-Resolving CFD Methods for Predicting Aircraft “Edge of the Flight Envelope” PerformanceJared […]",
-      "url": "https://science.nasa.gov/earth/agu-hyperwall-schedule/",
-      "published": "2026-11-24T18:55:42Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
-    },
-    {
-      "id": "43980d6778ea572d3070",
-      "title": "Webb Reveals New Details in Supernova Remnant",
-      "summary": "NASA’s James Webb Space Telescope reveals the hot dust that makes up Cassiopeia A (Cas A) in this high-resolution, mid-infrared image released on Nov. 23, 2026. Remnants like these are the clouds of gas and dust that remain following the explosion of a massive star and will eventually seed a new generation of stars and […]",
-      "url": "https://www.nasa.gov/image-article/webb-reveals-new-details-in-supernova-remnant/",
-      "published": "2026-11-24T16:51:27Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
-    },
-    {
-      "id": "ee1cf228c73cb6ca7f6a",
-      "title": "NASA’s Titan-Bound Dragonfly Rotorcraft Gets Its Eyes",
-      "summary": "Science instruments for NASA’s Dragonfly are starting to arrive at the Johns Hopkins Applied Physics Laboratory (APL) in Laurel, Maryland, where the car-sized rotorcraft is coming together for its mission to explore Saturn’s largest moon, Titan. First to check in: DragonCam, which consists of seven cameras designed to characterize Titan’s surface at multiple scales during […]",
-      "url": "https://science.nasa.gov/missions/dragonfly/nasas-titan-bound-dragonfly-rotorcraft-gets-its-eyes/",
-      "published": "2026-11-24T15:44:38Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
-    },
-    {
-      "id": "d61ccb215c00b72af74c",
-      "title": "NASA Hubble’s New View of NGC 4394 Raises the Bar",
-      "summary": "The brilliant galaxy NGC 4394 with its distinct galactic bar takes center stage in this Hubble Space Telescope image",
-      "url": "https://science.nasa.gov/missions/hubble/nasa-hubbles-new-view-of-ngc-4394-raises-the-bar/",
-      "published": "2026-11-24T13:58:28Z",
-      "source": "NASA News",
-      "domain": "nasa.gov",
-      "independent_title_matches": 1,
-      "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "96ed2904e0cb632e11bb",
@@ -148,7 +148,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "8766da98dfcd1cb1804a",
@@ -160,7 +160,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "ff97c1423c63cc1be0ac",
@@ -172,7 +172,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "4beffb548d68d2751472",
@@ -184,7 +184,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "0a7111497f409b3737c9",
@@ -196,7 +196,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "8144d7a997f6498a8eb2",
@@ -208,7 +208,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "ac388fb5195bf7cca681",
@@ -220,7 +220,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "e6f3014e9035d24b740b",
@@ -232,7 +232,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "c2750e1c8b7f4ddea3cd",
@@ -244,7 +244,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "915ba1bcfc169ae11eaf",
@@ -256,7 +256,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "9b30d5f80ef64b03f6d8",
@@ -268,7 +268,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "affd612b50cbdaed13ed",
@@ -280,7 +280,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "49f8242b18444aa2e63e",
@@ -292,7 +292,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "c835860f0f4d775fae78",
@@ -304,7 +304,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "b60129b13cc01f904732",
@@ -316,7 +316,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "affd612b50cbdaed13ed",
@@ -328,7 +328,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "9190a23522f4c05bdfc3",
@@ -340,7 +340,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "e054ac863c5793b8c82e",
@@ -352,7 +352,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "4588ad837963f7452a92",
@@ -364,7 +364,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "dde93c4101375139f347",
@@ -376,7 +376,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "1bb42ab0e42e61f83da2",
@@ -388,7 +388,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "72268557946f1d1a7f16",
@@ -400,7 +400,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "abf321ad6620093f67f5",
@@ -412,7 +412,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "ef6494e61ad158de45da",
@@ -424,7 +424,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "3e620578dc5a2ceba854",
@@ -436,7 +436,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "7830a633f8b989729e30",
@@ -448,7 +448,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "a3c6eb5f21fc0a3af995",
@@ -460,7 +460,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "e37a83c0a55715b40297",
@@ -472,7 +472,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -484,7 +484,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -496,7 +496,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -508,7 +508,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -520,7 +520,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -532,7 +532,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -544,7 +544,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -556,7 +556,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -568,7 +568,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -580,7 +580,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -592,7 +592,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -604,7 +604,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -616,7 +616,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -628,7 +628,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -640,7 +640,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -652,7 +652,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -664,7 +664,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -676,7 +676,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -688,7 +688,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -700,7 +700,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -712,7 +712,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -724,7 +724,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -736,7 +736,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -748,7 +748,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -760,7 +760,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -772,7 +772,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -784,7 +784,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -796,7 +796,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -808,7 +808,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -820,7 +820,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -832,7 +832,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -844,7 +844,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -856,7 +856,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -868,7 +868,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -880,7 +880,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -892,7 +892,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -904,7 +904,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-25T13:39:18.508531Z"
+      "checked_at": "2026-11-25T19:11:32.302226Z"
     }
   ]
 }
