@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T07:30:57.403829Z",
+  "generated_at": "2026-11-28T13:17:40.383493Z",
   "source_policy": "Allowlisted official RSS/Atom feeds only. Headlines and short feed summaries are unverified leads, not fact-checked knowledge. Matching titles are not proof of a claim.",
   "sources_checked": 5,
   "successful_sources": 5,
@@ -16,7 +16,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "e76113fb16324d653b1c",
@@ -28,7 +28,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "da3a3bfc66f9d4fb6bfb",
@@ -40,7 +40,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "8766da98dfcd1cb1804a",
@@ -52,7 +52,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "4df1dea67816f0801161",
@@ -64,7 +64,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "718b7a037a0d8d2bf6d5",
@@ -76,7 +76,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "17a688323d083803490f",
@@ -88,7 +88,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "86ecd71532df75913127",
@@ -100,7 +100,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "7458c061508d88a7d604",
@@ -112,7 +112,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "c79358a306fa81671a2c",
@@ -124,7 +124,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "b797284ef4eb27abec82",
@@ -136,7 +136,7 @@
       "domain": "nasa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "0e5c5d3fc41f6a6ae49a",
@@ -148,7 +148,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "8e7507ab4c3ad64355cf",
@@ -160,7 +160,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "96ed2904e0cb632e11bb",
@@ -172,7 +172,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "0a7111497f409b3737c9",
@@ -184,7 +184,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "8766da98dfcd1cb1804a",
@@ -196,7 +196,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "4beffb548d68d2751472",
@@ -208,7 +208,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "ff97c1423c63cc1be0ac",
@@ -220,7 +220,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "8144d7a997f6498a8eb2",
@@ -232,7 +232,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "ac388fb5195bf7cca681",
@@ -244,7 +244,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "e6f3014e9035d24b740b",
@@ -256,7 +256,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "c2750e1c8b7f4ddea3cd",
@@ -268,7 +268,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "915ba1bcfc169ae11eaf",
@@ -280,7 +280,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "9b30d5f80ef64b03f6d8",
@@ -292,7 +292,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "affd612b50cbdaed13ed",
@@ -304,7 +304,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "b60129b13cc01f904732",
@@ -316,7 +316,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "49f8242b18444aa2e63e",
@@ -328,7 +328,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "c835860f0f4d775fae78",
@@ -340,7 +340,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "affd612b50cbdaed13ed",
@@ -352,7 +352,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "53887f516d6ca4cd1c84",
@@ -364,7 +364,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "7830a633f8b989729e30",
@@ -376,7 +376,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "3e620578dc5a2ceba854",
@@ -388,7 +388,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "9190a23522f4c05bdfc3",
@@ -400,7 +400,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "ef6494e61ad158de45da",
@@ -412,7 +412,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "abf321ad6620093f67f5",
@@ -424,7 +424,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "7d4d397db47ca5d20837",
@@ -436,7 +436,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "72268557946f1d1a7f16",
@@ -448,7 +448,7 @@
       "domain": "cisa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "a3c6eb5f21fc0a3af995",
@@ -460,7 +460,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "e37a83c0a55715b40297",
@@ -472,7 +472,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "1f8eca6e26a0e683e35c",
@@ -484,7 +484,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "cd7fc286b519aadb3106",
@@ -496,7 +496,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "9df62a33f74045a6dae5",
@@ -508,7 +508,7 @@
       "domain": "noaa.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "0b954475fa126c3a24ec",
@@ -520,7 +520,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "ec0276ff9db8b85faeeb",
@@ -532,7 +532,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "aef890617c92bb51c7ed",
@@ -544,7 +544,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "26eb1629bcdeba9197ba",
@@ -556,7 +556,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "02294328e30041414a3d",
@@ -568,7 +568,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "e6402c6c05059a349d5c",
@@ -580,7 +580,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "28c35a5e13961a527180",
@@ -592,7 +592,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "39432cd444f57ae6d75e",
@@ -604,7 +604,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "f2f1f7631bd454b7832b",
@@ -616,7 +616,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "9232a67dc9ad671ccdf8",
@@ -628,7 +628,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "669954757d7700cea8ad",
@@ -640,7 +640,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "46c1ab08e955e8499360",
@@ -652,7 +652,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "4ff5730860d70a0de135",
@@ -664,7 +664,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "feac1b9195d3ad8f8249",
@@ -676,7 +676,7 @@
       "domain": "nsf.gov",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "6366c97bf45de0da5dc9",
@@ -688,7 +688,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "e0087cfed1bbc7187fd0",
@@ -700,7 +700,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "102fa62225750c364e63",
@@ -712,7 +712,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "09f27adf3f776d50b9d3",
@@ -724,7 +724,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "53f1277d13a3fac0ca80",
@@ -736,7 +736,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "f3f4935ba80eca86c991",
@@ -748,7 +748,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "906720de1fad91526eef",
@@ -760,7 +760,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "c867853f82a5999de7ae",
@@ -772,7 +772,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "566f0d795f177f81ec9c",
@@ -784,7 +784,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "f90ffb67626ad173d6fd",
@@ -796,7 +796,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "d3d66043fdcb35f4057d",
@@ -808,7 +808,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "beb09b9d78deff6a3589",
@@ -820,7 +820,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "dda08d1d5e6a04903c8d",
@@ -832,7 +832,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "289f736c35e4a33256e8",
@@ -844,7 +844,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "c5f99680362527299a18",
@@ -856,7 +856,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "aec6e5a5d9b94b027850",
@@ -868,7 +868,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "6083f757f1111b9bf295",
@@ -880,7 +880,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "8cb68c9149f761194381",
@@ -892,7 +892,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     },
     {
       "id": "b84ac5b0f3322f42f753",
@@ -904,7 +904,7 @@
       "domain": "who.int",
       "independent_title_matches": 1,
       "evidence_status": "single-official-source",
-      "checked_at": "2026-11-28T07:30:57.403829Z"
+      "checked_at": "2026-11-28T13:17:40.383493Z"
     }
   ]
 }
